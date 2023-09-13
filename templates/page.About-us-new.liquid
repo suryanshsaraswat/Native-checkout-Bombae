@@ -1,0 +1,157 @@
+{% comment %} ^^CSS START^^ {% endcomment %}
+<style>
+  .desktop {position: relative;max-width: 100%;overflow:hidden}
+  .img1{position:absolute; top:-15px; left:-18px;width:352px;transform: rotate(5deg);}
+  .img2{position: absolute;bottom: -35px; right: 283px;width: 270px;transform: rotate3d(1, 1, 1, 7deg)}
+  .img3{position: absolute;bottom: -20px;right: -39px;width: 320px;transform: rotate(354deg)}
+  img.mobile{display:none}
+  .content-1 {max-width: 100%;width: 700px;margin: 0 auto;}
+  .content-1 p{font-size:30px;font-weight:500;text-align:center;color:#7c07e9}
+  .content-1 h1{font-size:40px;text-align:center;margin:29px 17px 0;color:#7d08e9}
+  .content-2 {max-width: 100%;margin: 0 auto;background: #ecd7ff;padding: 71px 25%;}
+  .content-2 h2 {font-size: 25px;text-align: center;margin: 0;color: #7715cb;}
+  .content-3 {max-width: 100%; width: 700px;margin: 0 auto;}
+  .content-3 h2 {font-size: 49px;text-align: center;color:#7715cb;margin-bottom:0}
+  .content-3 p {text-align: center;font-size: 28px;color:#7d08e9;line-height: 44px;}
+  .banner-6 {position: relative;}
+  .banner-6 img {background-attachment: fixed;background-size: cover;background-position: center; background-repeat: no-repeat;}
+  .content-4{position:relative;max-width:100%;width:700px;margin:0 auto; margin-bottom:30px}
+    .content-4 p {font-size: 29px;font-weight: 500;max-width: 100%;text-align: center;color:#7d08e9;margin-top:30px;line-height:47px;margin-bottom:0}
+  .content-4 h2 {font-size: 36px;text-align: center;font-family: Recoleta-SemiBold;color: #7715cb;}
+  .our-team{display:block; position:relative; max-width:100%; width:1000px; margin:0 auto}
+  .ot-main{display:block;position:relative;max-width:100%;width:1400px}
+.main-flex{display:flex;align-items:center;justify-content:space-between;margin:23px auto;background:#ecd7ff;border-radius:30px}
+.main-img2{width:38%}
+.main-img2 img{border-radius:30px 0 0 30px}
+.main-cont{width:50%;margin:0 auto}
+.main-cont h2{font-size:40px;margin:20px 0 0 -19px;color:#7615cb}
+.main-cont h3{font-size:29px;margin:-2px 0 33px -20px;color:#7615cb}
+.main-cont p{font-size:18px;margin:-21px 0 0 -20px;color:#7715cc}
+img.nextt{position:absolute;top:76.5%;left:41.8%;transform:rotate(180deg)}
+img.prevt{position:absolute;top:76.5%;left:46%}
+  .mobile{display:none}
+  @media(min-width:1200px) and (max-width:1265px){
+  .img2{position: absolute;bottom: -35px; right: 230px;width: 230px;transform: rotate3d(1, 1, 1, 7deg)}
+  .img3{position: absolute;bottom: -20px;right: -76px;width: 300px;transform: rotate(354deg)}
+  }
+  @media(min-width:1265px) and (max-width:1350px){
+  .img2{position: absolute;bottom: -35px; right: 267px;width: 253px;transform: rotate3d(1, 1, 1, 7deg)}
+  .img3{position: absolute;bottom: -20px;right: -48px;width: 307px;transform: rotate(354deg)}
+  }
+  @media(max-width:500px){
+    .mobile{display:block; position:relative; overflow:hidden}
+    img.mobile{display:block}
+    .main-flex{display:block; margin:20px}
+    .main-img2{width:100%; }
+    .main-img2 img{border-radius:none}
+    .main-cont{width:100%}
+    .main-cont h2{margin:14px 0px 0px 14px;font-size:28px}
+    .main-cont h3 {font-size: 20px;margin-top: -7px;margin-left: 13px;}
+    .main-cont p {font-size: 15px;margin-top: -8px;padding-bottom: 13px;margin-left: 11px;margin-right: 10px;}
+    .desktop{display:none}
+    .img1 {top: -11px;left: -18px;width: 173px;}
+    .img2 {bottom: -35px;right: 181px;width: 150px;}
+    .img3 {bottom: -20px;right: -15px;width: 190px;}
+    .content-1 h1 {font-size: 22px;}
+    .content-1 p{font-size:18px}
+    .content-2{padding:15px}
+    .content-2 h2{font-size:20px}
+    .content-3 p{font-size:18px; line-height:31px; padding:0 10px}
+    .content-4 p{font-size:19px; line-height:30px}
+    img.prevt {position: absolute;top: 68%;left: 82%;}
+    img.nextt { position: absolute;top: 68%;left: 71.8%;transform: rotate(180deg);}
+  }
+</style>
+{% comment %} ^^HTML START^^ {% endcomment %}
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<div class="main-container">
+  <div class="desktop">
+    <div class="img1"><img data-aos="fade-right" data-aos-duration="1000" src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/1.1.jpg?v=1676460591" alt="desktop banner" style="width:100%; height:auto"></div>
+    <div class="img2"><img  data-aos="fade-left" data-aos-duration="1000"data-aos-anchor-placement="center-bottom" src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/1.2.jpg?v=1676460590" alt="desktop banner" style="width:100%; height:auto"></div>
+    <div class="img3"><img data-aos="fade-left" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom" src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/1.3.jpg?v=1676460590" alt="desktop banner" style="width:100%; height:auto"></div>
+    <div class="main-img"><img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/1_25.jpg?v=1676460307" alt="desktop banner" style="width:100%; height:auto"></div>
+  </div>
+ <div class="mobile">
+   <div class="img1"><img data-aos="fade-right" data-aos-duration="1000" src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/1.1.jpg?v=1676460591" alt="desktop banner" style="width:100%; height:auto"></div>
+    <div class="img2"><img  data-aos="fade-left" data-aos-duration="1000"data-aos-anchor-placement="center-bottom" src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/1.2.jpg?v=1676460590" alt="desktop banner" style="width:100%; height:auto"></div>
+    <div class="img3"><img data-aos="fade-left" data-aos-duration="1000" data-aos-anchor-placement="bottom-bottom" src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/1.3.jpg?v=1676460590" alt="desktop banner" style="width:100%; height:auto"></div>
+    <div class="main-img"><img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/1_26.jpg?v=1676529151" alt="desktop banner" style="width:100%; height:auto"></div>
+ </div>
+  <div class="content-1">
+    <h1>We exist to reimagine hair removal for all womankind.</h1>
+    <p>BFFS. Groomies. Call us what you like.</p>
+  </div>
+  <div class="sec-img" data-aos="fade-left" data-aos-duration="1800"> 
+    <img class="desktop" src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/3_ceaff842-da52-4b3e-aad7-5dfa5816c775.png?v=1676383094" alt="second banner" style="width:100%; height:auto">
+    <img class="mobile" src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/3_1_4e0d9fc9-bbd5-4d15-a684-f989bddbfef8.jpg?v=1676532084" alt="second mobile banner" style="width:100%; height:auto">
+  </div>
+  <div class="content-2">
+    <h2 data-aos="fade-right" data-aos-duration="300">We believe hair removal is a spectrum (like everything else and have offerings across the spectrum. We're not out here trying to tell women how to live their life.
+What matters to us isn't why women want their body hair removed, but how they do it. Thus our products are crafted with a deep understanding of women and women's bodies. Which means our products don't just work, they work hard. and the rest is Bombae history...</h2>  
+  </div>
+  <div class="content-3">
+    <h2 data-aos="fade-left" data-aos-duration="300" data-aos-anchor-placement="center-bottom">Baesically</h2>
+    <p data-aos="fade-right" data-aos-duration="300" data-aos-anchor-placement="bottom-bottom">We are a brand made by women, reimagining hair removal for women. Our offerings are rooted in their realities and their needs.</p>
+  </div>
+  <div class="banner-6">
+    <img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/6_d7517406-eb70-4eb9-acff-1a099cd49bb5.png?v=1676383094" style="width:100%; height:auto;" alt="banner-bombae"></div>
+  </div>
+  <div class="content-4">
+    <p>We're outspoken, loud, bold and aren't afraid to tell women's stories how they should be told.</p>
+<!--     <h2>Meet our superbaes</h2> -->
+  </div>
+<!--   <div class="our-team">
+    <div class="ot-main">
+      <div class="slider-ot">
+      <div class="main-flex">
+        <div class="main-img2"><img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/8_87cb910e-31b9-4d86-927e-54f8c96ca970.png?v=1676383092"style="width:100%;height:auto" alt="our team"></div>
+        <div class="main-cont">
+          <h2>Muskaan</h2>
+          <h3>aka Wednesday</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus eveniet magni mollitia sunt ut, nihil autem asperiores aut sit ratione esse consequatur laudantium eaque enim optio nemo dolor quos animi.</p>
+        </div>
+      </div>
+      </div>
+      <div class="slider-ot">
+      <div class="main-flex">
+        <div class="main-img2"><img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/8_87cb910e-31b9-4d86-927e-54f8c96ca970.png?v=1676383092"style="width:100%;height:auto" alt="our team"></div>
+        <div class="main-cont">
+          <h2>Muskaan</h2>
+          <h3>aka Wednesday</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus eveniet magni mollitia sunt ut, nihil autem asperiores aut sit ratione esse consequatur laudantium eaque enim optio nemo dolor quos animi.</p>
+        </div>
+      </div>
+      </div><div class="slider-ot">
+      <div class="main-flex">
+        <div class="main-img2"><img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/8_87cb910e-31b9-4d86-927e-54f8c96ca970.png?v=1676383092"style="width:100%;height:auto" alt="our team"></div>
+        <div class="main-cont">
+          <h2>Muskaan</h2>
+          <h3>aka Wednesday</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus eveniet magni mollitia sunt ut, nihil autem asperiores aut sit ratione esse consequatur laudantium eaque enim optio nemo dolor quos animi.</p>
+        </div>
+      </div>
+      </div>
+    </div>
+    <img class="nextt" src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/arrow-right_3.png?v=1666439725"loading="lazy" >
+    <img class="prevt" src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/arrow-right_3.png?v=1666439725" loading="lazy">
+  </div> -->
+  
+</div>
+<!-- ^^AOS INSTALL^^ -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<script>
+  // $('.ot-main').slick({
+  //             slidesToShow: 1,
+  //             slidesToScroll: 1,
+  //             autoplay:false,
+  //             autoplaySpeed: 2000,
+  //             infinite: true,
+  //             arrows: true,
+  //             prevArrow: $('.nextt'),
+  //             nextArrow: $('.prevt')
+  //           });
+</script>
+<!-- ^^AOS INSTALL^^ -->

@@ -1,0 +1,13 @@
+{% if discount %}
+  <p class="form-row form-row-wide">
+    <label for="discount">{{ 'checkout.discount_code' | t }}</label>
+    <input type="text" name="checkout[reduction_code]" id="discount" value="{{ discount.code }}" class="input-text" readonly>
+    <a href="#" class="remove-discount">Remove</a>
+  </p>
+{% else %}
+  <p class="form-row form-row-wide">
+    <label for="discount">{{ 'checkout.discount_code' | t }}</label>
+    <input type="text" name="checkout[reduction_code]" id="discount" class="input-text">
+    <button type="submit" class="button" name="apply_discount" value="Apply">Apply</button>
+  </p>
+{% endif %}

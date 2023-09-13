@@ -1,0 +1,51 @@
+<style>
+  .aplus_banner{display:block; position:relative; max-width:100%}
+  .mobile_a{display:none}
+  .desktop_a{display:block}
+  @media(max-width:500px){
+    .mobile_a{display:block}
+    .desktop_a{display:none}
+  }
+</style>
+{%- for block in section.blocks -%}
+  {%-  if block.settings.desktop_aplus != blank and block.settings.mobile_aplus !=blank -%}
+<div class="aplus_banner">
+  <div class="desktop_a">
+    <img src="{{ block.settings.desktop_aplus | img_url:'master' }}" style="width:100%; height:auto">
+  </div>
+  <div class="mobile_a">
+    <img src="{{ block.settings.mobile_aplus | img_url:'master' }}" style="width:100%; height:auto">
+  </div>
+</div>
+{% endif %}
+ {%- endfor -%}
+{% schema %}
+  {
+    "name": "A+ Banner",
+    "settings": [],
+    "blocks":[
+      {
+        "type":"product",
+        "name": "A+ block",
+        "settings":[
+            {
+            "type":"image_picker",
+            "id": "desktop_aplus",
+            "label": "enter desktop A+"
+            },
+          {
+            "type":"image_picker",
+            "id": "mobile_aplus",
+            "label": "enter mobile A+"
+            }
+        ]
+      }
+    ],
+    "presets":[
+      {
+        "name": "A+ Banner",
+        "category": "product"
+      }
+    ]
+  }
+{% endschema %}

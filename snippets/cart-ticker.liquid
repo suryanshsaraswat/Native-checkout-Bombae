@@ -1,0 +1,8 @@
+
+<script>
+  Shopify.onItemAdded = function(cart) {
+	jQuery.getJSON('/cart.js', function(cart) {
+  		$('#cartCount').html(cart.item_count);
+	});
+};
+</script>

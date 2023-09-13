@@ -1,0 +1,84 @@
+<style>
+  .desktop-blo {
+    display: block;
+    max-width: 100%;
+    padding: 30px;
+  }
+  .main-blo h2 {
+    font-size: 22px;
+    text-align: center;
+    padding: 0 18px;
+  }
+  .mobile-blo {
+    display: none
+  }
+  .main-blo {
+    margin-top: -17px;
+    margin-bottom: 30px;
+
+  }
+  @media(max-width:450px) {
+    .desktop-blo {
+      display: none;
+    }
+    .mobile-blo {
+      display: block;
+      max-width: 100%;
+      padding: 10px;
+    }
+  }
+</style>
+{% for block in section.blocks %}
+  {% if block.settings.desk_img != 'blank' %}
+    <div class="main-blo" id="{{block.id}}">
+      <h2>{{ section.settings.main-head }}</h2>
+      <div class="desktop-blo">
+        <a href="{{block.settings.banner_url}}"><img src="{{block.settings.desk_img | img_url: 'master'}}" alt="{{block.id}}"></a>
+      </div>
+      <div class="mobile-blo">
+        <a href="{{block.settings.banner_url}}"><img src="{{block.settings.mob_img | img_url: 'master'}}" alt="{{block.id}}"></a>
+      </div>
+    </div>
+  {% endif %}
+{% endfor %}
+{% schema %}
+  {
+    "name": "Custom Banner",
+    "settings": [
+      {
+        "type": "text",
+        "id": "main-head",
+        "label": "Enter Section Heading",
+        "default": "Section heading"
+      }
+    ],
+    "max_blocks": 1,
+    "blocks": [
+      {
+        "type": "image",
+        "name": "banner-block",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "desk_img",
+            "label": "Pick Desktop Image"
+          }, {
+            "type": "image_picker",
+            "id": "mob_img",
+            "label": "Pick Mobile Image"
+          }, {
+            "type": "url",
+            "id": "banner_url",
+            "label": "Select link"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Custom Banner",
+        "category": "Page"
+      }
+    ]
+  }
+{% endschema %}

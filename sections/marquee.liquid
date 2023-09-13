@@ -1,0 +1,79 @@
+<style>
+.marquee__wrapperr[data-v-2d2501c6]{white-space:nowrap;overflow:hidden;background: url(https://cdn.shopify.com/s/files/1/0577/1368/8771/files/Holographic-Strip_1.jpg?v=1637915974); width: 100%; color: #6b24b2;text-transform:uppercase;padding:10px 0}
+  .marquee[data-v-2d2501c6]{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:nowrap;flex-wrap:nowrap;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start}
+  .marquee__innner[data-v-2d2501c6]{-webkit-animation:marquee-data-v-2d2501c6 30s linear infinite;animation:marquee-data-v-2d2501c6 30s linear infinite}
+  .marquee__texxt[data-v-2d2501c6]{display:inline-block;margin-right:5.3em;font-size:15px}
+  .marquee__wrapperr[data-v-2d2501c6] img{width:50px;margin-right: 10px;display:none}
+  @keyframes marquee-data-v-2d2501c6 {
+    0%{-webkit-transform:translateX(0);transform:translateX(0)}
+    100%{-webkit-transform:translateX(-100%);transform:translateX(-100%)}
+  }
+  @media(max-width:480px){
+    .marquee__inner[data-v-2d2501c6]{}
+  .marquee__wrapper[data-v-2d2501c6] img {width: 30px;margin-right: 5px;vertical-align: top;}
+  }
+</style>
+<div id="marq" data-v-2d2501c6="" class="marquee__wrapperr marquee__wrapper-theme--default"><div data-v-2d2501c6="" class="marquee">
+    <div data-v-2d2501c6="" class="marquee__innner"><span data-v-2d2501c6="" class="marquee__texxt">
+       {{ section.settings.text1 }}
+      </span><span data-v-2d2501c6="" class="marquee__texxt">
+       {{ section.settings.text2 }}
+      </span><span data-v-2d2501c6="" class="marquee__texxt">
+        {{ section.settings.text3 }}
+      </span></div>
+  <div data-v-2d2501c6="" class="marquee__innner"><span data-v-2d2501c6="" class="marquee__texxt">
+       {{ section.settings.text1 }}
+      </span><span data-v-2d2501c6="" class="marquee__texxt">
+       {{ section.settings.text2 }}
+      </span><span data-v-2d2501c6="" class="marquee__texxt">
+        {{ section.settings.text3 }}
+      </span></div>
+  <div data-v-2d2501c6="" class="marquee__innner"><span data-v-2d2501c6="" class="marquee__texxt">
+       {{ section.settings.text1 }}
+      </span><span data-v-2d2501c6="" class="marquee__texxt">
+       {{ section.settings.text2 }}
+      </span><span data-v-2d2501c6="" class="marquee__texxt">
+        {{ section.settings.text3 }}
+      </span></div>
+   </div></div>
+
+{% schema %}
+   {
+    "name": "marquee",
+    "settings": [
+   		
+        {
+          "type": "text",
+          "id": "text1",
+          "label": "Text 1"
+        },
+
+        {
+          "type": "text",
+          "id": "text2",
+          "label": "Text 2"
+        },
+
+        {
+          "type": "text",
+          "id": "text3",
+          "label": "Text 3"
+        },
+
+        {
+          "type": "text",
+          "id": "text4",
+          "label": "Text 4"
+        }
+  ],
+    
+	"presets": [
+        {
+          "category": "Product",
+          "name": "Marquee"
+          
+          
+        }
+      ]
+  }
+{% endschema %}

@@ -1,0 +1,95 @@
+<div class="apply">
+                 <h2>Inspired to Apply?</h2>
+               <h4>Check out the current opportunities below</h4>
+                 
+                 <div class="jobslider">
+                   {%- for block in section.blocks -%}
+                   <div class="jobcard">
+                     <a class="job_liink" href="{{block.settings.url}}">
+                     <img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/logo.png?v=1658746781">
+                     <h4>{{block.settings.jobhead }}</h4>
+                     <p class="company">{{block.settings.company }}</p>
+                     <p class="location">{{block.settings.location }}</p>
+                     <p class="time">{{block.settings.date }}</p>
+                     </a>
+                     </div>
+                  {% endfor %}
+                 </div>
+                 <a href="/pages/career-opportunities" class="btn_new_icon_true button button_primary" style="text-align: center; display: block;">See all Jobs</a>
+               </div>
+ <script>
+  $('.jobslider').slick({
+    dots: true,
+    arrows: true,
+    autoplay: true,
+    adaptiveHeight: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplaySpeed: 3000,
+    infinite: true,
+ responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+        
+      }
+    },
+   ]
+  });
+
+  
+</script>
+{% schema %}
+    {
+      "name": "Careers",
+      "settings": [],
+      "blocks": [
+            {
+			  "type": "testimonial",
+              "name": "Blocks",
+              "settings": [
+                {
+                  "type": "text",
+                  "id": "jobhead",
+                  "label": "Job Heading",
+                  "default": "Manager"
+                },
+                {
+                  "type": "text",
+                  "id": "company",
+                  "label": "Company Name",
+                  "default": "Bombay Shaving Company"
+                },
+                {
+                  "type": "text",
+                  "id": "location",
+                  "label": "Job Location",
+                  "default": "Delhi, India"
+                },
+                {
+                  "type": "text",
+                  "id": "date",
+                  "label": "Date",
+                  "default": "1 week ago"
+                },
+                {
+                  "type": "url",
+                  "id": "url",
+                  "label": "job link"
+                }
+
+                
+
+              ]
+            }
+          ],
+      "presets": [
+          {
+            "name": "Careers",
+            "category": "image"
+          }
+        ]
+    }
+    {% endschema %}

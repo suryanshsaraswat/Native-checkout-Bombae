@@ -1,0 +1,296 @@
+<style>
+  .main-banner-rollplay {position: relative;display: block;}
+  .main-banner-mob{display:none}
+  .pricedivv {margin-right:0px !important;}
+  p.rolll {text-align: center;font-size: 20px;text-transform: uppercase;font-weight: 500;margin:0 10px; color:#6b24b2}
+  .roll-txt {width: 100%;display:flex;background-image: url('https://cdn.shopify.com/s/files/1/0577/1368/8771/files/holo-strip.jpg?v=1679647897');align-items: center;justify-content: center;cursor:pointer;background-position:center center;}
+  .roll-txtt {width: 100%;display:flex;background-image: url('https://cdn.shopify.com/s/files/1/0577/1368/8771/files/holo-strip.jpg?v=1679647897');align-items: center;justify-content: center;cursor:pointer;background-position:center center;}
+  img.mobb{display:none}
+  .roll{margin-top:10px}
+  .test-flex {display: flex;flex-direction: row;justify-content: center;align-items: center;}
+  .flex-1 img {box-shadow: 2px 2px 3px 0px #6b24b259;padding: 9px;border-radius: 40px;border: 1px dashed #6b24b26e;}
+  .flex-1 {padding: 16px;}
+  .roll-testimonials h1 {font-size: 37px;text-align: center;color: #6b24b2;letter-spacing: 0.8px;margin-bottom: 16px;}
+  .roll-testimonials {margin: 16px 0;}
+  .accordion-container{position:relative;max-width:1200px;height:auto;margin:50px auto;padding: 0 30px;}
+  .accordion-container > h2{text-align:center;color:#6b24b2 ;margin-bottom:10px;padding-bottom:10px;font-size: 35px;}
+  .set {position: relative; width: 100%; height: auto; margin-bottom: 20px; border-radius: 15px; padding: 20px 30px; box-shadow: 0px 0px 0px 2px #e5e3e3}
+  .set::before{transition:0.2s;position:absolute;content:""; width:50px;height:40px;background:url(https://cdn.shopify.com/s/files/1/0577/1368/8771/files/wing.png?v=1654709422);left:-35px; top:-20px;background-size:100%;background-repeat:no-repeat;background-position: center center; opacity:0}
+  .set.active::before{opacity:1}
+  .set > a{width:80%;display:block;text-decoration:none;color:#6b24b2 ;font-weight:600;-webkit-transition:all .2s linear;-moz-transition:all .2s linear;transition:all .2s linear;}
+  .set > a i{float: right;background: #f2e7f7 ; padding: 8px; border-radius: 50%;position: absolute; right: 20px; top: 18px;}
+  .set.active{background: #fdf0ff ; box-shadow: 0px 0px 10px 0px #cdcdcd;}
+  .content{display:none}
+  .content p{padding:20px 0 0;margin:0;color:#333;}
+  .main-kit-section{margin:15px 0}
+  video.rollplay-vid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 18px;
+    padding: 5px;
+    box-shadow: #6b24b23b 0px 20px 25px -5px, rgb(0 0 0 / 60%) 0px 10px 10px -5px;
+    border: 5px solid #6b24b2;
+    background: #000;
+}
+  .kit-img {
+    padding: 0 42px;
+}
+.main-banner-rollplay video {
+    width: 100%;
+    height: auto;
+}
+
+  /*MOBILE CSS START*/
+
+  @media(max-width:450px){
+    .main-banner-mob{display:block}
+    .main-banner-desk{display:none}
+    img.mobb{display:block}
+    img.desk{display:none}
+    .kit-img img{transform:scale(0.9); filter:grayscale(1)}
+    .kit-img.slick-slide.slick-current.slick-active img {filter: none;transform: scale(1.0);}
+    .flex-1 img {box-shadow: 2px 2px 3px 0px #6b24b259;padding: 5px;border-radius: 16px;border: 1px solid #6b24b26e;}
+    .flex-1 {padding: 6px;}
+    .roll-testimonials h1 {font-size: 25px;text-align: center;color: #6b24b2;letter-spacing: 0.8px;margin-bottom: 7px;}
+    .roll-testimonials {margin: 7px 0;}
+    .accordion-container{margin:13px auto}
+    .accordion-container h2{font-size:25px}
+    .kit-img {padding: 0 0px;}
+    video.rollplay-vid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0px;
+    padding: 5px;
+    box-shadow: none;
+    border: none;
+    background: #000;
+      
+}
+    
+  }
+</style>
+
+
+<!--AOS INSTALL CSS-->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<!--AOS INSTALL CSS-->
+
+<div class="rollplay-lp">
+<!--   BANNER SECTION -->
+<!--   <div class="main-banner-rollplay">
+    <div class="main-banner-desk">
+      <img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/1st-Banner_21cbacea-5c79-49bc-aec3-8090104113a9.jpg?v=1679563467" style="width:100%; height:auto" alt="">
+    </div>
+    <div class="main-banner-mob">
+       <img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/1st-Banner_0d5af052-82f9-4803-8476-ff9defdbebbd.jpg?v=1679563526" style="width:100%; height:auto" alt="">
+    </div>
+  </div> -->
+  <div class="main-banner-rollplay">
+    <a href="/products/rollplay-body-razor"><video autoplay loop muted playsinline>
+      <source src="https://cdn.shopify.com/videos/c/o/v/1c7bb4f7ec884042a8ee61c4e0b4a2db.mov" type="video/mp4">
+    </video></a>
+  </div>
+  <!--   BANNER SECTION -->
+<!--   PRODUCT SECTION -->
+  {% section 'rollplay-razor-lp' %}
+<!--   PRODUCT SECTION -->
+  <!--   ACCORDIAN SECTION -->
+  <div class="main-ac">
+    <div class="roll">
+      <div class="roll-img">
+      <img class="desk lazyloadt4sed" src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/3._2.jpg?v=1683630421" style="width:100%; height:auto"alt="">
+      <img class="mobb lazyloadt4sed" src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/3_2.jpg?v=1683630421" alt="" style="width:100%; height:auto"></div>
+      <div class="roll-txt">
+      <img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/up-arrow.png?v=1679483096" style="width:15px;height:15px"><p class="rolll">roll</p><img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/up-arrow.png?v=1679483096"style="width:15px;height:15px"></div>
+    </div>
+    <div class="roll">
+      <div class="roll-txtt">
+      <img class="lazyloadt4sed" src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/up-arrow.png?v=1679483096" style="width:15px;height:15px;transform: rotate(180deg);"><p class="rolll">PLAY</p><img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/up-arrow.png?v=1679483096"style="width:15px;height:15px;transform: rotate(180deg);"></div>
+      <div class="roll-imgg">
+      <img class="desk lazyloadt4sed" src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/4..jpg?v=1683199381" style="width:100%; height:auto"alt="">
+      <img class="mobb lazyloadt4sed" src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/4_1_946f7337-8f97-454f-a1d6-f012f98476d4.jpg?v=1683199127" alt="" style="width:100%; height:auto"></div>
+    </div>
+  </div>
+  <!--   ACCORDIAN SECTION -->
+  <!--   PRODUCT STUFF SECTION -->
+  <div class="main-kit-section">
+    <div class="kit-img">
+      <img class="desk lazyloadt4sed" src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/1_d3885ff3-c644-4785-8960-1c9ec8f62de7.png?v=1681467786" alt="" style="width:100%; height:auto">
+    </div>
+     <div class="kit-img">
+       <img class="desk lazyloadt4sed" src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/2_9dc6c5a4-3c00-4b4d-b240-0048ff385682.png?v=1681467786" alt="" style="width:100%; height:auto">
+    </div>
+     <div class="kit-img">
+       <img class="desk lazyloadt4sed" src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/3_71e625e0-b1b5-45b7-90b2-34fc0a650370.png?v=1681467786" alt="" style="width:100%; height:auto">
+    </div>
+  </div
+  <!--   PRODUCT STUFF SECTION -->
+  <!--VIDEO SECTIOn-->
+  
+  <!--VIDEO SECTIOn-->
+<div class="main-banner-rollplay">
+    <div class="main-banner-desk">
+      <img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/7th-banner_2.jpg?v=1681453165" style="width:100%; height:auto" alt="">
+    </div>
+    <div class="main-banner-mob">
+       <img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/7th-banner_1.jpg?v=1681453165" style="width:100%; height:auto" alt="">
+    </div>
+  </div>
+  
+  <!-- TESTIMONIALS SECTIONS -->
+  <div class="roll-testimonials lazyloadt4sed">
+    <h1>hear from our baes</h1>
+    <div class="test-flex">
+      <div class="flex-1">
+        <img class="desk lazyloadt4sed" src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/1_f4546e59-fd30-4689-847b-56110ffc51c7.png?v=1679565247" alt="" style="width:100%; height:auto">
+        <img class="mobb lazyloadt4sed" src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/1_88de6cd9-b907-470c-90d4-45efb0d36435.png?v=1679565440" alt="" style="width:100%; height:auto">
+      </div>
+      <div class="flex-1">
+        <img class="desk lazyloadt4sed" src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/2_632196b9-acbd-46a4-b36e-5feb771bd6a8.png?v=1679565247" alt="" style="width:100%; height:auto">
+        <img class="mobb lazyloadt4sed" src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/2_da734ca1-87f9-4b0c-805d-a705850e9434.png?v=1679565439" alt="" style="width:100%; height:auto">
+      </div>
+      <div class="flex-1">
+        <img class="desk lazyloadt4sed" src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/3_d3b257ae-0f9d-4f48-9997-8da072b006b3.png?v=1679565247" alt="" style="width:100%; height:auto">
+        <img class="mobb lazyloadt4sed" src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/3_3e5096d1-1941-4921-8b7d-10d4d5cf53d9.png?v=1679565440" alt="" style="width:100%; height:auto">
+      </div>
+    </div>
+  </div>
+  <!-- TESTIMONIALS SECTIONS -->
+  <!-- FAQ section -->
+  <div class="accordion-container lazyloadt4sed">
+  <h2>for the truth seekers</h2>
+  <div class="set active" data-aos="fade-up">
+    <a href="#">
+      I'm a newbie, how do I get started on shaving?
+      <i class="fa fa-plus"></i>
+    </a>
+    <div class="content" style="display:block">
+      <p>Hey newbie! It's super simple to get started with shaving rolling:
+      <ol>
+        <li> Prep skin with water. This will activate the moisture band in the roller.</li>
+        <li>Glide Bombae Rollplay razor against the direction of hair growth. In case of super-sensitive skin, glide in the direction of hair growth</li>
+        <li>Soothe skin with a post-shave balm or lotion</li>
+      </ol>
+      Go forth and roll into smoothness!</p>
+    </div>
+  </div>
+  <div class="set" data-aos="fade-up"  data-aos-delay="50">
+    <a href="#">
+     What is so special about the roller on Bombae Rollplay razor?
+      <i class="fa fa-plus"></i>
+    </a>
+    <div class="content">
+      <p>Unlike traditional razors, Bombae Rollplay's unique roller design is powered by patented Rola-tek technology. This enables 
+<b>faster</b> glides, <b>easier</b> navigation over curves and tricky areas for the <b>smoothest</b> shaves eva! So don't just shave with it, roll with it!</p>
+    </div>
+  </div>
+  <div class="set" data-aos="fade-up"  data-aos-delay="100">
+    <a href="#">
+      Is the razor suitable for all skin types?
+      <i class="fa fa-plus"></i>
+    </a>
+    <div class="content">
+      <p>Absolutely! The Bombae Rollplay razor is designed to be gentle on the skin, making it a fantastic option for all skin types, especially those with sensitive skin.</p>
+    </div>
+  </div>
+    <div class="set" data-aos="fade-up"  data-aos-delay="150">
+    <a href="#">
+      How often should I replace the cartridge?
+      <i class="fa fa-plus"></i> 
+    </a>
+    <div class="content">
+      <p>Our cartridges last longer than traditional blades. We recommend to replace the cartridge after 7-8 uses or when you see dull blades, whichever is sooner. To increase life of your cartridge, we recommend keeping it high and dry on the magic holder post every use.</p>
+    </div>
+  </div>
+    <div class="set" data-aos="fade-up"  data-aos-delay="150">
+    <a href="#">
+      Can I travel with Bombae Rollplay?
+      <i class="fa fa-plus"></i> 
+    </a>
+    <div class="content">
+      <p>Yes! Bombae Rollplay is compact and easy to travel with, making it a great option for on-the-go smoothness. Just make sure to keep it dry and pack in a pouch/ travel case while traveling.</p>
+    </div>
+  </div>
+    <div class="set" data-aos="fade-up"  data-aos-delay="150">
+    <a href="#">
+      How do I clean Bombae Rollplay post use?
+      <i class="fa fa-plus"></i> 
+    </a>
+    <div class="content">
+      <p>After each use, rinse Bombae Rollplay razor under running water to remove any hair or shaving foam. For a deeper clean, you can use a soft bristled brush to remove any build up. Make sure to place it on the magic holder post use to keep it high and dry!</p>
+    </div>
+  </div>
+</div>
+<!--FAQ section -->
+</div>
+{% section 'custom-liquid' %}
+
+<!--AOS SCRIPT INSTALLATION -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<!--AOS SCRIPT INSTALLATION -->
+<script>
+  $(document).ready(function(){
+  $(".roll-txt").click(function(){
+    $(".roll-img").slideToggle(1000);
+  });
+    $(".roll-txtt").click(function(){
+      $(".roll-imgg").slideToggle(1000);
+    })
+});
+</script>
+<script>
+  $('.main-kit-section').slick({
+    slidesToShow:3,
+    dots: false,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    infinite: true,
+    arrows: false,
+    responsive:[
+      {
+        breakpoint:500,
+        settings:{
+          slidesToShow:1,
+          arrows: false,
+    centerPadding: '100px',
+    centerMode: true
+        }
+      }
+    ]
+  });
+</script>
+<script>
+  $(document).ready(function() {
+
+  $(".set").on("click", function(e) {
+    e.preventDefault();
+    if ($(this).hasClass("active")) {
+      $(this).removeClass("active");
+      $(this)
+        .children(".content")
+        .slideUp(200);
+      $(".set > a i")
+        .removeClass("fa-minus")
+        .addClass("fa-plus");
+    } else {
+      $(".set > a i")
+        .removeClass("fa-minus")
+        .addClass("fa-plus");
+      $(this)
+        .find("i")
+        .removeClass("fa-plus")
+        .addClass("fa-minus");
+      $(".set").removeClass("active");
+      $(this).addClass("active");
+      $(".content").slideUp(200);
+      $(this)
+        .children(".content")
+        .slideDown(200);
+    }
+  });
+});
+</script>
+<script></script>

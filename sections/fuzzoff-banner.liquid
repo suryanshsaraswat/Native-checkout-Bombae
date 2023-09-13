@@ -1,0 +1,50 @@
+<style>
+  .banned{display:flex;flex-flow:wrap;margin-top: 30px}
+  .banned1, .banned2, .banned3{width:33.3333%; padding:0 18px}
+  .banned1 img {border-radius: 10px;box-shadow: 3px -4px 4px 0px #d5cdcd69;}
+  .banned2 img {border-radius: 10px;box-shadow: 3px -4px 4px 0px #d5cdcd69;}
+  .banned3 img {border-radius: 10px;box-shadow: 3px -4px 4px 0px #d5cdcd69;}
+
+  @media (max-width:480px){
+    .banned1, .banned2, .banned3{width:100%; margin: 0 auto;padding: 10px 19px}
+  }
+</style>
+  <div class="banned">
+    <div class="banned1">
+    <a href="/products/fuzzoff-sensitive-areas-trimmer"><img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/imag-3.png?v=1663692593" width="100%"></a>
+  </div>
+  <div class="banned2">
+    <a href="/products/eyebrow-and-face-trimmer-magica"><img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/imag-2.png?v=1663692592" width="100%"></a>
+  </div>
+  <div class="banned3">
+    <img class="climkk" src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/imag-1.png?v=1663692592" width="100%">
+  </div>
+  </div>
+
+<script>
+  $(".climkk").click(function() {
+    window.scrollTo({top: 2400, behavior: 'smooth'});
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+{% schema %}
+  {
+    "name": "Fuzzoff Banners",
+    "settings": [],
+    "presets":[
+      {
+        "name": "Fuzzoff Banners",
+        "category": "product"
+      }
+    ]
+  }
+{% endschema %}

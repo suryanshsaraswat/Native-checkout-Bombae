@@ -1,0 +1,72 @@
+<style>
+  
+    .parrentt_mobb{position:relative; display:block;margin:20px 0}
+  .parrentt_mobb h2 {text-align: center;font-family: recoleta-regular;margin-bottom: 26px;color: #b676b2;}
+    img.prevt {position: absolute;top: 54%;right: -3px;}
+    img.nextt {position: absolute;top: 54%;left: -1px;transform: rotate(180deg);}
+    .moobb_slideee{display:block;}
+    img.prevt:hover{transform: scale(1.2);}
+    img.nextt:hover{transform: rotate(180deg)scale(1.2)}
+  @media(max-width:500px){
+    .moobb_slideee.slick-slide{transform:scale(0.8);}
+    .moobb_slideee .slick-slide.slick-active{transform: scale(1.01);position: relative; z-index:9; filter:none;}
+    .moobb_slideee .slick-slide{margin: 0 -20px; transform:scale(0.8);filter:grayscale(1);}
+    .moobb_slideee img{ padding:0!important}
+    img.prevt {position: absolute;top: 54%;right: 5px;}
+    img.nextt {position: absolute;top: 54%;left: 5px;transform: rotate(180deg);}
+  }
+    
+  .moobb_slideee img{ padding:0 30px}
+</style>
+<div class="parrentt_mobb">
+  <h2>Hear from our <span class="rainboww">Baes</span></h1>
+  <div class="moobb_slideee">
+  <img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/1_b5de4a7e-0336-409e-8de3-36ca46ea416b.jpg?v=1668772492"loading="lazy" style="width:100%">
+  <img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/2_24cbb36f-7893-4481-8df7-855c1e71614a.jpg?v=1668772492"loading="lazy" style="width:100%">
+  <img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/3_f7043351-fef4-4b78-ba57-bbc6f8fcbb8a.jpg?v=1668772492"loading="lazy" style="width:100%">  
+    <img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/4_e93d2d49-6964-4000-9541-8757755b095d.jpg?v=1668772492"loading="lazy" style="width:100%">  
+    <img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/5_d0daabfb-5860-4b44-8d9e-2640fe4dd8a3.jpg?v=1668772492"loading="lazy" style="width:100%">  
+</div>
+  <img class="nextt" src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/arrow-right_3.png?v=1666439725"loading="lazy" >
+  <img class="prevt" src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/arrow-right_3.png?v=1666439725" loading="lazy">
+</div>
+
+<script>
+  $('.moobb_slideee').slick({
+    slidesToShow:3,
+    dots: false,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    infinite: true,
+    arrows: true,
+    prevArrow: $('.nextt'),
+    nextArrow: $('.prevt'),
+    responsive:[
+      {
+        breakpoint:600,
+        settings:{
+          slidesToShow:1,
+          arrows: true,
+    prevArrow: $('.nextt'),
+    nextArrow: $('.prevt'),
+    centerPadding: '100px',
+    centerMode: true
+        }
+      }
+    ]
+  });
+
+  
+</script>
+{% schema %}
+  {
+    "name": "influencer testimonials",
+    "settings": [],
+    "presets":[
+      {
+        "name": "influencer testimonials",
+        "category": "testimonials"
+      }
+    ]
+  }
+{% endschema %}

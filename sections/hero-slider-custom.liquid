@@ -1,0 +1,124 @@
+{% comment %}
+{%- for block in section.blocks -%} 
+<a href="{{ block.settings.linkurl }}">
+<div class="desk-cont"><img src="{{ block.settings.image | img_url: 'master' }}" width="100%" height="600"></div>
+        <div class="mob-cont"><img src="{{ block.settings.image2 | img_url: '500x' }}" width="100%" height="300"></div>
+</a>
+           {%- endfor -%}
+
+{% endcomment %}
+<div class="slidezz">
+
+  <div class="slidezzz foxislider">
+
+    {%- for block in section.blocks -%}
+    <div class="three-in-a-row">
+      
+      <a href="{{ block.settings.linkurl }}">
+        {%- if block.settings.usevideo == false -%}
+        <div class="desk-cont"><img src="{{ block.settings.image | img_url: 'master' }}" loading="lazy"></div>
+        <div class="mob-cont"><img loading="lazy" src="{{ block.settings.image2 | img_url: '500x' }}"></div>
+        {% else %}
+      <div class="fullvideo desk-cont">
+        <video width="100%" loop muted autoplay playsinline poster="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/Homepage-banner-desktop_1.jpg?v=1654863307">
+          <source src="{{block.settings.deskvid }}" type="video/mp4">
+        </video>
+      </div>
+      <div class="fullvideo mob-cont">
+        <video width="100%" loop muted autoplay playsinline poster="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/Homepage-banner-mobile_1.jpg?v=1654863307">
+          <source src="{{block.settings.mobvid }}" type="video/mp4">
+        </video>
+      </div>
+
+      {%endif%}
+      </a>
+      
+    </div>
+    {%- endfor -%}
+
+  </div>
+</div>
+
+
+<script>
+  $('.foxislider').slick({
+    dots: true,
+    autoplay: true,
+    adaptiveHeight: true,
+    autoplaySpeed: 9000,
+    infinite: true,
+
+  });
+
+  
+</script>
+<style>
+      .desk-cont{display:block}
+      .mob-cont{display:none}
+    .slidezz .slick-dotted.slick-slider{margin-bottom:0!important}
+  .slidezz .slick-dots{bottom:20px}
+  .slidezz .slick-dots li button:before{font-size:15px}
+  .fullvideo video{display:block}
+  @media(max-width:480px){
+    .desk-cont{display:none}
+        .mob-cont{display:block}
+  }
+</style>
+{% schema %}
+   {
+    "name": "Custom Slideshow a",
+    "settings": [],
+	"blocks": [
+            {
+			  "type": "testimonial",
+              "name": "Blocks",
+              "settings": [
+                {
+                  "type": "image_picker",
+                  "id": "image",
+                  "label": "Desktop Image"
+
+                },
+{
+                  "type": "image_picker",
+                  "id": "image2",
+                  "label": "Mobile Image"
+
+                },
+                {
+                  "type": "url",
+                  "id": "linkurl",
+                  "label": "Link"
+                },
+		{
+          "type": "checkbox",
+          "id": "usevideo",
+          "label": "Use Video",
+		  "default": false
+        },
+		{
+          "type": "text",
+          "id": "deskvid",
+          "label": "Desktop Video"
+        },
+{
+          "type": "text",
+          "id": "mobvid",
+          "label": "Mobile Video"
+        }
+                
+
+              ]
+            }
+          ],
+    
+	"presets": [
+        {
+          "category": "Product",
+          "name": "Custom Slideshow s"
+          
+          
+        }
+      ]
+  }
+{% endschema %}

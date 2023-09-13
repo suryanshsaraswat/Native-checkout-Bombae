@@ -1,0 +1,99 @@
+<style>
+  .main-container {background: #fff;display: block;position: relative;padding-top:54px}
+  .imagess {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height:50px
+}
+  .mobile{display:none;}
+  .imagess img {
+    flex: 25%;
+    width: 120px!important;
+    position:relative
+}
+  .tab-contentt{display: none;}
+  .tab-contentt.activee { display: block;}
+  .cont{font-size:23px; width:700px; text-align:center;color:#6a27af;font-weight:400; margin:0 auto; max-height:61px}
+  img.tabbb.activee {border-bottom: 5px solid #6b24b2;filter:none}
+  img.tabbb{transition: ease 100ms;filter: grayscale(1);}
+  img.tabbb:hover{filter:none}
+  @media(max-width:500px)
+  {
+    .mobile{display:block}
+    .desktop{display:none}
+    .pr-1 {
+    position: relative;
+    margin: 0 auto;
+    display: block;
+}
+    .pr-1 img {
+    width: 200px;
+    margin: -18px auto;
+}
+    .pr-1 p {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    color:#6a27af
+}
+  }
+</style>
+<!-- HTML FOR DESKTOP END -->
+<!-- Content -->
+<div class="main-container desktop">
+<div class="tab-contentt tab-contentt-2 cont activee">"Bombae Fuzz Off trimmer's ad features a hair-raising tale of body hair grooming"</div>
+    <div class="tab-contentt tab-contentt-3 cont">"In a year, Bombae has quickly become a challenger to established brands in the Indian personal care, hygiene and hair removal space"</div>
+    <div class="tab-contentt tab-contentt-4 cont ">"The brand is building a tribe of women who find commonality through its content and then top it up with thoughtful product solutions and expert related content"</div>
+    <div class="tab-contentt tab-contentt-1 cont">"Bombae aspires to build a more heterogenous society aimed at creating one's definition of body positivity just like they do for gender and sexuality"</div>
+  <div class="imagess">
+<img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/social-samosa-icon.png?v=1676628502" style="width:100%;height:auto" alt="pr images" class="tabbb activee" data-toggle-target=".tab-contentt-1">
+<img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/buzz-in-content-icon.png?v=1676628514"style="width:100%;height:auto" alt="pr images" class="tabbb" data-toggle-target=".tab-contentt-4">
+<img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/financial-ecpress-icon.png?v=1676628485"style="width:100%;height:auto" alt="pr images" class="tabbb" data-toggle-target=".tab-contentt-2">
+<img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/afaq-icon.png?v=1676628403"style="width:100%;height:auto" alt="pr images" class="tabbb" data-toggle-target=".tab-contentt-3">
+    </div>
+    </div>
+
+    <div class="main-container mobile pad">
+      <div class="main-slide">
+        <div class="slider-init">
+          <div class="pr-1">
+            <p>"The brand is building a tribe of women who find commonality through its content and then top it up with thoughtful product solutions and expert related content"</p>
+            <img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/buzz-in-content-icon.png?v=1676628514" style="width:100% height:auto" alt="mobile pr">
+          </div>
+           <div class="pr-1">
+            <p>"In a year, Bombae has quickly become a challenger to established brands in the Indian personal care, hygiene and hair removal space"</p>
+            <img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/financial-ecpress-icon.png?v=1676628485" style="width:100% height:auto" alt="mobile pr">
+          </div>
+          <div class="pr-1">
+            <p>"Bombae Fuzz Off trimmer's ad features a hair-raising tale of body hair grooming"</p>
+            <img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/afaq-icon.png?v=1676628403" style="width:100% height:auto" alt="mobile pr">
+          </div>
+          <div class="pr-1">
+            <p>"Bombae aspires to build a more heterogenous society aimed at creating one's definition of body positivity just like they do for gender and sexuality"</p>
+            <img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/social-samosa-icon.png?v=1676628502" style="width:100% height:auto" alt="mobile pr">
+          </div>
+        </div>
+      </div>
+    </div>
+<script>
+    $('.tabbb').on('click', function(evt) {
+  evt.preventDefault();
+   $('.tabbb').removeClass('activee');
+  $(this).toggleClass('activee');
+  var sel = this.getAttribute('data-toggle-target');
+  $('.tab-contentt').removeClass('activee').filter(sel).addClass('activee');
+});
+</script>
+<script>
+  $('.slider-init').slick({
+              dots: true,
+              infinite: true,
+              autoplay:true,
+              speed: 500,
+              fade: true,
+              cssEase: 'linear'
+            });
+</script>

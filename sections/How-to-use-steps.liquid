@@ -1,0 +1,87 @@
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<style>
+  p.stepps {
+    font-size: 17px;
+    margin-left: 10px;
+    background: #f4efff;
+    padding: 10px 15px;
+    text-align: center;
+    border-radius: 28px;
+    border: 1px dashed #6b24b2;
+}
+  .htu_steps_flex {
+    display: flex;
+    max-width: 100%;
+    flex-direction: row;
+    padding: 0 30px;
+    flex-wrap: wrap;
+}
+  .htu_steps_textt {
+    flex: 0 0 33.33%;
+}
+  .htu_steps_textt h2 {
+    text-align: center;
+    font-size: 21px;
+}
+  p.stepps {
+    font-size: 17px;
+    margin-left: 10px;
+    background: #f4efff;
+    padding: 10px 15px;
+    text-align: center;
+    border-radius: 28px;
+    border: 1px dashed #6b24b2;
+}
+  @media(max-width:450px){
+    .htu_steps_flex{flex-direction:column; padding:0 10px}
+  }
+</style>
+<div class="htu_steps_main">
+  <div class="htu_steps_flex">
+    {% for block in section.blocks %}
+    <div class="htu_steps_textt" data-aos="fade-up" data-aos-duration= "1000" data-aos-anchor-placement="top bottom">
+      <h2>{{ block.settings.htu_step_heading }}</h2>
+      <p class="stepps">{{ block.settings.htu_steps }}</p>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+  disable: function() {
+    var maxWidth = 500;
+    return window.innerWidth > maxWidth;
+  }
+});
+</script>
+{% schema %}
+  {
+    "name": "HTU STEPS",
+    "settings": [],
+    "blocks":[
+      {
+        "type":"text",
+        "name":"Steps block",
+        "settings":[
+          {
+            "type":"text",
+            "id":"htu_step_heading",
+            "label":"Enter Steps heading"
+          },
+          {
+            "type":"text",
+            "id":"htu_steps",
+            "label":"Enter Steps text"
+          }
+        ]
+      }
+    ],
+    "presets":[
+      {
+        "category":"page",
+        "name":"How to use steps"
+      }
+    ]
+  }
+{% endschema %}

@@ -1,0 +1,16 @@
+<style>
+  .collection-des {max-width: 100%;width: 700px;margin: 0 auto;margin-top: 33px;background: #f4efff;padding: 30px;border-radius: 10px;border: 2px dashed #6b24b2;}
+  .collection-desc {max-width: 100%;display: block;position: relative;padding: 10px;}
+  @media(max-width:500px){.collection-des{margin-top:10px}}
+</style>
+{%- if collection.image != blank -%}	
+<div class="collectionheadimg">{{ collection.image | img_url: 'master' | img_tag }}</div>
+{%- endif -%}
+{%- if collection.title != blank -%}	
+<div style="text-align:center "><h1 class="page-title">{{ collection.title | upcase  }}</h1></div>
+{%- endif -%}
+{% if collection.description != blank %}
+  <div class="collection-desc">
+    <div class="collection-des">{{ collection.description }}</div>
+  </div>
+  {% endif %}

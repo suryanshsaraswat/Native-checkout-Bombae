@@ -1,0 +1,125 @@
+<style>
+  .video-women{margin-bottom: 50px;}
+  .container.main{margin-top:70px}
+  .slidev{padding:0 15px;position:relative}
+  .slidev img {filter: grayscale(1);transition:all 0.3s;cursor:pointer}
+  .slidev:hover img {filter: grayscale(0);}
+  .vidslider{margin-top:30px}
+  .slidev::after {position: absolute;content: "";width: 80px;height: 90px;background: url(https://cdn.shopify.com/s/files/1/0577/1368/8771/files/Play-Button_5abdbfb4-a350-480e-a986-0b07fd5c1bd0.png?v=1646300130);bottom: 5px;left: 20px;background-size: cover;}
+  .slidev:nth-child(odd){margin-top:50px}
+  .popupx {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      z-index: 99999999999;
+      background: #000c;
+      padding: 50px;
+      display: flex;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+  }
+  .popupx video{width:100%;max-width:350px}
+  .popupx .close {position: absolute;right: 5%;top: 5%;color: #fff;font-size: 40px;cursor:pointer}
+  .popupx{display:none}
+  .popupx.shwn{display:flex}
+  @media(max-width:480px){
+    .container.main{margin-top:23px}
+    .slidev.slick-active img {filter: grayscale(0);}
+    .slidev{padding:0 10px;position:relative}
+    .video-women .container{padding:0}
+  }
+</style>
+
+<div class="video-women">
+    <div class="container main">
+      <div class="wrap_title  des_title_2">
+		<h3 class="section-title tc pr flex fl_center al_center fs__24 title_8"><span class="mr__10 ml__10">Hairarchy stories</span></h3>
+		<span class="dn tt_divider"><span></span><i class="dn clprfalse title_2 la-gem"></i><span></span></span><span class="section-subtitle db tc sub-title"></span>
+		</div>
+        <div class="vidslider">
+            <div class="slidev vid1"><img width="250" height="375" src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/W-Day-stories_4.jpg" alt=""></div>
+            <div class="slidev vid2"><img width="250" height="375" src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/W-Day-stories_3.jpg" alt=""></div>
+            <div class="slidev vid3"><img width="250" height="375" src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/W-Day-stories_2.jpg" alt=""></div>
+            <div class="slidev vid4"><img width="250" height="375" src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/W-Day-stories_1.jpg" alt=""></div>
+        </div>
+    </div>
+</div>
+
+<div class="popupx play1 ">
+  <span class="close">&times;</span>
+    <video preload="none" controls src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/manshree_1.mov?v=1646394800" width="400"></video>
+</div>
+
+<div class="popupx play2 ">
+  <span class="close">&times;</span>
+    <video preload="none" controls src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/anurupa.mov?v=1646382404" width="400"></video>
+</div>
+<div class="popupx play3 ">
+  <span class="close">&times;</span>
+    <video preload="none" controls src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/shloka.mov?v=1646378859" width="400"></video>
+</div>
+<div class="popupx play4 ">
+  <span class="close">&times;</span>
+    <video preload="none" controls src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/hritika.mov?v=1646382405" width="400"></video>
+</div>
+
+<script>
+
+   $('.vidslider').slick({
+    slidesToShow: 4,
+    slidesToScroll:1,
+
+    autoplay: false,
+    centerMode: false,
+    pauseOnFocus:true,
+    
+    focusOnSelect: false,
+    touchThreshold: 9,
+    dots: false,
+     responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll:1,
+        autoplay: false,
+        centerMode: true,
+        centerPadding:'70px',
+        pauseOnFocus:true,
+        speed:200,
+        focusOnSelect: false,
+        touchThreshold: 15,
+        arrows: false,
+        dots: false
+      }
+    }
+  ]
+  });
+
+    $(".vid1").click(function(){$(".play1").addClass('shwn');$('.play1 video').trigger('play');});
+    $(".vid2").click(function(){$(".play2").addClass('shwn');$('.play2 video').trigger('play');});
+    $(".vid3").click(function(){$(".play3").addClass('shwn');$('.play3 video').trigger('play');});
+    $(".vid4").click(function(){$(".play4").addClass('shwn');$('.play4 video').trigger('play');});
+  
+      $(".popupx .close").click(function(){$(".popupx").removeClass('shwn');$('video').trigger('pause');});
+
+  
+</script>
+
+{% schema %}
+  {
+    "name": "Video Women Homepage",
+    "settings": [],
+	"presets": [
+        {
+          "category": "Text",
+          "name": "Video Women"
+          
+          
+        }
+      ]
+  }
+{% endschema %}

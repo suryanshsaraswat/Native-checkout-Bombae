@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="{{ locale }}" dir="{{ direction }}" class="{{ checkout_html_classes }}">
+  <head>
+<!-- Begin BlackCrow Script Tag: DO NOT MODIFY! -->
+     <script type="text/javascript" async src="https://shopify-init.blackcrow.ai/js/core/bsc-women.js?shopify_app_version=1.0.105&shop=bsc-women.myshopify.com"></script>
+<!-- End BlackCrow Script Tag -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0, user-scalable=0">
+    <meta name="referrer" content="origin">
+
+    <title>{{ page_title }}</title>
+
+    {{ content_for_header }}
+
+    {{ checkout_stylesheets }}
+    {{ checkout_scripts }}
+    {{ '//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js' | script_tag }}
+    <script>
+    $( document ).ready(function() {
+     $("#order-summary").css({"display": "block", "height": "auto", "visibility": "revert"});
+    });
+    </script>
+    <style>
+      ._3oHx1.wJzc6 {background-image: url("https://cdn.shopify.com/s/files/1/0577/1368/8771/files/Holographic-Strip.jpg?v=1637913442");background-size: cover;}
+      .field__message--error-custom{color: #FF5F90;}
+      .field__input-wrapper--icon-right:after{
+        position: absolute;
+        font-size: 18px;
+        content: "+91";
+        width: 46px;
+        height: 31px;
+        background-color: #EEEEEE;
+        color: #565656;
+        border-radius: 5px;
+        top: 0px;
+        left: 0px;
+        bottom: 0px;
+        padding-top: 15px;
+        text-align: center;
+      }
+      #checkout_shipping_address_phone_clone, #checkout_shipping_address_phone{padding-left:53px !important;}
+      
+    </style>
+<!-- Taboola Pixel Code -->
+<script type='text/javascript'>
+  window._tfa = window._tfa || [];
+  window._tfa.push({notify: 'event', name: 'page_view', id: 1457079});
+  !function (t, f, a, x) {
+         if (!document.getElementById(x)) {
+            t.async = 1;t.src = a;t.id=x;f.parentNode.insertBefore(t, f);
+         }
+  }(document.createElement('script'),
+  document.getElementsByTagName('script')[0],
+  '//cdn.taboola.com/libtrc/unip/1457079/tfa.js',
+  'tb_tfa_script');
+</script>
+<!-- End of Taboola Pixel Code -->
+    
+{% comment %} Microsoft Clarity Start {% endcomment %}
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "grcexddkgj");
+</script>
+{% comment %} Microsoft Clarity End {% endcomment %}  
+    
+  </head>
+  <body>
+    {{ skip_to_content_link }}
+
+    <header class="banner" data-header role="banner">
+      <div class="wrap">
+        {{ content_for_logo }}
+      </div>
+    </header>
+
+    {{ order_summary_toggle }}
+    <div class="content" data-content>
+      <div class="wrap">
+        <div class="main">
+          <header class="main__header" role="banner">
+            {{ content_for_logo }}
+            {{ breadcrumb }}
+            {{ alternative_payment_methods }}
+          </header>
+          <main class="main__content" role="main">
+            {{ content_for_layout }}
+          </main>
+          <footer class="main__footer" role="contentinfo">
+            {{ content_for_footer }}
+          </footer>
+        </div>
+        <aside class="sidebar" role="complementary">
+          <div class="sidebar__header">
+            {{ content_for_logo }}
+          </div>
+          <div class="sidebar__content">
+            {{ content_for_order_summary }}
+          </div>
+        </aside>
+      </div>
+    </div>
+
+<script>
+    var current_url = window.location.href;
+    var pixeld1 = '<img src="https://secure.adnxs.com/px?id=1624245&seg=31383701&redir='+ current_url +'&t=2" width="1" height="1" />';
+    var pixeld2 = '<img src="https://ad.doubleclick.net/ddm/activity/src=12406422;type=stand0;cat=bomba003;u1='+ current_url +';u2=[referer];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;npa=;gdpr=${GDPR};gdpr_consent=${GDPR_CONSENT_755};ord=1?" width="1" height="1" alt=""/>';
+$("body").append(pixeld1);
+    $("body").append(pixeld2);
+  </script>
+
+    {% comment %} Move phone input under name inputs and move country selector under address inputs {% endcomment %}
+<script>
+if (Shopify.Checkout.step === 'contact_information') {
+  document.addEventListener("DOMContentLoaded", function() {
+    const plusAddressFields = document.querySelector('[data-address-fields]');
+    const plusCountrySelector = document.querySelector('[data-address-field="country"]');
+    const plusPhoneInput = document.querySelector('[data-address-field="phone"]');
+    const plusAddressInput = document.querySelector('[data-address-field="address1"]');
+    plusAddressFields.appendChild(plusCountrySelector);
+    plusAddressFields.insertBefore(plusPhoneInput, plusAddressInput);
+  });
+}
+</script>
+   
+
+    {{ tracking_code }}
+    <script type="text/javascript" src="{{ 'checkout-phone-validation.js' | asset_url }}"></script>
+
+  <script>
+    var url =
+        "https://s3.ap-south-1.amazonaws.com/cdn.limechat.ai/packs/js/whatsapp_widget/LC_whatsapp_widget.js";
+    var s = document.createElement("script");
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = url;
+    s.onload = function () {
+      var whatsAppBtn = new LimeChatWhatsapp({
+        phone: "917419023569",
+        prefill_text: "Hey, Let’s chat about BSC Women.",
+        button_message_mobile: "Chat with us",
+        button_message_desktop: "Chat with us",
+        display_on: "both",
+        widget_type_desktop: "icon",
+        widget_type_mobile: "icon",
+        display_size_desktop: 44,
+        position_desktop: "right",
+        bottom_margin_desktop: 48,
+        left_margin_desktop: 48,
+        right_margin_desktop: 48,
+        display_size_mobile: 44,
+        position_mobile: "right",
+        bottom_margin_mobile: 24,
+        left_margin_mobile: 24,
+        right_margin_mobile: 24,
+        show_pop_up: true,
+        pop_up_message_position: "side",
+        pop_up_message_text: "Hey, Let's chat!",
+        pop_up_image: " ",
+        pop_up_delay: 3,
+        pdp_prefill_text: "Hey! I would like to know about ",
+        pages_to_display:["homepage","cart","blogs","products","collections","checkout","pages"],
+        isShopify: true  
+      });
+      whatsAppBtn.renderButton();
+    };
+    var x = document.getElementsByTagName("script")[0];
+    x.parentNode.insertBefore(s, x);
+    </script>    
+    <script src="{{ 'pin-code-list.js' | asset_url }}"></script>
+    <script src="{{ 'pin-code-validator.js' | asset_url }}"></script>
+    {{ 'flits_checkout.js' | asset_url | script_tag }}
+  </body>
+</html>

@@ -1,0 +1,19 @@
+<style>
+  .main-aplus {display: block;position: relative; max-width: 100%;}
+  .clid-aplus {max-width: 100%;padding: 17px 0;width: 1000px;margin: 0 auto;display: flex;flex-direction: row;justify-content: space-between;align-items: center;}
+  .aplus_content {width: 65%;}
+  .aplus_image{width:30%}
+  @media(max-width:450px){
+    .clid-aplus{flex-direction:column-reverse;padding:0}
+    .aplus_content {width: 100%;padding:0 10px}
+    .aplus_content h2 {font-size: 31px;text-align: center;}
+    .aplus_content p {font-size: 16px;text-align: center;}
+    .aplus_image{width:100%}
+    .aplus_image h2 {text-align: center;}
+  }
+</style>
+{% if product.metafields.global.html_aplus != 'blank' %}
+<div class="main-aplus">
+  <div class="aplus-start">{{ product.metafields.global.html_aplus }}</div>
+</div>
+  {% endif %}

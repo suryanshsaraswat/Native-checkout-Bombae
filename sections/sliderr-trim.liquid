@@ -1,0 +1,59 @@
+<style>
+  .mob_slide .slick-slide{margin: 0 -20px; transform:scale(0.8);filter:grayscale(1);}
+  .parent_mob{display:none;}
+  .mob_slide{display:none;}
+  @media (max-width:500px){
+    .parent_mob{position:relative; display:block;}
+    img.prev {position: absolute;top: 42%;right: 5px;}
+    img.next {position: absolute;top: 42%;left: 5px;transform: rotate(180deg);}
+    .desktopp{display:none;}
+    .mob_slide{display:block;margin-bottom: 4%!important;}
+    img.prev:hover{transform: scale(1.2);}
+    img.next:hover{transform: rotate(180deg)scale(1.2)}
+    .mob_slide.slick-slide{transform:scale(0.8);}
+    .mob_slide .slick-slide.slick-active{transform: scale(1.01);position: relative; z-index:9; filter:none;}
+    
+    
+  }
+</style>
+<div class="desktopp">
+  <img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/Web7_1.jpg?v=1662361402" loading="lazy">
+</div>
+<h2 class="mob_he"></h2>
+<div class="parent_mob">
+  <div class="mob_slide">
+  <img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/Copy_of_how-to-use-1.jpg?v=1668772282" loading="lazy" style="width:100%">
+  <img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/Copy_of_how-to-use-2.jpg?v=1668772282" loading="lazy" style="width:100%">
+  <img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/Copy_of_how-to-use-3.jpg?v=1668772282" loading="lazy" style="width:100%">  
+</div>
+  <img class="next" src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/arrow-right_3.png?v=1666439725" loading="lazy">
+  <img class="prev" src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/arrow-right_3.png?v=1666439725" loading="lazy">
+</div>
+
+<script>
+  $('.mob_slide').slick({
+    dots: false,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    infinite: true,
+    arrows: true,
+    prevArrow: $('.next'),
+    nextArrow: $('.prev'),
+        centerPadding: '100px',
+    centerMode: true
+  });
+
+  
+</script>
+{% schema %}
+  {
+    "name": "trim slide",
+    "settings": [],
+    "presets":[
+      {
+        "name": "trim slide",
+        "category": "product"
+      }
+    ]
+  }
+{% endschema %}

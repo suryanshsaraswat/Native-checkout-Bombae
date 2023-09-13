@@ -1,0 +1,51 @@
+<style>
+  .htu-description {
+    max-width: 100%;
+    width: 700px;
+    margin: 20px auto;
+}
+  .htu-description p {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 500;
+}
+  @media(max-width:450px){
+    .htu-description p {font-size: 15px; text-align: center;font-weight: 500;padding: 0 9px;line-height: 19px;}
+  }
+</style>
+{% for block in section.blocks %}
+<div class="htu-description">
+  <p>{{ block.settings.desc_block }}</p>
+</div>
+{% endfor %}
+{% schema %}
+  {
+    "name": "HTU Description",
+    "settings": [],
+    "blocks":[
+      {
+        "type":"description",
+        "name":"Description-block",
+        "settings":[
+          {
+            "type":"text",
+            "id":"desc_block",
+            "label":"Enter description"
+          }
+        ]
+      }
+    ],
+    "presets":[
+      {
+        "category":"text",
+        "name":"HTU description"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

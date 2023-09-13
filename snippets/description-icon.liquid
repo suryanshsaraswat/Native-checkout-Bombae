@@ -1,0 +1,24 @@
+<style>
+  .pdp-icon-child {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-flow: wrap;
+    width: 100%;
+}
+  .pdp-icon-child img{width:180px}
+  @media(max-width:450px){
+    .pdp-icon-child img{width:120px}
+  }
+</style>
+{% if product.metafields.custom.pdp_icon_1 != blank and product.metafields.custom.pdp_icon_2!= blank and product.metafields.custom.pdp_icon_3!= blank %}
+<div class="pdp-icon">
+  <div class="pdp-icon-child">
+    <img src="{{ product.metafields.custom.pdp_icon_1 | img_url:'master' }}" style="height:auto">
+    <img src="{{ product.metafields.custom.pdp_icon_2 | img_url:'master' }}" style="height:auto">
+    <img src="{{ product.metafields.custom.pdp_icon_3 | img_url:'master' }}" style="height:auto">
+  </div>
+</div>
+  {% else %}
+  <div class="display:none"></div>
+  {% endif %}

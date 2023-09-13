@@ -1,0 +1,70 @@
+<style>
+  .main-aplus {display: block;position: relative; max-width: 100%;}
+  .clid-aplus {max-width: 100%;padding: 17px 0;width: 1000px;margin: 0 auto;display: flex;flex-direction: row;justify-content: space-between;align-items: center;}
+  .aplus_content {width: 65%;}
+  .aplus_image{width:30%}
+  @media(max-width:450px){
+    .clid-aplus{flex-direction:column-reverse;padding:0}
+    .aplus_content {width: 100%;padding:0 10px}
+    .aplus_content h2 {font-size: 31px;text-align: center;}
+    .aplus_content p {font-size: 16px;text-align: center;}
+    .aplus_image{width:100%}
+    .aplus_image h2 {text-align: center;}
+  }
+</style>
+<div class="main-aplus">
+  {%  for block in section.blocks %}
+    {% if block.settings.a_image != 'blank' or block.settings.a_heading != 'blank' or block.settings.a_content != 'blank'  %}
+  <div class="clid-aplus">
+    <div class="aplus_image">
+      <h2><img src="{{ block.settings.a_image | img_url:'master' }}" alt="{{ block.settings.alt_image }}"></h2>
+    </div>
+    <div class="aplus_content">
+      <h2>{{ block.settings.a_heading }}</h2>
+      <p>{{ block.settings.a_content }}</p>
+    </div>
+  </div>
+    {% endif %}
+</div>
+{% endfor %}
+{% schema %}
+  {
+    "name": "HTML A+",
+    "settings": [],
+    "blocks":[
+      {
+        "type":"image",
+        "name":"A+ Block",
+        "settings":[
+          {
+            "type":"image_picker",
+            "id":"a_image",
+            "label":"select image/gif or connect the metafield"
+          },
+          {
+            "type":"text",
+            "id":"alt_image",
+            "label":"enter alt text",
+            "default":"Bombae | hair Removal Re-imagined"
+          },
+          {
+            "type":"text",
+            "id":"a_heading",
+            "label":"Enter Heading"
+          },
+          {
+            "type":"text",
+            "id":"a_content",
+            "label":"Enter text"
+          }
+        ]
+      }
+    ],
+    "presets":[
+      {
+        "category":"product",
+        "name":"HTML A+"
+      }
+    ]
+  }
+{% endschema %}

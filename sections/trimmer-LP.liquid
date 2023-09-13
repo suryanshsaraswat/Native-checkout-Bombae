@@ -1,0 +1,205 @@
+<style>
+  .mx-product-slider {
+    display: flex;
+    justify-content: center;
+}
+  @keyframes swipeRight{
+    0%{transform:translateX(0);}
+    25%{transform:translateX(-20px);}
+    50%{transform:translateX(0);}
+    75%{transform:translateX(-20px);}
+    100%{transform:translateX(0);}
+  }
+  @media(max-width:500px){
+    .mx-product-slider {
+    display: flex;
+    justify-content: flex-start;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-padding: 20px;
+    width: 100%;
+    padding: 20px;  
+    animation: swipeRight 2s cubic-bezier(0.22, 0.61, 0.36, 1);
+    transition: 0.4s;
+}
+    .slidec {
+    margin: 15px 20px;
+    flex: 100% 0 0;
+    scroll-snap-align: start;
+}
+  }
+  .ofr img {width: 18px;margin-right: 5px;}
+  .ofr p {margin-bottom: 0;color: white;font-size: 15px; }
+  .ofr {justify-content: center;align-items: center;display: flex;text-align: center;margin-top: -12px;font-size: 11px;margin-bottom: 0;background: #b676b2;border-radius: 10px 10px 0px 0px;}
+  .nt_label.new.trp { width: 77px;position: absolute;border-radius: 17px 3px;top: 18px;box-shadow: 5px 2px 11px 1px #adabb1c9;background-color:#b676b2; display:none}
+  span.rainboww{background: #C3E8BA;background: repeating-radial-gradient(circle farthest-side at right center, #C3E8BA 0%, #E0C6BA 33%, #E2B5BF 52%, #D9A9CE 68%, #99A6F0 84%, #CAA6DD 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
+  body{background:#fff}
+  .slidec{margin:20px;}
+  a.button.button_primary.js_addtc.atccr{border-radius:10px}
+  .product-details {padding: 12px 0;box-shadow: 0 0 12px 0 #ccc;border-radius: 15px;margin-top: -25px;position: relative;background: #f5f5f5;}
+  .product-details h2 {font-size: 22px;font-weight: 500;line-height: 1.4;margin: 10px 15px 20px; color: #6b24b2;}
+  .mx-product h1{font-size: 28px;font-weight: 700;margin:4px 0 26px; text-align:center;   color: #6b24b2}
+  .pricediv {font-weight: 500;margin-top: 10px;margin-right: 60px;text-align: center; margin-left: 17px;font-size: 16px;}
+  .pricediv .price-compareat {text-decoration: line-through;text-decoration-color: #0a589b;text-decoration-thickness: 3px;padding-right: 6px;}
+  .pricediv .pridce .priddce {font-weight: 700;display: block;font-size: 20px;}
+  .ArticleItem__Content{text-align:left}
+  .whytrim .desk-cont {margin-top: 25px;border-radius: 15px;box-shadow: 0 0 12px 0 #ccc;}
+  .metaflex{display:flex;flex-flow:wrap}
+  .btncart{width: 40%;text-align:center;margin-left:34px}
+  
+  .product-imagea {position: relative;border-radius: 20px;overflow: hidden;}
+  .product-imagea img{width:100%}
+  .product-imagea:hover .hvx{opacity:1}
+  .hvx {position: absolute;width: 100%;height: 100%;left: 0;top: 0;opacity: 0;transition:0.3s;}
+  .ad_to_cart_coll{margin-top:0!important;padding: 12px 0 !important;}
+  .btncart span.ofr{color: #494949;font-size: 12px;text-align: center;display: block;margin-top: 3px;padding:0 10px; font-family: recoleta-regular}
+  .lft h2 {font-size: 19px;text-align: left; color: #9234ff;}
+  @media(max-width:480px){
+    .product-details h2{font-size:17px}
+    .slidec{margin:8px 10px;}
+    .whytrim{margin-top:10px}
+    .product-details h1 {font-size: 15px;margin: 0;margin-bottom: 5px;text-align: center;margin-top: 8px;}
+    .trimmeta .rating__star {width: 18px;height: 18px;}
+    .verfied img {width: 15px;vertical-align: sub;}
+      .pricediv{margin: 25px 12px;font-size:15px}
+    .btncart {width: 50%;text-align: center;margin-left: 1px;margin-top: 6px;}
+    span.pridce {padding-right: 6px;}
+    a.atccr{margin:10px 0 5px; font-size:15px;}
+    .mx-product {margin-bottom: 32px;}
+    .nt_label.new.trp{font-size:12px; top: 7px;}
+    .pricediv .price-compareat{padding-right:0}
+    .ofr {font-size: 11px;}
+    .imagewithtext .lft, .imagewithtext .rtt{width:100%!important}
+    .lft{order:2}
+    .rtt{order:1}
+    .imagewithtext .lft{padding:0 19px!important}
+    .lft h2 {font-size: 16px;text-align: center; color: #9234ff;}
+  }
+
+/*   SWIPE LEFT CSS */
+</style>
+<div class="mx-product">
+<h1 class="clickkablee">For hair there and<br>just about <span class="rainboww">Everywhere</span></h1>
+  {% if product.compare_at_price > product.price %}
+      <div class="nt_label new">{{ product.compare_at_price | minus: product.price | times: 100 | divided_by: product.compare_at_price | replace: '0,', ''| append: "% OFF"}}</div>
+{% endif %}
+      <div class="mx-product-slider">
+        
+        {%- for block in section.blocks -%}
+{%- assign product = all_products[block.settings.featured_product] -%}
+{% assign current_variant = product.selected_or_first_available_variant %}
+        <div class="slidec">
+          <a href="{{ product.url }}">
+          <div class="product-card">
+            {% if product.compare_at_price > product.price %}
+      <div class="nt_label new trp">{{ product.compare_at_price | minus: product.price | times: 100 | divided_by: product.compare_at_price | replace: '0,', ''| append: "% OFF"}}</div>
+            {% endif %}
+            <div class="product-imagea">
+              <img src="{{ block.settings.featured_image | img_url: 'master'}}">
+          <img class="hvx" src="{{ block.settings.featured_image2 | img_url: 'master'}}">
+            </div>
+            <div class="product-details">
+              <div class="ofr"><img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/gift-box.png?v=1666078101"><p>{{ block.settings.offersss }}</p></div>
+              <h2>{{ product.title }}</h2>
+                
+              <div class="metaflex">
+                {%- if product.compare_at_price > product.price -%}
+                <p class="pricediv">MRP <span class="price-compareat">{{ product.compare_at_price | money }}</span> <span class="pridce">{{ product.price | money }}</span></p>
+                  {%- else -%}
+                  <p class="pricediv"><span class="pridce">MRP {{ product.price | money }}</span></p>
+                  {% endif %}
+              <div class="btncart">
+                {%- if product.available -%}
+                <a class="button button_primary js_addtc atccr" data-id="{{ product.selected_or_first_available_variant.id}}">Add to cart</a>
+               {%- else -%}
+                <a class="truncate out_stock button pe_none">Sold Out</a>  
+                  {%- endif -%}
+                  
+              </div>
+              </div>
+            </div>
+          </div>
+          </a>
+        </div>
+        {%- endfor -%}
+      </div>
+  </div>
+<!-- SWIPE LEFT FOR MORE -->
+
+
+<!-- <script>
+     $('.mx-product-slider').slick({
+              slidesToShow: 3,
+              slidesToScroll: 1,
+              centerMode: false,
+              infinite: true,
+       
+       arrows: true,
+			  responsive: [ {
+                breakpoint: 480,
+                settings: {
+                  initialSlide: 1,
+                  centerMode: true,
+                  centerPadding: '40px',
+                  slidesToShow: 1,
+                  settings: 'unslick'
+                }
+              }]
+         
+            });
+
+</script> -->
+<script>
+  $("#shopify-section-template--15675036205251__1661494715d1b3bf77").click(function() {
+    window.scrollTo({top: 650, behavior: 'smooth'});
+});
+  $("#shopify-section-template--15675036205251__1663692558a3117f93").click(function() {
+    window.scrollTo({top: 650, behavior: 'smooth'});
+});
+</script>
+<script>
+  $(".clickkablee").click(function() {
+    window.scrollTo({top: 2400, behavior: 'smooth'});
+});
+</script>
+{% schema %}
+  {
+    "name": "Trimmer block",
+    "settings": [],
+    "blocks": [
+      {
+        "type": "Product",
+        "name": "Product Slider",
+        "settings": [
+          {
+            "type": "product",
+            "id": "featured_product",
+            "label": "Select Product"
+          },
+          {
+            "type": "image_picker",
+            "id": "featured_image",
+            "label": "Upload Image"
+          },
+           {
+            "type": "image_picker",
+            "id": "featured_image2",
+            "label": "Upload Back Image"
+          },
+          {
+            "type": "text",
+            "id":"offersss",
+            "label": "write your offer here"
+          }
+        ]
+      }
+	],
+    "presets": [
+	  {
+		"name": "trimmer Slider",
+		"category": "Product"
+		
+      }
+	]
+  }
+{% endschema %}

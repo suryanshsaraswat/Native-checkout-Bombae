@@ -1,0 +1,32 @@
+<div class="pdp_tag_container">
+  {% for tag in product.tags %}
+          {% if tag == 'icon-securepayment' %}
+              <img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/1_a369800b-2707-4ea3-aa65-de52fda8f9db_200x.png">
+  {% elsif tag == 'icon-tested' %}
+          <img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/10_200x.png?v=1653287113">
+  {% elsif tag == 'icon-warranty' %}
+          <img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/8_200x.png?v=1650618609">
+  {% elsif tag == 'icon-wasteless' %}
+          <img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/7_200x.png?v=1650609123">        
+  {% elsif tag == 'icon-sustainable' %}
+          <img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/6_9924055f-daa0-4b3b-b3a8-160569dbfa2a_200x.png?v=1650609123">
+  {% elsif tag == 'icon-safe' %}
+          <img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/5_c7fed0c6-86d8-4b51-87a2-208dd2b7e3a7_200x.png?v=1650609123">
+  {% elsif tag == 'icon-helpcenter' %}
+          <img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/2_d4e69862-ef4c-49d9-9c67-8a9ee1fd693a_200x.png?v=1650609123">
+  {% elsif tag == 'icon-refund' %}
+          <img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/3_b196d629-90b4-460a-a237-2081336a1122_200x.png?v=1650609123">
+  
+  {% elsif tag == 'icon-paraben' %}
+          <img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/8_1_200x.png?v=1653287113">
+  {% elsif tag == 'icon-cruelty' %}
+          <img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/9_200x.png?v=1653287113">
+  {% elsif tag == 'icon-sls' %}
+          <img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/11_200x.png?v=1653287113">
+  
+  
+      {% else %}
+              <div class="display_none"></div>
+          {% endif %}
+      {% endfor %}
+  </div>

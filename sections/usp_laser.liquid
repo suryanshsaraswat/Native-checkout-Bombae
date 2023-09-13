@@ -1,0 +1,180 @@
+<style>
+  @font-face {
+      font-family: Recoleta-Black;
+      src: url("https://cdn.shopify.com/s/files/1/0577/1368/8771/files/Recoleta-Black.ttf?v=1658817151") format("woff");
+      src: url("https://cdn.shopify.com/s/files/1/0577/1368/8771/files/Recoleta-Black.woff2?v=1658817151") format("woff");
+      src: url("https://cdn.shopify.com/s/files/1/0577/1368/8771/files/Recoleta-Black.ttf?v=1658817151") format("opentype");
+  }
+#shopify-section-template--15642118848707__1658135923d6c26ef2 .frontz p{margin-bottom:0;}
+.contentzz {
+  display: flex;
+  margin: 0 auto;
+  justify-content:center;
+  align-items:center;
+  max-width: 1200px;
+}
+.card1 {
+  
+  cursor: pointer;
+  width: 50%;
+  height:400px;
+  perspective: 1000px;
+  margin: 1rem;
+  position: relative;
+}
+.card2 {
+  
+  cursor: pointer;
+  width: 50%;
+  height:400px;
+  perspective: 1000px;
+  margin: 1rem;
+  position: relative;
+}
+
+@media(max-width: 480px) {
+  .contentzz{flex-flow:wrap;}
+  .card1 {
+    width: 100%;
+    height:220px;
+  }
+  .card2{width:100%; height:220px;}
+
+  #shopify-section-template--15642118848707__1658135923d6c26ef2 .backz p{font-size:15px!important;}
+  #shopify-section-template--15642118848707__1658135923d6c26ef2 ul {font-size:11px!important;}
+
+}
+
+.frontz,
+.backz {
+  display: flex;
+  border-radius: 6px;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition: ease-in-out 600ms;
+}
+
+.frontz {
+  background-size: cover;
+  padding: 2rem;
+  font-size: 1.618rem;
+  font-weight: 600;
+  color: #fff;
+  overflow: hidden;
+  font-family: Poppins, sans-serif;
+}
+.frontz:before {
+  position: absolute;
+  display: block;
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.25;
+  z-index: -1;
+}
+.card1:hover .frontz {
+  transform: rotateY(180deg);
+}
+.card2:hover .frontz {
+  transform: rotateY(180deg);
+}
+
+.card1:nth-child(even):hover .frontz {
+  transform: rotateY(-180deg);
+}
+.card2:nth-child(even):hover .frontz {
+  transform: rotateY(-180deg);
+}
+
+.backz {
+  background: rgb(127,32,160);
+  background: linear-gradient(270deg, rgba(127,32,160,.5) 0%, rgba(251,249,255,.3) 60%);
+  transform: rotateY(-180deg);
+  padding: 0 2em;
+}
+.card1:hover .backz {
+  transform: rotateY(0deg);
+}
+
+.card1:nth-child(even) .backz {
+  transform: rotateY(180deg);
+}
+.card2:nth-child(even) .backz {
+  transform: rotateY(180deg);
+}
+
+.card1:nth-child(even) .backz .button {
+  backzground: linear-gradient(135deg, #e61a80, #e61a3c);
+}
+
+.card2:nth-child(even) .backz .card1:nth-child(even):hover .backz {
+  transform: rotateY(0deg);
+}
+.card2:nth-child(even):hover .backz {
+  transform: rotateY(0deg);
+}
+#shopify-section-template--15642118848707__1658135923d6c26ef2 ul{
+  font-size:15px;
+  color:#7428AB;
+  text-align:left;
+}
+  #shopify-section-template--15642118848707__1658135923d6c26ef2 .backz p{font-size:20px;text-align:left;color:#7428AB;}
+
+
+</style>
+<div class="contentzz">
+  <div class="card1">
+    <div class="frontz" style="background-image: url(https://cdn.shopify.com/s/files/1/0577/1368/8771/files/Frame_1_2.png?v=1657708731)">
+      <p>Laser hair reduction</p>
+    </div>
+    <div class="backz">
+      <div>
+        <p>Laser hair reduction is a professional procedure to permanently reduce unwanted body hair</p>
+        <ul>
+          <li>use US-FDA approved soprano platinum machine</li>
+          <li>ensure upto 80% safe and painless hair reduction</li>
+          <li>leaves a silky smooth skin</li>
+        </ul>
+      </div>
+    </div></div>
+  <div class="card2">
+    <div class="frontz" style="background-image: url(https://cdn.shopify.com/s/files/1/0577/1368/8771/files/Frame_3_1.png?v=1657708756)">
+      <p>Skin brightening</p>
+    </div>
+    <div class="backz">
+      <div>
+        <p>Powered by scientific beauty, we have professional skin clarity peels and q-switch laser</p>
+        <ul>
+          <li>works effectively on blemishes,discolouration</li>
+          <li>visibly reduces mild scars, pigmentation</li>
+          <li>enjoy long-lasting results</li>
+        </ul>
+      </div>
+    </div></div>
+    
+</div>
+
+{% schema %}
+{
+  "name": "USP",
+  "class": "usp_laser",
+  "settings": [],
+  "presets": [
+      {
+        "name": "USP",
+        "category": "image"
+      }
+    ]
+}
+{% endschema %}

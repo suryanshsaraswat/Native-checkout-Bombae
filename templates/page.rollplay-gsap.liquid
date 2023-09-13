@@ -1,0 +1,276 @@
+
+<style>
+  .main-banner-rollplay {position: relative;display: block;}
+  .main-banner-mob{display:none}
+  p.rolll {text-align: center;font-size: 20px;text-transform: uppercase;font-weight: 500;margin:0 10px; color:#6b24b2}
+  .roll-txt {width: 100%;display:flex;background-image: url('https://cdn.shopify.com/s/files/1/0577/1368/8771/files/holo-strip.jpg?v=1679647897');align-items: center;justify-content: center;cursor:pointer;background-position:center center;}
+  .roll-txtt {width: 100%;display:flex;background-image: url('https://cdn.shopify.com/s/files/1/0577/1368/8771/files/holo-strip.jpg?v=1679647897');align-items: center;justify-content: center;cursor:pointer;background-position:center center;}
+  img.mobb{display:none}
+  .roll{margin-top:10px}
+  .test-flex {display: flex;flex-direction: row;justify-content: center;align-items: center;}
+  .flex-1 img {box-shadow: 2px 2px 3px 0px #6b24b259;padding: 9px;border-radius: 40px;border: 1px dashed #6b24b26e;}
+  .flex-1 {padding: 16px;}
+  .roll-testimonials h1 {font-size: 37px;text-align: center;color: #6b24b2;letter-spacing: 0.8px;margin-bottom: 16px;}
+  .roll-testimonials {margin: 16px 0;}
+  .accordion-container{position:relative;max-width:1200px;height:auto;margin:50px auto;padding: 0 30px;}
+  .accordion-container > h2{text-align:center;color:#6b24b2 ;margin-bottom:10px;padding-bottom:10px;font-size: 35px;}
+  .set {position: relative; width: 100%; height: auto; margin-bottom: 20px; border-radius: 15px; padding: 20px 30px; box-shadow: 0px 0px 0px 2px #e5e3e3}
+  .set::before{transition:0.2s;position:absolute;content:""; width:50px;height:40px;background:url(https://cdn.shopify.com/s/files/1/0577/1368/8771/files/wing.png?v=1654709422);left:-35px; top:-20px;background-size:100%;background-repeat:no-repeat;background-position: center center; opacity:0}
+  .set.active::before{opacity:1}
+  .set > a{width:80%;display:block;text-decoration:none;color:#6b24b2 ;font-weight:600;-webkit-transition:all .2s linear;-moz-transition:all .2s linear;transition:all .2s linear;}
+  .set > a i{float: right;background: #f2e7f7 ; padding: 8px; border-radius: 50%;position: absolute; right: 20px; top: 18px;}
+  .set.active{background: #fdf0ff ; box-shadow: 0px 0px 10px 0px #cdcdcd;}
+  .content{display:none}
+  .content p{padding:20px 0 0;margin:0;color:#333;}
+  .main-kit-section{margin:15px 0}
+  video.rollplay-vid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 18px;
+    padding: 5px;
+    box-shadow: #6b24b23b 0px 20px 25px -5px, rgb(0 0 0 / 60%) 0px 10px 10px -5px;
+    border: 5px solid #6b24b2;
+    background: #000;
+}
+
+
+  /*MOBILE CSS START*/
+
+  @media(max-width:450px){
+    .main-banner-mob{display:block}
+    .main-banner-desk{display:none}
+    img.mobb{display:block}
+    img.desk{display:none}
+    .kit-img img{transform:scale(0.9); filter:grayscale(1)}
+    .kit-img.slick-slide.slick-current.slick-active img {filter: none;transform: scale(1.0);}
+    .flex-1 img {box-shadow: 2px 2px 3px 0px #6b24b259;padding: 5px;border-radius: 16px;border: 1px solid #6b24b26e;}
+    .flex-1 {padding: 6px;}
+    .roll-testimonials h1 {font-size: 25px;text-align: center;color: #6b24b2;letter-spacing: 0.8px;margin-bottom: 7px;}
+    .roll-testimonials {margin: 7px 0;}
+    .accordion-container{margin:13px auto}
+    .accordion-container h2{font-size:25px}
+    video.rollplay-vid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0px;
+    padding: 5px;
+    box-shadow: none;
+    border: none;
+    background: #000;
+}
+    
+  }
+</style>
+
+
+<!--AOS INSTALL CSS-->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<!--AOS INSTALL CSS-->
+
+<div class="rollplay-lp">
+<!--   BANNER SECTION -->
+  <div class="main-banner-rollplay">
+    <div class="main-banner-desk">
+      <img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/1st-Banner_21cbacea-5c79-49bc-aec3-8090104113a9.jpg?v=1679563467" style="width:100%; height:auto" alt="">
+    </div>
+    <div class="main-banner-mob">
+       <img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/1st-Banner_0d5af052-82f9-4803-8476-ff9defdbebbd.jpg?v=1679563526" style="width:100%; height:auto" alt="">
+    </div>
+  </div>
+  <!--   BANNER SECTION -->
+<!--   PRODUCT SECTION -->
+  {% section 'rollplay-razor-lp' %}
+<!--   PRODUCT SECTION -->
+  <!--   ACCORDIAN SECTION -->
+  <div class="main-ac">
+    <div class="roll">
+      <div class="roll-img">
+      <img class="desk lazyloadt4sed" src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/3rd-banner_1.jpg?v=1679730267" style="width:100%; height:auto"alt="">
+      <img class="mobb lazyloadt4sed" src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/3rd-banner-mobile.jpg?v=1679730267" alt="" style="width:100%; height:auto"></div>
+      <div class="roll-txt">
+      <img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/up-arrow.png?v=1679483096" style="width:15px;height:15px"><p class="rolll">roll</p><img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/up-arrow.png?v=1679483096"style="width:15px;height:15px"></div>
+    </div>
+    <div class="roll">
+      <div class="roll-txtt">
+      <img class="lazyloadt4sed" src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/up-arrow.png?v=1679483096" style="width:15px;height:15px;transform: rotate(180deg);"><p class="rolll">PLAY</p><img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/up-arrow.png?v=1679483096"style="width:15px;height:15px;transform: rotate(180deg);"></div>
+      <div class="roll-imgg">
+      <img class="desk lazyloadt4sed" src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/4th-Banner.jpg?v=1679563867" style="width:100%; height:auto"alt="">
+      <img class="mobb lazyloadt4sed" src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/4th-Banner_b0bc20ce-b27d-4f04-8f5a-0dea3e3e2876.jpg?v=1679563942" alt="" style="width:100%; height:auto"></div>
+    </div>
+  </div>
+  <!--   ACCORDIAN SECTION -->
+  <!--   PRODUCT STUFF SECTION -->
+  <div class="main-kit-section">
+    <div class="kit-img">
+      <img class="desk lazyloadt4sed" src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/1_6d3db2b7-bd4f-4cc0-a61e-bbe52910c1cc.png?v=1679497760" alt="" style="width:100%; height:auto">
+    </div>
+     <div class="kit-img">
+       <img class="desk lazyloadt4sed" src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/2_cd903508-1da4-41e2-956c-273068ab8aa6.png?v=1679564025" alt="" style="width:100%; height:auto">
+    </div>
+     <div class="kit-img">
+       <img class="desk lazyloadt4sed" src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/3_55ca7ac1-f1e3-499f-962f-f6dcc9d55209.png?v=1679564025" alt="" style="width:100%; height:auto">
+    </div>
+  </div
+  <!--   PRODUCT STUFF SECTION -->
+  <!--VIDEO SECTIOn-->
+  <video class="rollplay-vid lazyloadt4sed" autoplay muted loop>
+    <source src="https://cdn.shopify.com/videos/c/o/v/438c82f517a14103b3ec1de579e7818b.webm">
+  </video>
+  <!--VIDEO SECTIOn-->
+  <!-- TESTIMONIALS SECTIONS -->
+  <div class="roll-testimonials lazyloadt4sed">
+    <h1>hear from our baes</h1>
+    <div class="test-flex">
+      <div class="flex-1">
+        <img class="desk lazyloadt4sed" src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/1_f4546e59-fd30-4689-847b-56110ffc51c7.png?v=1679565247" alt="" style="width:100%; height:auto">
+        <img class="mobb lazyloadt4sed" src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/1_88de6cd9-b907-470c-90d4-45efb0d36435.png?v=1679565440" alt="" style="width:100%; height:auto">
+      </div>
+      <div class="flex-1">
+        <img class="desk lazyloadt4sed" src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/2_632196b9-acbd-46a4-b36e-5feb771bd6a8.png?v=1679565247" alt="" style="width:100%; height:auto">
+        <img class="mobb lazyloadt4sed" src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/2_da734ca1-87f9-4b0c-805d-a705850e9434.png?v=1679565439" alt="" style="width:100%; height:auto">
+      </div>
+      <div class="flex-1">
+        <img class="desk lazyloadt4sed" src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/3_d3b257ae-0f9d-4f48-9997-8da072b006b3.png?v=1679565247" alt="" style="width:100%; height:auto">
+        <img class="mobb lazyloadt4sed" src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/3_3e5096d1-1941-4921-8b7d-10d4d5cf53d9.png?v=1679565440" alt="" style="width:100%; height:auto">
+      </div>
+    </div>
+  </div>
+  <!-- TESTIMONIALS SECTIONS -->
+  <!-- FAQ section -->
+  <div class="accordion-container lazyloadt4sed">
+  <h2>for the truth seekers</h2>
+  <div class="set active" data-aos="fade-up">
+    <a href="#">
+      How to get started on body shaving for beginners??
+      <i class="fa fa-plus"></i>
+    </a>
+    <div class="content" style="display:block">
+      <p>Hey newbie! To begin with exfoliate the desired area of shaving. Then prep your skin with soap and water. Gently shave in the opposite direction of hair growth. Complete with a post-shave balm and moisturiser.</p>
+    </div>
+  </div>
+  <div class="set" data-aos="fade-up"  data-aos-delay="50">
+    <a href="#">
+     Why is there a roller on the razor?
+      <i class="fa fa-plus"></i>
+    </a>
+    <div class="content">
+      <p>The unique roller design is powered by rola-tek technology for super smooth shaves, especially around tricky areas. </p>
+    </div>
+  </div>
+  <div class="set" data-aos="fade-up"  data-aos-delay="100">
+    <a href="#">
+      Is the razor suitable for all skin types?
+      <i class="fa fa-plus"></i>
+    </a>
+    <div class="content">
+      <p>Hell yeah! Infact, the razor is best suited for sensitive skin</p>
+    </div>
+  </div>
+  <div class="set" data-aos="fade-up"  data-aos-delay="150">
+    <a href="#">
+     How to get started on body shaving for beginners?
+      <i class="fa fa-plus"></i> 
+    </a>
+    <div class="content">
+      <p>Hey newbie! To begin with exfoliate the desired area of shaving. Then prep your skin with soap and water. Gently shave in the opposite direction of hair growth. Complete with a post-shave balm and moisturiser.</p>
+    </div>
+  </div>
+    <div class="set" data-aos="fade-up"  data-aos-delay="150">
+    <a href="#">
+      How do I keep the cartridge from getting gooey?
+      <i class="fa fa-plus"></i> 
+    </a>
+    <div class="content">
+      <p>Simple! Our cartridge is infused with essential oils and aloe that can get gooey when left face down, which is where our wall-holder comes in. Hanging up your razor allows it to be dry and rust-free.</p>
+    </div>
+  </div>
+    <div class="set" data-aos="fade-up"  data-aos-delay="150">
+    <a href="#">
+      How do i know it 's time to replace the cartridge?
+      <i class="fa fa-plus"></i> 
+    </a>
+    <div class="content">
+      <p>It is a good practice, to replace the cartridge after 5-7 uses or when you see dull blades, whichever is sooner.</p>
+    </div>
+  </div>
+</div>
+<!--FAQ section -->
+</div>
+<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+<!--AOS SCRIPT INSTALLATION -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<!--AOS SCRIPT INSTALLATION -->
+<script>
+  $(document).ready(function(){
+  $(".roll-txt").click(function(){
+    $(".roll-img").slideToggle(1000);
+  });
+    $(".roll-txtt").click(function(){
+      $(".roll-imgg").slideToggle(1000);
+    })
+});
+</script>
+<script>
+  $('.main-kit-section').slick({
+    slidesToShow:3,
+    dots: false,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    infinite: true,
+    arrows: false,
+    responsive:[
+      {
+        breakpoint:500,
+        settings:{
+          slidesToShow:1,
+          arrows: false,
+    centerPadding: '100px',
+    centerMode: true
+        }
+      }
+    ]
+  });
+</script>
+<script>
+  $(document).ready(function() {
+
+  $(".set").on("click", function(e) {
+    e.preventDefault();
+    if ($(this).hasClass("active")) {
+      $(this).removeClass("active");
+      $(this)
+        .children(".content")
+        .slideUp(200);
+      $(".set > a i")
+        .removeClass("fa-minus")
+        .addClass("fa-plus");
+    } else {
+      $(".set > a i")
+        .removeClass("fa-minus")
+        .addClass("fa-plus");
+      $(this)
+        .find("i")
+        .removeClass("fa-plus")
+        .addClass("fa-minus");
+      $(".set").removeClass("active");
+      $(this).addClass("active");
+      $(".content").slideUp(200);
+      $(this)
+        .children(".content")
+        .slideDown(200);
+    }
+  });
+});
+</script>
+<script></script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>

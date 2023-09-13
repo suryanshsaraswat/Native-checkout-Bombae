@@ -1,0 +1,69 @@
+<style>
+  .usp-title {position: relative;max-width: 100%;width: 700px;margin: 0 auto;}
+  .usp-title h2 {text-align: center;font-size: 30px;color: #6b24b2;text-transform: lowercase;}
+  
+  .usp-title p{font-size:20px; text-align:center; font-weight:400; text-transform:lowercase;margin: 0;}
+  .slider-child {margin: 0 auto;width: 111px;}
+  .slider-parent {display: block; position: relative; max-width: 100%; width: 1000px; margin: 0 auto;}
+</style>
+<div class="container usp">
+  <div class="usp-title">
+    <h2>Hair Removal, Reimagined for you</h2>
+    <p>Hi, we're Bombae.</p>
+    <p>We exist to re-imagine hair removal experience for the bold, badass women of today</p>
+  </div>
+  
+  <div class="slider-parent">
+    {%- for block in section.blocks -%}
+    <div class="slider-child">
+      <img src="{{ block.settings.USP_images  | img_url:'master'}}" style="width:200px;height:auto">
+    </div>
+    {% endfor %}
+  </div>
+    
+  </div>
+</div>
+<script>
+  $('.slider-parent').slick({
+              slidesToShow: 3,
+              slidesToScroll: 1,
+              centerMode: false,
+              infinite: true,
+			  responsive: [ {
+                breakpoint: 480,
+                settings: {
+                  initialSlide: 1,
+                  slidesToShow: 1,
+                  autoplay: true,
+                  autoplaySpeed: 2400,
+                  settings: 'unslick'
+                }
+              }]
+         
+            });
+</script>
+{% schema %}
+  {
+    "name": "USP Slider Homepage",
+    "settings": [],
+    "blocks": [
+    {
+      "type": "product",
+      "name": "USP images",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "USP_images",
+          "label": "USP image"
+        }
+      ]
+    }
+  ],
+    "presets": [
+      {
+        "name": "USP Slider",
+        "category": "product"
+      }
+    ]
+  }
+{% endschema %}

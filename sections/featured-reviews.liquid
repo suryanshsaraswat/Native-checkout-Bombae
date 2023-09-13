@@ -1,0 +1,85 @@
+<style>
+  .consumer-review-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    width: 1200px;
+    margin: 0 auto;
+}
+  .consumer-heading h2{font-size:30px;text-align:center;margin-bottom:0}
+  .review-child {
+    width: 29.3%;
+}
+  .review-child img {
+    width: 100%;
+}
+  @media(max-width:450px){
+    .consumer-review-section {
+    display: flex;
+    justify-content: flex-start;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-padding: 20px;
+    width: 100%;
+    padding: 20px;  
+    transition: 0.4s;
+    }
+    .review-child {
+    margin: 15px 7px;
+    flex: 89% 0 0;
+    scroll-snap-align: start;
+    }
+    .review-child img {
+      width: 100%;
+      border: 5px solid #ddd;
+      border-radius: 32px;
+    }
+    .consumer-heading h2{font-size:30px;}
+  }
+</style>
+<div class="main-section">
+  <div class="consumer-review-main">
+    <div class="consumer-heading">
+      <h2>{{ section.settings.review_heading }}</h2>
+    </div>
+    <div class="consumer-review-section">
+      {% for block in section.blocks %}
+        <div class="review-child">
+          <img src="{{ block.settings.consumer_review_image | img_url:"master" }}" alt_text="consumer review">
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "Featured Consumer Reviews",
+    "settings": [
+      {
+        "type":"text",
+        "id":"review_heading",
+        "label":"Enter Section heading"
+      }
+    ],
+    "blocks":[
+      {
+        "type":"product",
+        "name":"Consumer Review Block",
+        "settings":[
+          {
+            "type":"image_picker",
+            "id":"consumer_review_image",
+            "label":"Select review image"
+          }
+        ]
+      }
+    ],
+    "presets":[
+      {
+        "category":"product",
+        "name":"Featured CConsumer Reviews"
+      }
+    ]
+  }
+{% endschema %}

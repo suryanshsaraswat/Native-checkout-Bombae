@@ -1,0 +1,27 @@
+<div class="fullWidthVideo" >
+     <video id="homevideo" width="100%" height="400" controls="controls" controlsList="nodownload" playsinline="playsinline" preload="metadata" allowfullscreen>
+ 	 <source src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/{{ section.settings.text1 }}" type="video/mp4" id="videoId">
+	</video>
+  </div>
+
+
+{% schema %}
+  {
+    "name": "PDP Video",
+    "settings": [
+		{
+          "type": "text",
+          "id": "text1",
+          "label": "Video Name"
+        }
+],
+	"presets": [
+        {
+          "category": "Text",
+          "name": "PDP Video"
+          
+          
+        }
+      ]
+  }
+{% endschema %}

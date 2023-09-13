@@ -1,0 +1,38 @@
+<style>
+  .checkzipp h2 {font-size: 17px;text-align: left;padding-top: 8px;}
+  
+  .checkzip {display: flex;flex-flow: wrap;margin-bottom: 15px;margin-top: 15px;padding: 13px;border-radius: 10px;padding-top: 0px;}
+  .checkzip .Form__Input{width:55%;margin-right:5%; display:block}
+  .checkzip .Button{width:40%; display:block; cursor:pointer}
+  div#checkPincodeButton {text-align: center;background: #6b24b2;color: #fff;padding-top: 8px;border-radius:20px}
+  .msgg{font-weight:bold;color:#6b24b2;margin: 8px;}
+  input#pincodeInput[placeholder] {text-align: center;}
+  input#pincodeInput {
+    border-radius: 20px;
+}
+  @media(max-width:480px){
+    .checkzip{margin-top:0px}
+  }
+</style>
+<div class="checkzipp">
+  <h2>Check delivery</h2>
+  <div class="checkzip">
+   <input type="text" name="zip" class="Form__Input" id="pincodeInput" placeholder="pincode">
+   <div id="checkPincodeButton" class="Button Button--primary">Check</div>
+  <div class="msgg" style="display:none">Get it delivered in <span class="deldate"></span> days</div>
+</div>
+</div>
+
+<script>
+  $('#checkPincodeButton').click(function() {
+    $.getJSON('//cdn.shopify.com/s/files/1/0459/6563/9834/t/161/assets/pincodes_BSC.json?v=57268606331141587491672642295', function(pincodes) {
+      var enteredPincode = $('#pincodeInput').val();
+      Object.keys(pincodes).forEach(function(key) {
+          if (pincodes[key].Pincode == enteredPincode ) {
+            $('.msgg').show();
+            $('.deldate').text(pincodes[key]["Days to Delivery"])
+          }
+      });
+    });
+  });
+</script>

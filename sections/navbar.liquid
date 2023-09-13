@@ -1,0 +1,82 @@
+<div class="homebar">
+  <ul>
+    {%- for block in section.blocks -%}
+    <li><a target="{{block.settings.open_link}}" href="{{ block.settings.linkurl }}">{{ block.settings.text }}</a></li>
+    {%- endfor -%}
+  </ul>
+</div>
+
+<style>
+/* Homebar below header */
+  .homebar ul li a{color:#6b24b2 }
+  
+ 
+.homebar{text-align:center ;background: url(https://cdn.shopify.com/s/files/1/0577/1368/8771/files/Holographic-Strip_1.jpg?v=1637915974);}
+
+.homebar ul { list-style: none; white-space: nowrap; width: 100%; overflow-x: scroll;  }
+.homebar ul li {color: #1e352e;display: inline-block;padding: 10px 10px;font-size: 11px;font-weight: 500;text-transform:uppercase}
+#shopify-section-navbar.activated{position: fixed;top: 0;z-index: 101;background: #fff;width: 100%;}
+  
+  @media(min-width:480px){.homebar{display:none}}
+</style>
+<script>
+$(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+
+     //>=, not <=
+    if (scroll > 100) {
+        //clearHeader, not clearheader - caps H
+        $("#shopify-section-navbar").addClass("activated");
+    }else{
+    $("#shopify-section-navbar").removeClass("activated");
+    }
+}); 
+</script>
+{% schema %}
+  {
+    "name": "Mobile Navigation Bar",
+    "settings": [],
+    "blocks": [
+        {
+          "type": "testimonial",
+          "name": "Navigation",
+          "settings": [
+            {
+              "type": "text",
+              "id": "text",
+              "label": "Name",
+              "default": "Enter name here",
+              "info": "Enter Name of the Collection up here"
+            },
+            {
+              "type": "url",
+              "id": "linkurl",
+              "label": "Link"
+            },
+			{
+            "type": "select",
+            "id": "open_link",
+            "options": [
+              {
+                "value": "_self",
+                "label": "Current window (_self)"
+              },
+             {
+                "value": "_blank",
+                "label": "New window (_blank)"
+              }
+            ],
+            "label": "Open link in"
+          }
+            
+          ]
+        }
+      ],
+    "presets": [
+      {
+        "name": "6. Navbar",
+        "category": "I. Collections"
+      }
+    ]
+  }
+{% endschema %}

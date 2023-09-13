@@ -1,0 +1,29 @@
+<style>
+  .bits-all {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+        padding: 0 10px;
+}
+  .best-bits {
+    max-width: 100%;
+    width: 700px;
+    margin: 0 auto;
+}
+  .main-headingg {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 19px;
+    font-weight: 700}
+
+  .main-file {
+    background-color: #f4efff;
+
+  .bits-all img {width:25%;}
+  .bits-all h2{width:70%; font-size:15px}
+</style>
+{% if product.metafields.global.product_usp != 'blank' %}
+<div class="main-file">
+   <div class="main-section"> {{ product.metafields.global.product_usp }}</div>
+</div>
+  {% endif %}

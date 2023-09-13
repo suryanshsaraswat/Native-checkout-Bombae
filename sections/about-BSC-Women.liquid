@@ -1,0 +1,107 @@
+
+<div id="about_BscWomen">
+<div class="page-width">
+ <div class= "about-sec">
+<div class="heading">
+  <h1> {{ section.settings.heading | escape }}</h1>
+</div> 
+
+<div class="about-content" id="aa">
+    
+    <div class="first">
+      <img src="{{ section.settings.image1 | img_url: '90x' }}"/> 
+      <p>{{section.settings.text1 }}</p>
+    </div>
+    
+    <div class="first">
+      <img src="{{ section.settings.image2 | img_url: '90x' }}"/> 
+      <p>{{section.settings.text2 }}</p>
+    </div>
+    
+    <div class="first">
+      <img src="{{ section.settings.image3 | img_url:'90x' }}"/> 
+      <p>{{section.settings.text3 }}</p>
+    </div>
+    
+  </div>
+  </div>
+</div>
+</div>
+
+
+
+
+  <script>
+    
+    if($(window).width()<= 600){
+      
+     $('#aa').slick({
+
+     dots: true,
+     infinite: true,
+     arrows:false,
+     speed: 1000,
+     slidesToShow: 1,
+     adaptiveHeight: true,
+     autoplay:false
+    });
+ }
+  
+
+
+
+</script> 
+{% schema %}
+{
+  "name": "about-BSC-Women",
+  "tag": "section",
+  "class": "spaced-section spaced-section--full-width",
+  "settings": [
+     {
+        "type":"text",
+        "id":"heading",
+        "label":"Heading"
+      },
+     {
+      "id": "image1",
+      "type": "image_picker",
+      "label": "first image"
+    },
+ {
+      "id": "image2",
+      "type": "image_picker",
+      "label": "second image"
+    },
+ {
+      "id": "image3",
+      "type": "image_picker",
+      "label": "third image"
+    },
+{
+        "type":"text",
+        "id":"text1",
+        "label":"text1"
+      },
+{
+        "type":"text",
+        "id":"text2",
+        "label":"text2"
+      },
+{
+        "type":"text",
+        "id":"text3",
+        "label":"text3"
+      }
+  ],
+ 
+ "presets": [
+      {
+        "name": "about-BSC-Women",
+        "category": "text",
+        "category": "image_picker"
+      }
+    ]
+}
+{% endschema %}
+
+

@@ -1,0 +1,407 @@
+<style>
+
+  img{width:100%;}
+  #MainContent h2{font-size:40px;font-weight:700!important;}
+  .landingpage div, .landingpage span, .landingpage h1{font-weight:700!important;}
+  .mfk-testi div, .mfk-testi span, .mfk-testi h1{font-weight:700!important;}
+  .mobileImage{display:none;}
+  .fullImage{position:relative}
+
+  .sec{background:#f4f5fa;padding:70px 0}
+  .sec h2, .banns h2, .sec2 h2{color: #6b24b2;}
+
+  .overtext c{color:#e1c6fd}
+  .sec2{background:#d8c2f4;padding:70px 0}
+  .flexbox{display:flex;flex-flow:wrap;}
+  .flexbox .child{width:33.3333%;padding:0 15px}
+  .child{position:relative}
+  .headingz {padding: 40px 0 35px;text-align: center;}
+  .overtext {
+    width: calc(100% - 30px);
+    position: absolute;
+    left: 15px;
+    bottom: 0;
+    transform: translate(0, 0%);
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    min-height: 115px;
+    transition: 0.3s;
+    background: #00000075;
+    padding: 10px 25px;
+  }
+  .overtext span {display: block;font-size: 14px;}
+
+  .banns{padding-bottom:70px;}
+  .banns img{margin-bottom:30px}
+
+  .lookbuk{padding:50px 0;background:#f4e2ff;position:relative;overflow:hidden}
+  .lookbuk h2{color:#6b24b2;font-size:50px}
+  .lookbuk p{font-size:24px;margin-top:30px}
+  .lookbuk .lookpage .card{padding:30px;border-radius:8px}
+  .lookbuk .pricee{color:red;}
+  .lookbuk .lookpage .card .titlee{margin-top:10px}
+  .lookbuk a.btn{animation: pulse .5s linear 1s infinite alternate;transition:0.3s;margin-top:30px;background:#6b24b2;color:#fff;padding:12px 10px;background: #6b24b2; font-size: 16px; min-width: 200px; border-radius: 8px;}
+  .lookbuk li{display:inline-block;list-style:none;text-transform: uppercase;padding: 0 8px;}
+  .lookbuk ul{padding-left:0;}
+  .lookbuk li span{display:block;font-size:30px;color:#603295;font-weight: bold;}
+  .lookbuk a.btn:hover{box-shadow:0 0 12px 0 #0000009c;}
+
+  .lookbuk::before {position: absolute;content: "";width: 620px;height: 1000px;top: 0;right: 0;background: #9f80b4;transform: rotate(30deg);}
+  @keyframes pulse{
+    0%, 100% {transform: scale(1);}
+    50% {transform: scale(1.05);}
+  }
+
+  .faqs{padding:50px 0;}
+  .faqs .page-description .ques-ans .acc .acc-main-title{margin-bottom:20px;margin-top:30px}
+  .acc__card{position:relative;margin-bottom:0}
+  .acc__title{background:#fff;line-height:1.38;color:#000;cursor:pointer;display:block;position:relative;text-align:left;letter-spacing:.33px;border-top:1px solid #aaa;font-size:1rem;padding-top:1.3rem;padding-bottom:1.7rem;padding-right:2.7rem}
+  .acc__title.last-title{border-bottom:1px solid #aaa}
+  .acc__title::after{width:8px;height:8px;border-right:1px solid #000;border-bottom:1px solid #000;position:absolute;right:10px;content:" ";top:17px;transform:rotate(45deg);transition:all .2s ease-in-out}
+  .acc__title.active::after{transform:rotate(-135deg);transition:all .2s ease-in-out}
+  .acc__panel{background:#fff;color:#666;font-size:0.8rem;display:none;margin:0;text-align:left;padding-top:0;padding-bottom:20px}
+
+  .mfk-testi{padding:50px 0;background:#d8c2f4}
+  .mfk-testi h2{color:#6b24b2}
+  .faqs h1{color:#6b24b2}
+  .mfk-testi p.author{font-weight:800;color:#000;}
+  .newsletter h2{color:#6b24b2}
+  .sec .container{max-width:900px}
+
+  .marquee__wrapper[data-v-2d2501c6]{white-space:nowrap;overflow:hidden;background:url(https://cdn.shopify.com/s/files/1/0577/1368/8771/files/Holographic-Strip_1.jpg?v=1637915974);width:100%;color:#6b24b2;text-transform:uppercase;padding:18px 0}
+  .marquee[data-v-2d2501c6]{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:nowrap;flex-wrap:nowrap;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start}
+  .marquee__inner[data-v-2d2501c6]{-webkit-animation:marquee-data-v-2d2501c6 45s linear infinite;animation:marquee-data-v-2d2501c6 45s linear infinite}
+  .marquee__text[data-v-2d2501c6]{display:inline-block;margin-right:5.3em;font-size:18px}
+  @keyframes marquee-data-v-2d2501c6 {
+    0%{-webkit-transform:translateX(0);transform:translateX(0)}
+    100%{-webkit-transform:translateX(-100%);transform:translateX(-100%)}
+  }
+  
+  .countdowndiv{position:absolute;top:20%;width:100%;text-align:center;color:#6b24b2;font-size:40px}
+
+  @media only screen and (max-width:768px){
+    .countdowndiv{top:28%;font-size:25px;padding:0 40px;line-height:1.4;}
+    #MainContent h2 {font-size: 26px;}
+    .flexbox .child {width: 100%;padding: 0 15px 30px;}
+    .lookbuk h2 {font-size: 35px;}
+    .lookbuk a.btn{margin-top:10px;display: block;margin-bottom: 30px;}
+    .lookbuk p{margin-top:10px;font-size:18px}
+    .disktopfullImage { display:none;}
+    .mobileImage { display:block;  }
+    .thumbnail::after{width:25px;height:25px}
+    .thumbnail{width:100px;height:60px;border: 3px solid #fff;}
+    .sec {padding: 30px 0;}
+    .sec2 {padding:30px 0;}
+    .banns{padding-bottom: 30px;}
+    .countdown{text-align:center}
+    .filex img{margin:15px 0}
+    .overtext{bottom:30px}
+    .mfk-testi .filex{text-align:left}
+    .mfk-test{padding:20px!important}
+
+    .newsletter__button{width:100%!important}
+    .sec .container{padding-right: 45px; padding-left: 45px;}
+    .footer-block__newsletter{display:none}
+  }
+</style>
+
+<div class="landingpage">
+    <div class="fullImage">
+      <div class="disktopfullImage">
+        <a href="/products/smoothaf-kit"><img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/smoothAFfection-BANNER_1_Desktop.jpg?v=1638164362"></a>
+      </div>
+      <div class="mobileImage">
+        <a href="/products/smoothaf-kit"><img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/smoothAFfection-BANNER_1_MOBILE.jpg?v=1638164362"></a>
+      </div>
+    </div>
+  <div id="marq" data-v-2d2501c6="" class="marquee__wrapper marquee__wrapper-theme--default"><div data-v-2d2501c6="" class="marquee">
+    <div data-v-2d2501c6="" class="marquee__inner"><span data-v-2d2501c6="" class="marquee__text">
+      Specially curated kit 
+      </span><span data-v-2d2501c6="" class="marquee__text">
+      100% proceeds to charity
+      </span><span data-v-2d2501c6="" class="marquee__text">
+      Assured surprise gifts
+      </span><span data-v-2d2501c6="" class="marquee__text">
+      Specially curated kit 
+      </span><span data-v-2d2501c6="" class="marquee__text">
+      100% proceeds to charity
+      </span><span data-v-2d2501c6="" class="marquee__text">
+      Assured surprise gifts
+      </span><span data-v-2d2501c6="" class="marquee__text">
+      Specially curated kit 
+      </span><span data-v-2d2501c6="" class="marquee__text">
+      100% proceeds to charity
+      </span><span data-v-2d2501c6="" class="marquee__text">
+      Assured surprise gifts
+      </span><span data-v-2d2501c6="" class="marquee__text">
+      Specially curated kit 
+      </span><span data-v-2d2501c6="" class="marquee__text">
+      100% proceeds to charity
+      </span></div>
+    <div data-v-2d2501c6="" class="marquee__inner"><span data-v-2d2501c6="" class="marquee__text">
+      Specially curated kit 
+      </span><span data-v-2d2501c6="" class="marquee__text">
+      100% proceeds to charity
+      </span><span data-v-2d2501c6="" class="marquee__text">
+      Assured surprise gifts
+      </span><span data-v-2d2501c6="" class="marquee__text">
+      Specially curated kit 
+      </span><span data-v-2d2501c6="" class="marquee__text">
+      100% proceeds to charity
+      </span><span data-v-2d2501c6="" class="marquee__text">
+      Assured surprise gifts
+      </span><span data-v-2d2501c6="" class="marquee__text">
+      Specially curated kit 
+      </span><span data-v-2d2501c6="" class="marquee__text">
+      100% proceeds to charity
+      </span><span data-v-2d2501c6="" class="marquee__text">
+      Assured surprise gifts
+      </span><span data-v-2d2501c6="" class="marquee__text">
+      Specially curated kit 
+      </span><span data-v-2d2501c6="" class="marquee__text">
+      100% proceeds to charity
+      </span></div><div data-v-2d2501c6="" class="marquee__inner"><span data-v-2d2501c6="" class="marquee__text">
+    Specially curated kit 
+    </span><span data-v-2d2501c6="" class="marquee__text">
+    100% proceeds to charity
+    </span><span data-v-2d2501c6="" class="marquee__text">
+    Assured surprise gifts
+    </span><span data-v-2d2501c6="" class="marquee__text">
+    Specially curated kit 
+    </span><span data-v-2d2501c6="" class="marquee__text">
+    100% proceeds to charity
+    </span><span data-v-2d2501c6="" class="marquee__text">
+    Assured surprise gifts
+    </span><span data-v-2d2501c6="" class="marquee__text">
+    Specially curated kit 
+    </span><span data-v-2d2501c6="" class="marquee__text">
+    100% proceeds to charity
+    </span><span data-v-2d2501c6="" class="marquee__text">
+    Assured surprise gifts
+    </span><span data-v-2d2501c6="" class="marquee__text">
+    Specially curated kit 
+    </span><span data-v-2d2501c6="" class="marquee__text">
+    100% proceeds to charity
+    </span></div></div></div>
+    
+  <a href="/products/smoothaf-kit">
+  <div class="fullImage">
+    <div id="countdowndiv" class="countdowndiv"></div>
+      <div class="disktopfullImage">
+        <a href="https://mybombae.in/"><img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/AF_BANNER_2_Desktop.jpg?v=1638009639"></a>
+      </div>
+      <div class="mobileImage">
+        <a href="https://mybombae.in/"><img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/AF_BANNER_2_MOBILE.jpg?v=1638009657"></a>
+      </div>
+    </div>
+  </a>
+  
+  {%comment%}
+  <!--  Banner  -->
+  <div class="fullImage">
+    <div class="disktopfullImage">
+      <img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/Alaya-Bday_HP_Desktop.gif?v=1637754661">
+    </div>
+    <div class="mobileImage">
+      <img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/Alaya-Bday_HP_Mobile.gif?v=1637754676">
+    </div>
+
+  </div>
+  {%endcomment%}
+
+  {%comment%}
+  <div id="marq" data-v-2d2501c6="" class="marquee__wrapper marquee__wrapper-theme--default"><div data-v-2d2501c6="" class="marquee">
+    <div data-v-2d2501c6="" class="marquee__inner"><span data-v-2d2501c6="" class="marquee__text">
+      Specially curated kit 
+      </span><span data-v-2d2501c6="" class="marquee__text">
+      100% proceeds to charity
+      </span><span data-v-2d2501c6="" class="marquee__text">
+      Assured surprise gifts
+      </span><span data-v-2d2501c6="" class="marquee__text">
+      Specially curated kit 
+      </span><span data-v-2d2501c6="" class="marquee__text">
+      100% proceeds to charity
+      </span><span data-v-2d2501c6="" class="marquee__text">
+      Assured surprise gifts
+      </span><span data-v-2d2501c6="" class="marquee__text">
+      Specially curated kit 
+      </span><span data-v-2d2501c6="" class="marquee__text">
+      100% proceeds to charity
+      </span><span data-v-2d2501c6="" class="marquee__text">
+      Assured surprise gifts
+      </span><span data-v-2d2501c6="" class="marquee__text">
+      Specially curated kit 
+      </span><span data-v-2d2501c6="" class="marquee__text">
+      100% proceeds to charity
+      </span></div>
+    <div data-v-2d2501c6="" class="marquee__inner"><span data-v-2d2501c6="" class="marquee__text">
+      Specially curated kit 
+      </span><span data-v-2d2501c6="" class="marquee__text">
+      100% proceeds to charity
+      </span><span data-v-2d2501c6="" class="marquee__text">
+      Assured surprise gifts
+      </span><span data-v-2d2501c6="" class="marquee__text">
+      Specially curated kit 
+      </span><span data-v-2d2501c6="" class="marquee__text">
+      100% proceeds to charity
+      </span><span data-v-2d2501c6="" class="marquee__text">
+      Assured surprise gifts
+      </span><span data-v-2d2501c6="" class="marquee__text">
+      Specially curated kit 
+      </span><span data-v-2d2501c6="" class="marquee__text">
+      100% proceeds to charity
+      </span><span data-v-2d2501c6="" class="marquee__text">
+      Assured surprise gifts
+      </span><span data-v-2d2501c6="" class="marquee__text">
+      Specially curated kit 
+      </span><span data-v-2d2501c6="" class="marquee__text">
+      100% proceeds to charity
+      </span></div><div data-v-2d2501c6="" class="marquee__inner"><span data-v-2d2501c6="" class="marquee__text">
+    Specially curated kit 
+    </span><span data-v-2d2501c6="" class="marquee__text">
+    100% proceeds to charity
+    </span><span data-v-2d2501c6="" class="marquee__text">
+    Assured surprise gifts
+    </span><span data-v-2d2501c6="" class="marquee__text">
+    Specially curated kit 
+    </span><span data-v-2d2501c6="" class="marquee__text">
+    100% proceeds to charity
+    </span><span data-v-2d2501c6="" class="marquee__text">
+    Assured surprise gifts
+    </span><span data-v-2d2501c6="" class="marquee__text">
+    Specially curated kit 
+    </span><span data-v-2d2501c6="" class="marquee__text">
+    100% proceeds to charity
+    </span><span data-v-2d2501c6="" class="marquee__text">
+    Assured surprise gifts
+    </span><span data-v-2d2501c6="" class="marquee__text">
+    Specially curated kit 
+    </span><span data-v-2d2501c6="" class="marquee__text">
+    100% proceeds to charity
+    </span></div></div></div>
+  {%endcomment%}
+  
+  
+  {%comment%}<a id="smthsis" href="/products/smoothaf-kit">
+    
+    <div class="fullImage" style="padding-bottom: 20px;background: #d8c2f4;">
+      <div class="disktopfullImage">
+        <img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/smoothAFfection-BANNER_2_1.jpg?v=1637925875">
+      </div>
+      <div class="mobileImage">
+        <img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/smoothAFfection-BANNER_2_MOBILE.jpg?v=1637924255">
+      </div>
+    </div>
+    
+    <div class="fullImage">
+      <div class="disktopfullImage">
+        <img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/smoothAFfection-BANNER_3_1.jpg?v=1637925875">
+      </div>
+      <div class="mobileImage">
+        <img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/smoothAFfection-BANNER_3_mobile.jpg?v=1637924255">
+      </div>
+    </div>
+  </a>{%endcomment%}
+  
+
+  <!--  3 in a row  -->
+  <div class="sec2">
+
+    <div class="flexbox">
+      <div class="child">
+        <a href="/products/smooth-sista-kit"> <img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/SEC_1.jpg?v=1637826947">
+          <div class="overtext"><c>#SmoothAF</c> kit <span>Each purchase of our #SmoothAF kit will not only dazzle your day...</span></div>
+        </a>
+
+      </div>
+      <div class="child">
+        <a href="/products/twister-portable-razor-for-instant-touch-ups"> <img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/SEC_2.jpg?v=1637826947">
+          <div class="overtext">The <c>AF</c> factor <span>...but add spark towards Alaya F's chosen cause... </span></div></a>
+      </div>
+      <div class="child">
+        <a href="/collections/shop-all"><img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/SEC_3.jpg?v=1637826947">
+          <div class="overtext">100% <c>AFfection</c> <span>...of uplifting underprivileged children at Harmony House. </span></div></a>
+      </div>
+
+    </div>
+  </div>
+
+
+
+  
+  
+  
+
+  
+  <div class="faqs">
+    <div class="container">
+    <div class="row">
+      <div class="col-12"><h1 class="main-head">Still got questions?</h1></div>
+    <div class="col-md-5">
+      
+      <video poster="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/Screenshot_2021-11-26_at_8.14.08_PM.png?v=1637937877" width="100%" height="300" controls>
+  <source src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/HH_VIDEO_1_1.mov?v=1637937569" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+    </div>
+      <div class="col-md-7">
+    <div class="acc">
+      
+      <div class="acc__card">
+     <div class="acc__title active">How are we enabling this cause?</div>
+     <div class="acc__panel" style="display:block">We have a #SmoothAFfection partner, Humanitive, who like us, believes in thoughtful and meaningful gifting. They enable fully transparent and commission-free donations to authentic nonprofits catering to various causes in society. For Alaya F and our joint birthday, we chose the cause of Harmony House.</div>
+     </div>
+     <div class="acc__card">
+     <div class="acc__title">What is Harmony House?</div>
+     <div class="acc__panel" style="">Harmony House is an independent charitable organisation registered in India to help underprivileged children. True to its name, it is a full-time community centre for over 550 women and children focusing on their education, health and safety. It aims to provide a safe, fun, educational and a loving environment for all its harmonious residents!</div>
+     </div>
+     <div class="acc__card">
+     <div class="acc__title">How can I be sure of my contribution?</div>
+     <div class="acc__panel" style="">We will donate 100% of the amount you pay towards the kit to Harmony House (non-profit) within 24 hours. In your #SmoothAF kit, you will also find a complete donation kit including: Letter of acknowledgement, Certificate of Appreciation from Humanitive, QR Code to view the donation video, and more information regarding Harmony House and Humanitive.</div>
+     </div>
+     <div class="acc__card">
+     <div class="acc__title">Why choose products from BSC Women?</div>
+     <div class="acc__panel" >Our products are enriched with superfoods that work as a treat for your skin every singlt time. We are a for women, by women enterprise from product to packaging. In fact, we women@BSC test all products on ourselves before we ask you to try them out! </div>
+     </div>
+    <div class="acc__card">
+     <div class="acc__title">Are our products cruelty free?</div>
+     <div class="acc__panel">Hell yes! All of our products are cruelty-free. Our products are also free of SLS, parabens, silicone and any harmful compositions!</div>
+     </div>
+      
+    </div>
+    </div>
+    </div>
+    </div>
+  </div>
+  
+</div>
+
+<script>
+
+  
+  $(function() {
+  $('.acc__title').click(function(j) {
+    var dropDown = $(this).closest('.acc__card').find('.acc__panel');
+    $(this).closest('.acc').find('.acc__panel').not(dropDown).slideUp();
+    if ($(this).hasClass('active')) {
+      $(this).removeClass('active');
+    } else {
+      $(this).closest('.acc').find('.acc__title.active').removeClass('active');
+      $(this).addClass('active');
+    }
+    dropDown.stop(false, true).slideToggle();
+    j.preventDefault();
+  });
+});
+  
+  var countDownDate = new Date("Dec 20, 2021 00:00:00").getTime();
+  var x = setInterval(function() {
+  var now = new Date().getTime();
+  var distance = countDownDate - now;
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  document.getElementById("countdowndiv").innerHTML = "Hurry, only " + days + " Day " + hours + " hrs remaining";
+  
+}, 1000);
+</script>

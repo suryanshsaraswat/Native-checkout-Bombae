@@ -1,0 +1,104 @@
+<style>
+  .htu-hero {
+    display: block;
+    position: relative;
+    max-width: 100%;
+}
+  .htu-hero-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    background:#f4efff;
+    padding: 30px 0;
+}
+  .htu-hero-content h1 {color:#b676b2}
+  .htu-hero-image {
+    width: 30%;
+}
+  .htu-hero-content {
+    width: 60%;
+}
+  .htu-hero-image img {
+    transform: rotate(8deg);
+    animation:bouncyy 3.5s infinite;
+}
+  @keyframes bouncyy{
+    0%{transform:rotate(8deg) translate(0,0px)}
+    25%{transform:rotate(8deg) translate(0,10px)}
+    50%{transform:rotate(8deg) translate(0,0px)}
+    75%{transform:rotate(8deg) translate(0,10px)}
+    100%{transform:rotate(8deg) translate(0,0px)}
+  }
+  @media(max-width:450px){
+    .htu-hero-content {
+      width: 40%;
+    }
+    .htu-hero-content h1 {
+    font-size: 23px;
+    color: #b676b2;
+    }
+    .htu-hero-content h2 {
+    font-size: 16px;
+    margin-top: 0;
+    color: #6b24b2;
+    }
+    .htu-hero-image {
+    width: 50%;
+}
+  }
+</style>
+<div class="htu-hero">
+  {% for block in section.blocks %}
+  <div class="htu-hero-flex">
+    <div class="htu-hero-content">
+      <h1>{{ section.settings.hero_heading }}</h1>
+      <h2>{{ section.settings.hero_subheading }}</h2>
+    </div>
+    <div class="htu-hero-image">
+      <img src="{{ block.settings.hero_image | img_url:'master' }}" alt="alt tag">
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+
+
+{% schema %}
+  {
+    "name": "How to use Hero Banner",
+    "settings": [
+      {
+        "type":"text",
+        "id":"hero_heading",
+        "label":"Enter Page Heading",
+        "default":"Glamourous Shaving Guide"
+      },
+      {
+        "type":"text",
+        "id":"hero_subheading",
+        "label":"Enter Product name"
+      }
+    ],
+    "blocks":[
+      {
+        "type":"product",
+        "name":"Hero banner",
+        "settings":[
+          {
+            "type":"image_picker",
+            "id":"hero_image",
+            "label":"Select product png image"
+          }
+          
+        ]
+      }
+    ],
+    "presets":[
+      {
+        "category":"page",
+        "name":"How to use Hero Banner"
+      }
+    ]
+  }
+{% endschema %}

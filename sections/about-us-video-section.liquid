@@ -1,0 +1,65 @@
+<div class="container-fluid" id="video">
+  <div class="fullWidthVideoWrap">
+  <div class="FullVideotextheading text-center">
+    <h3>
+          <div class="textheadingtop-fullvideo">
+            
+       <span class="text-center">
+         <h2>
+         {{section.settings.textheading}}
+         </h2> 
+           </span>
+      </div>
+      
+      
+      
+    </h3>
+  </div>
+  <div class="fullWidthVideo" >
+     <video id="homevideo" muted width="100%" height="400" loop controls="controls" controlsList="nodownload" autoplay="{{section.settings.autoplay}}"   playsinline="playsinline" preload="metadata" data-aos="fade-up" allowfullscreen>
+ 	 <source src="{{ section.settings.fullwidthvideo }}" type="video/mp4" id="videoId">
+	</video>
+  </div>
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "About us Video",
+    "settings": [
+{
+"id"     : "textheading",
+"type"   : "richtext",
+"label"  : "Text Heading",
+"info"   : "Heading with first two words un-bold",
+"default": "<p>Meet the Beet Tint 2.0</p>"
+},
+{
+"id"      :"fullwidthvideo",
+"type"    :"text",
+"label"   :"Video URL",
+"info"    :"Add link which is located in the shopify",
+"default" : "https://cdn.shopify.com/s/files/1/2018/8867/files/ice.mp4"
+},
+{
+"id": "autoplay",
+"type": "checkbox",
+"label": "Autoplay",
+"default": false
+}
+],
+ "templates": ["page"],
+"presets":[
+{
+"name":"About us Video",
+"category":"Full Width video"
+
+}
+]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

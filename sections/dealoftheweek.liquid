@@ -1,0 +1,173 @@
+<style>
+  .mban{display:none !important}
+  
+  .slick-slide img {width: 100%;}
+  .section--deal-inner{background:#eed4ff;padding-top:40px}
+  .button--full-width {
+    display: block!important;
+    color: #fff;
+    padding: 15px 10px !important;
+    text-align: left;
+    width: 100%;
+    background: #ff8b61 !important;
+    border: none;
+}
+  span.rt {float: right;}
+  span.compat {text-decoration: line-through;padding-right: 5px;color: #f00;}
+  @media(max-width:480px){
+  .dban{display:none!important}
+  .mban{display:block!important}
+  }
+
+.section-deal{padding-bottom:68px}
+.section-deal .deal-title{font-style:normal;font-weight:700;font-size:48px;line-height:1.2;text-align:center;letter-spacing:-.02em;color:#423d99;width:420px;margin:100px auto 70px}
+.section-deal .deal-title span{display:block}
+.section-deal .deal-title svg{top:20px;position:relative}
+.merchandise_contents{display:flex;flex-wrap:wrap;margin-bottom:32px;margin-left:-16px;margin-right:-16px}
+.merchandise_content{max-width:33.33%;flex:33.33%;padding:0 16px 32px;transform:scale(1);transition:all .3s ease}
+.merchandise_content .top_content{position:relative}
+.merchandise_content .top_content img{position:relative;vertical-align:bottom;width:100%}
+.merchandise_content .top_content .remdays{display:none;}
+  .merchandise_content .top_content .remdays img{width:25px}
+  .merchandise_content .shop_title{min-height:85px;font-style:normal;font-weight:700;font-size:24px;line-height:1.2;text-align:left;text-transform:capitalize;color:#252427;margin-bottom:16px}
+.merchandise_section .content_box{height:100%;background-color:#fff;box-shadow:0 5px 18px #000;position:relative;padding-bottom:100px}
+.merchandise_content .bottom_content{background:#fff;padding:30px 36px 26px}
+.merchandise_content .bottom_content .content-rte{margin-bottom:20px}
+.merchandise_content .bottom_content .content-rte .details{display:flex;align-items:flex-start;margin-bottom:15px}
+.merchandise_content .bottom_content .content-rte .details.second{display:flex;align-items:center;margin-bottom:15px}
+.merchandise_content .bottom_content .right h3{font-style:normal;font-weight:500;font-size:14px;line-height:17px;text-align:left;text-transform:uppercase;color:#423D99}
+.merchandise_content .bottom_content .right ul{list-style:none;margin:0;padding:0}
+.merchandise_content .bottom_content .right ul li{font-style:normal;font-weight:400;font-size:12px;line-height:1.2;text-align:left;text-transform:capitalize;color:#423d99;margin-bottom:10px}
+.merchandise_content .bottom_content .button-cart{font-style:normal;font-weight:700;font-size:14px;line-height:20px;text-transform:uppercase;color:#fff;background:#423d99;display:flex;height:58px;background-repeat:no-repeat;padding:0 20px;justify-content:space-between;width:100%;position:relative;line-height:54px;display:flex;align-items:center}
+.merchandise_content .priceadd #compareprice1{margin-right:10px}
+.merchandise_content .bottom_content .button-cart:after{content:"";position:absolute;right:-9px;top:-9px;background:url(addtocartnup.png);background-size:100%;width:32px;height:32px}
+.merchandise_content .bottom_content .button-cart:before{content:"";position:absolute;right:-10px;top:-10px;border-top:20px solid #fff;width:31px;height:31px;border-bottom:20px solid transparent;border-left:20px solid transparent;border-right:20px solid #fff}
+.section-deal .slick-dots li{width:8px;height:8px;border-radius:100%;background:#EBAFAF}
+.slick-dots li button{visibility:hidden}
+.section-deal .slick-dots li.slick-active{background:#D87373}
+footer.site-footer{margin-top:-32px;background:#f1dfdf!important}
+
+@media screen and (max-width: 768px) {
+.section-deal .deal-title{margin:75px auto 20px}
+.section-deal .merchandise_content{margin-top:30px;padding-left:0;padding-right:0;margin-right:15px}
+.section-deal .deal-title span,.section-deal .deal-title svg{display:none}
+.section-deal .deal-title img{display:block!important;width:100%;max-width:212px;margin:0 auto;position:relative;left:-10%;right:0}
+.merchandise_content .bottom_content{padding-left:17px;padding-right:17px;padding-top:30px}
+.merchandise_content .shop_title{font-size:20px;min-height:none}
+.merchandise_content .bottom_content .content-rte .details.second{margin-bottom:30px}
+.merchandise_content .bottom_content .content-rte .details.second .right h3{position:relative;top:7px}
+  .merchandise_content{padding:0 10px 32px;max-width: 100%;
+    flex: 100%;}
+}
+
+</style>
+
+<div class="dotw">
+  <div class="bannerz">
+  <img class="dban" src="{{ section.settings.disktopImage | img_url: 'master' }}" width="100%" height="auto" alt="banner-image">
+  <img class="mban" src="{{ section.settings.mobileImage | img_url: 'master' }}" width="100%" height="auto" alt="banner-image">
+  </div>
+  
+  <div class="section--deal-inner">
+        <div class="container">
+            <div class="merchandise_contents gift_contents slidemfk">  
+              
+              	<!---Item--->
+              {% for block in section.blocks %}
+              {%- assign product = all_products[block.settings.product] -%}
+                <div class="merchandise_content large_padding">
+                    <div class="content_box">
+                        <div class="top_content">
+                            <div class="remdays">
+                              <img src="//cdn.shopify.com/s/files/1/1308/0907/t/122/assets/time.png?v=7619075436055615100" alt=""><span class="remdaysval">1</span> days left
+                             </div>
+                          <a href="{{ product.url }}"><img src="{{product.featured_image  | img_url: '1200x' }}" alt=""></a>
+                        </div>
+                        <div class="bottom_content">
+                          <a href="{{ product.url }}"><h3 class="shop_title">{{ product.title }}</h3></a>
+                            <div class="content-rte">
+                              
+                                <div class="details">
+                                   
+                                    <div class="right">
+                                      {{ block.settings.details }}
+                                          
+                                    </div>
+                                </div>
+                              
+                              
+                            </div>
+                          <form method="post" action="/cart/add">
+  <input name="id" value="{{ product.variants.first.id }}" type="hidden" />
+  <button name="add" type="submit" class="button button--full-width button--primary">Add to Cart <span class="rt"><span class="compat">Rs. {{ product.compare_at_price | divided_by:100 }}</span><span class="prc">Rs. {{ product.price | divided_by:100 }}</span></span></button> 
+</form>
+                          
+                          	
+                        </div>
+                        
+                    </div>
+                </div>
+              {% endfor %}
+              
+              
+              	
+              	
+              
+              	
+              
+            </div>
+        </div>
+    </div>
+  
+</div>
+
+
+
+{% schema %}
+{
+  "name": "Deal of the Week",
+  "settings": [
+   		{
+          "type": "image_picker",
+          "id": "disktopImage",
+          "label": "Desktop Image"
+        },
+        {
+          "type": "image_picker",
+          "id": "mobileImage",
+          "label": "Mobile Image"
+        },
+		{
+          "type": "text",
+          "id": "saledate",
+          "label": "Last Date of Sale"
+        }
+  ],
+"blocks": [
+    {
+      "type": "Slide",
+      "name": "Add Product Details ",
+      "settings": [
+        {
+          "type": "text",
+          "id": "details",
+          "label": "Product Details"
+        },
+        {
+          "type": "product",
+          "id": "product",
+          "label": "Product"
+        },
+        {
+          "id": "buttonLink",
+          "type": "url",
+          "label": "Product Link"
+        }
+        
+      ]
+    }
+   
+  ]
+
+}
+{% endschema %}

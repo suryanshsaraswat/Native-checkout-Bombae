@@ -1,0 +1,74 @@
+<div class="new-annbar">{{section.settings.text }}</div>
+
+<div class="new-annbar-wrapper">
+  <div class="closxe">&times;</div>
+  <h4>Available Offers</h4>
+  <ul>
+    {%- for block in section.blocks -%}
+    <li>
+      
+      <div class="mediaobj">
+      <img width="50" height="50" loading="lazy" src="{{block.settings.image | img_url: '100x' }}">
+        {%- if block.settings.linkurl != blank -%}
+        <a class="oftext" href="{{block.settings.linkurl}}">{{block.settings.Offer }}</a>
+        {%- else -%}
+        <div class="oftext">{{block.settings.Offer }}</div>
+        {%- endif -%}
+        {% if block.settings.coupon != blank %}<div onclick="copyToClipboard(this)" class="copytext">{{block.settings.coupon}}</div>{% endif %}
+      </div>
+      
+    </li>
+        {%- endfor -%}
+    
+  </ul>
+</div>
+
+{% schema %}
+  {
+    "name": "Announcement Bar",
+    "settings": [
+			{
+              "type": "text",
+              "id": "text",
+              "label": "Heading"
+			}
+],
+    "blocks": [
+        {
+          "type": "testimonial",
+          "name": "Offer",
+          "settings": [
+            {
+              "type": "text",
+              "id": "Offer",
+              "label": "Offer Text"
+			},
+			{
+                  "type": "image_picker",
+                  "id": "image",
+                  "label": "Image",
+				  "info": "Use 100px by 100px Image only"
+                },
+			{
+              "type": "text",
+              "id": "coupon",
+              "label": "Coupon (If any)"
+			},
+            {
+              "type": "url",
+              "id": "linkurl",
+              "label": "Link"
+            }
+			
+            
+          ]
+        }
+      ],
+    "presets": [
+      {
+        "name": "6. Navbar",
+        "category": "I. Collections"
+      }
+    ]
+  }
+{% endschema %}

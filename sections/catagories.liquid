@@ -1,0 +1,73 @@
+<style>
+  .catagory{margin-top: 15px;max-width:700px}
+  .rowx{display:flex;flex-flow:wrap;margin-top: 15px;}
+  .colx{width:50%;padding:5px}
+  .catagory img {width: 100%; border-radius: 8px;overflow: hidden;display: block;margin-bottom: 10px;}
+  @media(max-width:480px){
+    .rowx{display:block;white-space: nowrap;overflow-x: scroll;}
+    .colx {width: 50%;display: inline-block;}
+  }
+</style>
+<div class="catagory container">
+  <div class="wrap_title  des_title_2">
+		<h3 class="section-title tc pr flex fl_center al_center fs__24 title_2"><span class="mr__10 ml__10">Explore Categories</span></h3>
+		<span class="dn tt_divider"><span></span><i class="dn clprfalse title_2 la-gem"></i><span></span></span><span class="section-subtitle db tc sub-title"></span>
+		</div>
+  <div class="rowx">
+    {%- for block in section.blocks -%}
+    <div class="colx">
+      <a href="{{ block.settings.linkurl1 }}"><img src="{{ block.settings.image1 | img_url: '300x' }}"></a>
+      <a href="{{ block.settings.linkurl2 }}"><img src="{{ block.settings.image2 | img_url: '300x' }}"></a>
+    </div>
+     {%- endfor -%}
+  
+  </div>
+</div>
+
+{% schema %}
+   {
+    "name": "Catagory Blocks",
+    "settings": [],
+	"blocks": [
+            {
+			  "type": "testimonial",
+              "name": "Blocks",
+              "settings": [
+                {
+                  "type": "image_picker",
+                  "id": "image1",
+                  "label": "Image 1"
+
+                },
+				{
+                  "type": "image_picker",
+                  "id": "image2",
+                  "label": "Image 2"
+
+                },
+                {
+                  "type": "url",
+                  "id": "linkurl1",
+                  "label": "Link 1"
+                },
+{
+                  "type": "url",
+                  "id": "linkurl2",
+                  "label": "Link 2"
+                }
+                
+
+              ]
+            }
+          ],
+    
+	"presets": [
+        {
+          "category": "Product",
+          "name": "Catagory Blocks"
+          
+          
+        }
+      ]
+  }
+{% endschema %}

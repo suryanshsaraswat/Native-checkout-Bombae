@@ -1,0 +1,101 @@
+<style>
+  .accordion-container h2 {font-size: 20px;text-transform: lowercase;text-align: center;margin-top: 33px;}
+  .set {position: relative; width: 100%; height: auto; margin-bottom: 20px; border-radius: 15px; padding: 20px 30px; box-shadow: 0px 0px 0px 2px #e5e3e3}
+  .set::before{transition:0.2s;position:absolute;content:""; width:40px;height:30px;background:url(https://cdn.shopify.com/s/files/1/0577/1368/8771/files/wing.png?v=1654709422);left:-21px; top:-12px;background-size:100%;background-repeat:no-repeat;background-position: center center; opacity:0}
+  .set.active::before{opacity:1}
+  .set > a{width:80%;display:block;text-decoration:none;color:#6b24b2 ;font-weight:600;-webkit-transition:all .2s linear;-moz-transition:all .2s linear;transition:all .2s linear;}
+  .set > a i{float: right;background: #f2e7f7 ; padding: 8px; border-radius: 50%;position: absolute; right: 20px; top: 18px;}
+  .set.active{background: #f4efff ; box-shadow: 0px 0px 10px 0px #cdcdcd;}
+  .content{display:none}
+  .content p{padding:20px 0 0;margin:0;color:#333;}
+  .accordion-container {padding: 0 20px;}
+</style>
+<!--BEGIN HTML -->
+<div class="accordion-container">
+  <h2>{{ section.settings.heading_faq }}</h2>
+  {% for block in section.blocks %}
+    {%  if block.settings.question != blank and block.settings.answer != blank %}
+  <div class="set">
+    <a href="#">
+      {{ block.settings.question }}
+      <i class="fa fa-plus"></i>
+    </a>
+    <div class="content" style="display:none">
+      <p>{{ block.settings.answer }}</p>
+    </div>
+  </div>
+      {% endif %}
+  {% endfor %}
+</div>
+<!-- END HTML -->
+<script>
+  $(document).ready(function() {
+
+  $(".set").on("click", function(e) {
+    e.preventDefault();
+    if ($(this).hasClass("active")) {
+      $(this).removeClass("active");
+      $(this)
+        .children(".content")
+        .slideUp(200);
+      $(".set > a i")
+        .removeClass("fa-minus")
+        .addClass("fa-plus");
+    } else {
+      $(".set > a i")
+        .removeClass("fa-minus")
+        .addClass("fa-plus");
+      $(this)
+        .find("i")
+        .removeClass("fa-plus")
+        .addClass("fa-minus");
+      $(".set").removeClass("active");
+      $(this).addClass("active");
+      $(".content").slideUp(200);
+      $(this)
+        .children(".content")
+        .slideDown(200);
+    }
+  });
+});
+</script>
+{% schema %}
+  {
+    "name": "Product FAQ",
+    "settings": [
+      {
+        "type": "text",
+        "id":"heading_faq",
+        "label": "Enter section heading"
+      }
+    ],
+    "blocks":[
+      {
+        "type": "Product",
+        "name":"FAQ block",
+        "settings":[
+        {
+        "type": "text",
+        "id":"question",
+        "label": "Enter Accordian Heading"
+      },
+      {
+        "type":"text",
+        "id":"answer",
+        "label":"Connect metafield from products"
+      },
+      {
+      "type": "checkbox",
+      "id": "show_open_accordion_checkbox",
+      "label": "Show 'Open first accordion by default' checkbox"
+    }
+    ]
+  }
+],
+    "presets":[
+      {
+      "category": "product",
+      "name": "Product FAQ accordian"
+    }]
+  }
+{% endschema %}
