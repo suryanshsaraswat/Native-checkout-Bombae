@@ -81,10 +81,10 @@ label.child-labels {
         <label for="" class="child-labels prod-selection">Select your product</label>
          <select name="product_dropdown" id="product_dropdown">
           <option value="">
-            Select your purchased product
+            Select your purchased product(s)
               </option>
           {% for product in collections.all.products %}
-            <option value="{{ product.id }}">
+            <option value="{{ product.id }}" multiple>
               <img src="{{ product.featured_image | img_url:'400x' }}" alt="{{ product.title }}" width="50">
               {{ product.title }}
               </option>
