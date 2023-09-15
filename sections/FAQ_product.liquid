@@ -13,6 +13,17 @@
 <!--BEGIN HTML -->
 <div class="accordion-container">
   <h2>{{ section.settings.heading_faq }}</h2>
+  {% if product.metafields.custom.faqs.value != 'blank' %}
+    <div class="set">
+    <a href="#">
+      Frequently Asked Questions
+      <i class="fa fa-plus"></i>
+    </a>
+    <div class="content" style="display:none">
+      <p>{{ product.metafields.custom.faqs.value }}</p>
+    </div>
+  </div>
+  {% endif %}
   {% for block in section.blocks %}
     {%  if block.settings.question != blank and block.settings.answer != blank %}
   <div class="set">
