@@ -1,8 +1,10 @@
 <style>
-  .cont-main-image img {
-    width: 100%;
-    padding: 15px
-  }
+  .cont-main-image {
+    max-width: 100%;
+    width: 700px;
+    margin: 0 auto;
+}
+
   .main-rewards-container {
     margin-top: -19px;
     padding-bottom: 11px;
@@ -93,6 +95,12 @@ span.auth {
 span.cod{background: rgb(252,154,194);
 background: linear-gradient(90deg, rgba(252,154,194,1) 0%, rgba(252,154,194,1) 17%, rgba(219,51,240,1) 100%);padding: 4px 12px;
 border-radius: 8px;}
+@media(max-width:450px){
+  .cont-main-image img {
+    width: 100%;
+    padding: 15px
+  }
+}
 </style>
 <div class="main-rewards-container">
   <div class="step-1" id="step-1">
