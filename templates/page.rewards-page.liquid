@@ -109,19 +109,19 @@ border-radius: 8px;}
     <div class="form-items">
       <div class="child-form name">
         <label for="" class="child-labels name">NAME</label>
-        <input type="text" class="name" placeholder="Enter your name" id="name"></input>
+        <input type="text" class="name" placeholder="Enter your name" id="name" required></input>
       </div>
       <div class="child-form email">
         <label for="" class="child-labels email">EMAIL</label>
-        <input type="email" class="email" placeholder="ENTER EMAIL" id="email-id"></input>
+        <input type="email" class="email" placeholder="ENTER EMAIL" id="email-id" required></input>
       </div>
       <div class="child-form phone">
         <label for="" class="child-labels phone">PHONE</label>
-        <input type="tel" class="telephone" placeholder="ENTER PHONE" id="phone"></input>
+        <input type="tel" class="telephone" placeholder="ENTER PHONE" id="phone" required></input>
       </div>
       <div class="child-form product-selection">
         <label for="" class="child-labels prod-selection">Select your product</label>
-         <select name="product_dropdown" id="product_dropdown">
+         <select name="product_dropdown" id="product_dropdown" required>
           <option value="">
             Select your purchased product(s)
               </option>
@@ -133,7 +133,7 @@ border-radius: 8px;}
             {% endfor %}
             </select>
       </div>
-      <div class="child-form channel-selection">
+      <div class="child-form channel-selection" required>
         <label for="" class="child-labels channel-select">SELECT CHANNEL</label>
         <select id="channel-dropdown" placeholder = "select ypur channel" id="channel">
           <option value="" selected>Select a Channel</option>
