@@ -1,1 +1,754 @@
-{"sections":{"eef4dd35-1176-414a-8b24-c2bf1f333068":{"type":"slideshow","blocks":{"template--15596438323395__eef4dd35-1176-414a-8b24-c2bf1f333068-16684877588eeccc2c-0":{"type":"img","settings":{"image":"shopify:\/\/shop_images\/website-desktop-banner_8b70486c-92a9-4b85-8737-ca9f541337f9.jpg","image_mb":"shopify:\/\/shop_images\/website-banner.jpg","pos_img":"center center","cl_img":"","link_img1":"shopify:\/\/pages\/blue-heaven-x-bombae","open_link":"_self","caption_w":"2","cap_v_pos":50,"cap_h_pos":39,"txt_align":"tl_md","cap_v_pos_mb":50,"cap_h_pos_mb":39,"txt_align_mb":"tl","cl_overlay":"#000000","cl_opacity":0,"ani_img":"none","ani_txt":"none","bg_content_bl":false,"bg_content_cl":"#ffffff","bg_content_op":50,"content_pd":"40px 80px","content_pd_mb":"10px 20px","border_bl":false,"br_color":"#222222","br_style":"solid","br_pd":20,"br_pd_mb":10}},"eace597f-855d-4ebb-9cb2-ecd2cc10acf2":{"type":"img","settings":{"image":"shopify:\/\/shop_images\/Mini-Launch-banner-desktop.jpg","image_mb":"shopify:\/\/shop_images\/Mini-Launch-banner-mobile.jpg","pos_img":"center center","cl_img":"","link_img1":"shopify:\/\/products\/body-razor-rollplay-mini","open_link":"_self","caption_w":"2","cap_v_pos":50,"cap_h_pos":39,"txt_align":"tl_md","cap_v_pos_mb":50,"cap_h_pos_mb":39,"txt_align_mb":"tl","cl_overlay":"#000000","cl_opacity":0,"ani_img":"none","ani_txt":"none","bg_content_bl":false,"bg_content_cl":"#ffffff","bg_content_op":50,"content_pd":"40px 80px","content_pd_mb":"10px 20px","border_bl":false,"br_color":"#222222","br_style":"solid","br_pd":20,"br_pd_mb":10}},"844b8ca7-d488-4039-8e49-2388aa511586":{"type":"img","settings":{"image":"shopify:\/\/shop_images\/Rollplay-free-pouch-desktop-banner.jpg","image_mb":"shopify:\/\/shop_images\/Rollplay-free-pouch-mobile-banner.jpg","pos_img":"center center","cl_img":"","link_img1":"shopify:\/\/products\/bombae-body-razor-rollplay-pro","open_link":"_self","caption_w":"2","cap_v_pos":50,"cap_h_pos":39,"txt_align":"tl_md","cap_v_pos_mb":50,"cap_h_pos_mb":39,"txt_align_mb":"tl","cl_overlay":"#000000","cl_opacity":0,"ani_img":"none","ani_txt":"none","bg_content_bl":false,"bg_content_cl":"#ffffff","bg_content_op":50,"content_pd":"40px 80px","content_pd_mb":"10px 20px","border_bl":false,"br_color":"#222222","br_style":"solid","br_pd":20,"br_pd_mb":10}},"template--15596438323395__eef4dd35-1176-414a-8b24-c2bf1f333068-16684877588eeccc2c-5":{"type":"img","settings":{"image":"shopify:\/\/shop_images\/Trimmer-desktop.jpg","image_mb":"shopify:\/\/shop_images\/Trimmer-mobile.jpg","pos_img":"center center","cl_img":"","link_img1":"shopify:\/\/pages\/fuzzoff","open_link":"_self","caption_w":"2","cap_v_pos":50,"cap_h_pos":39,"txt_align":"tl_md","cap_v_pos_mb":50,"cap_h_pos_mb":39,"txt_align_mb":"tl","cl_overlay":"#000000","cl_opacity":0,"ani_img":"none","ani_txt":"none","bg_content_bl":false,"bg_content_cl":"#ffffff","bg_content_op":50,"content_pd":"40px 80px","content_pd_mb":"10px 20px","border_bl":false,"br_color":"#222222","br_style":"solid","br_pd":20,"br_pd_mb":10}},"48cba501-8c60-42db-b51a-58e894d8b8a3":{"type":"img","settings":{"image":"shopify:\/\/shop_images\/buy-2-get-1-banner-desktop.jpg","image_mb":"shopify:\/\/shop_images\/buy-2-get-1-banner-moble.jpg","pos_img":"center center","cl_img":"","link_img1":"shopify:\/\/collections\/shop-all","open_link":"_blank","caption_w":"2","cap_v_pos":50,"cap_h_pos":39,"txt_align":"tl_md","cap_v_pos_mb":50,"cap_h_pos_mb":39,"txt_align_mb":"tl","cl_overlay":"#000000","cl_opacity":0,"ani_img":"none","ani_txt":"none","bg_content_bl":false,"bg_content_cl":"#ffffff","bg_content_op":50,"content_pd":"40px 80px","content_pd_mb":"10px 20px","border_bl":false,"br_color":"#222222","br_style":"solid","br_pd":20,"br_pd_mb":10}}},"block_order":["template--15596438323395__eef4dd35-1176-414a-8b24-c2bf1f333068-16684877588eeccc2c-0","eace597f-855d-4ebb-9cb2-ecd2cc10acf2","844b8ca7-d488-4039-8e49-2388aa511586","template--15596438323395__eef4dd35-1176-414a-8b24-c2bf1f333068-16684877588eeccc2c-5","48cba501-8c60-42db-b51a-58e894d8b8a3"],"settings":{"se_height":"adapt","use_custom_h":"1","h_des":"600px","h_tb":"500px","h_mb":"350px","effect":"0","loop":true,"autoplay":true,"au_time":6,"au_hover":true,"button":false,"btn_vi":"2","btn_owl":"1","btn_color":"0","dot":true,"dot_owl":"3","dot_color":"3","layout":"nt_full","cl_bg":"","mg":"","pd":"","mg_mb":"","pd_mb":""}},"16394671072656d4f2":{"type":"marquee","settings":{"text1":"CRUELTY FREE","text2":"FOR QUEENS, BY QUEENS","text3":"SUPERFOODS RICH","text4":""}},"4ffb9fbe-0bd0-453d-a2e3-929f28f5c7bb":{"type":"featured_collection_owl","settings":{"title":"Shop Our Bombshells","sub_title":"","sub_font":"2","btn_title":"See all","style_title":"title_8","ic_tt":"gem","show_clpr":false,"collection":"meet-our-bombshells","limit":8,"space":30,"use_pagination":"none","btn_rd":true,"btn_icon":false,"btn_style":"default","col_pr":"3","col_pr_tb":"4","col_pr_mb":"12","pr_des":"1","show_vendor":false,"use_cdt":false,"round_cd":false,"cdt_des":"1","loop":true,"au_time":0,"au_hover":true,"button":false,"btn_vi":"1","btn_owl":"1","btn_color":"0","dot":false,"dot_owl":"1","dot_color":"1","use_eq_height":false,"image_ratio":"ratio4_3","image_size":"nt_contain","image_position":"8","cp_code":false,"layout":"nt_full","cl_bg":"rgba(0,0,0,0)","mg":"20px,,50px,","pd":"0px,,10px,,10px,,0px","mg_mb":"0px,","pd_mb":"10px,10px,10px,10px"}},"d8e7f8e7-a95e-4bd8-8ea1-b7e11e4f0d7b":{"type":"collection-list","blocks":{"template--15761640816835__d8e7f8e7-a95e-4bd8-8ea1-b7e11e4f0d7b-16766265256ef2804f-0":{"type":"collection","settings":{"collection":"body","image":"shopify:\/\/shop_images\/body-care-_1_1.jpg","img_align":"center","title":"","url":"shopify:\/\/collections\/body"}},"template--15761640816835__d8e7f8e7-a95e-4bd8-8ea1-b7e11e4f0d7b-16766265256ef2804f-3":{"type":"collection","settings":{"collection":"","image":"shopify:\/\/shop_images\/trimmers_2.jpg","img_align":"center","title":"","url":"shopify:\/\/pages\/fuzzoff"}},"template--15761640816835__d8e7f8e7-a95e-4bd8-8ea1-b7e11e4f0d7b-16766265256ef2804f-1":{"type":"collection","settings":{"collection":"face","image":"shopify:\/\/shop_images\/face-care_2.jpg","img_align":"center","title":"","url":"shopify:\/\/collections\/face"}},"template--15761640816835__d8e7f8e7-a95e-4bd8-8ea1-b7e11e4f0d7b-16766265256ef2804f-2":{"type":"collection","settings":{"collection":"period-care","image":"shopify:\/\/shop_images\/hygiene_2.jpg","img_align":"center","title":"","url":"shopify:\/\/collections\/period-care"}}},"block_order":["template--15761640816835__d8e7f8e7-a95e-4bd8-8ea1-b7e11e4f0d7b-16766265256ef2804f-0","template--15761640816835__d8e7f8e7-a95e-4bd8-8ea1-b7e11e4f0d7b-16766265256ef2804f-3","template--15761640816835__d8e7f8e7-a95e-4bd8-8ea1-b7e11e4f0d7b-16766265256ef2804f-1","template--15761640816835__d8e7f8e7-a95e-4bd8-8ea1-b7e11e4f0d7b-16766265256ef2804f-2"],"settings":{"title":"Our Collections","sub_title":"","sub_font":"2","style_title":"title_8","ic_tt":"gem","show_clpr":false,"cat_layout":"1","hoverz":true,"cat_design":"3","cat_space":"20","image_ratio":"ratio_nt","col":"3","col_md":"3","col_mb":"6","pr_txt":"products","loop":true,"autoplay":false,"au_time":6,"au_hover":true,"button":false,"btn_vi":"1","btn_owl":"1","btn_color":"0","dot":true,"dot_owl":"3","dot_color":"3","cp_code":false,"layout":"nt_full","cl_bg":"rgba(0,0,0,0)","hide_bgimg":false,"mg":"-30px,,-30px,","pd":"10px,50px,0px,50px","mg_mb":"10px,10px","pd_mb":"10px,10px,10px,10px"}},"1646300431d1e89112":{"type":"video-women","settings":{}},"241a0747-2cc2-4482-a0d5-7d9c91de7141":{"type":"lookbook_img","disabled":true,"settings":{"title":"","sub_title":"","sub_font":"2","style_title":"title_1","ic_tt":"gem","show_clpr":false,"img_size":"1","image":"shopify:\/\/shop_images\/hair-removal-reimagined_1.png","cp_code":false,"layout":"nt_full","cl_bg":"#ffffff","hide_bgimg":false,"use_pr":false,"mg":"","pd":"","mg_mb":"","pd_mb":""}},"8542ff6c-91c9-4f65-8714-51899c5432a2":{"type":"rich_text","custom_css":[],"settings":{"title":"hair removal, reimagined for you","sub_title":"","sub_font":"1","style_title":"title_8","ic_tt":"gem","show_clpr":false,"content":"<p>Hi, we're Bombae.<\/p><p>We exist to re-imagine hair removal experience for the bold, badass women of today<\/p>","align":"tc","layout":"nt_co_wide","mg":"20px,,20px,","pd":"","mg_mb":"20px,10px,,","pd_mb":""}},"8c1200c5-c844-4c50-98b1-0d9d714d1802":{"type":"lookbook_img","settings":{"title":"","sub_title":"","sub_font":"2","style_title":"title_1","ic_tt":"gem","show_clpr":false,"img_size":"1","image":"shopify:\/\/shop_images\/icons_1.png","cp_code":false,"layout":"nt_full","cl_bg":"#f4efff","hide_bgimg":false,"use_pr":false,"mg":"-8px, 0px, 33px,0px","pd":"","mg_mb":"-8px, 0px, 87px,0px","pd_mb":""}},"39965f43-cf8a-4b57-a640-76093a5fd691":{"type":"brand_list","blocks":{"template--15761640816835__39965f43-cf8a-4b57-a640-76093a5fd691-167662728629d4d7ad-0":{"type":"brand","settings":{"image":"shopify:\/\/shop_images\/ICON-1_2.png","url":"","open_link":"_blank"}},"template--15761640816835__39965f43-cf8a-4b57-a640-76093a5fd691-167662728629d4d7ad-1":{"type":"brand","settings":{"image":"shopify:\/\/shop_images\/ICON-2_2.png","url":"","open_link":"_blank"}},"template--15761640816835__39965f43-cf8a-4b57-a640-76093a5fd691-167662728629d4d7ad-2":{"type":"brand","settings":{"image":"shopify:\/\/shop_images\/ICON-3_2.png","url":"","open_link":"_blank"}},"template--15761640816835__39965f43-cf8a-4b57-a640-76093a5fd691-167662728629d4d7ad-3":{"type":"brand","disabled":true,"settings":{"image":"shopify:\/\/shop_images\/icon-4_1.png","url":"","open_link":"_blank"}}},"block_order":["template--15761640816835__39965f43-cf8a-4b57-a640-76093a5fd691-167662728629d4d7ad-0","template--15761640816835__39965f43-cf8a-4b57-a640-76093a5fd691-167662728629d4d7ad-1","template--15761640816835__39965f43-cf8a-4b57-a640-76093a5fd691-167662728629d4d7ad-2","template--15761640816835__39965f43-cf8a-4b57-a640-76093a5fd691-167662728629d4d7ad-3"],"disabled":true,"settings":{"title":"","sub_title":"","sub_font":"2","style_title":"title_1","ic_tt":"gem","show_clpr":false,"brand_layout":"2","cat_space":"20","col":"4","col_md":"6","col_mb":"12","brand_hover":"0","loop":true,"autoplay":true,"au_time":3,"au_hover":true,"button":false,"btn_vi":"1","btn_owl":"1","btn_color":"0","dot":false,"dot_owl":"1","dot_color":"1","layout":"nt_full","cl_bg":"rgba(0,0,0,0)","mg":"30px,,30px,,30px,,-30px","pd":"10px,50px,50px,50px","mg_mb":"-40px,,0px,,0px,,-38px","pd_mb":"10px,10px,10px,10px"}},"43efc0cb-789f-470c-8d43-c151eb89981d":{"type":"custom-liquid","settings":{"custom_liquid":"{% render 'pr_slider' %}","layout":"nt_full","cl_bg":"#ffeeff","mg":"50px,,20px,","pd":"","mg_mb":"","pd_mb":""}},"1581507993250":{"type":"featured_collection","disabled":true,"settings":{"title":"New Launches ✨","sub_title":"","sub_font":"2","btn_title":"See all products","style_title":"title_2","ic_tt":"gem","show_clpr":false,"collection":"trending","limit":4,"space":30,"use_pagination":"view-all","use_bar_lm":true,"btn_rd":true,"btn_icon":false,"btn_style":"primary","col_pr":"3","col_pr_tb":"3","col_pr_mb":"6","pr_des":"1","show_vendor":false,"use_cdt":false,"round_cd":false,"cdt_des":"1","use_eq_height":true,"image_ratio":"ratio1_1","image_size":"nt_cover","image_position":"8","cp_code":false,"layout":"container","cl_bg":"","mg":",,60px,","pd":"","mg_mb":",,60px,","pd_mb":""}},"16463816049c45fd52":{"type":"brand_list","blocks":{"1646381604fc953804-0":{"type":"brand","settings":{"image":"shopify:\/\/shop_images\/3_19453f89-ad3d-416c-9330-1ad51df5428a.png","url":"","open_link":"_blank"}},"1646381604fc953804-1":{"type":"brand","settings":{"image":"shopify:\/\/shop_images\/2_0138f2e2-366d-4e80-ae2a-0ca8f57eb0af.png","url":"","open_link":"_blank"}},"1646381604fc953804-2":{"type":"brand","settings":{"image":"shopify:\/\/shop_images\/1_806cda3c-76f3-4043-882d-37f1df4d3ad7.png","url":"","open_link":"_blank"}},"1646381604fc953804-3":{"type":"brand","settings":{"image":"shopify:\/\/shop_images\/4_1416c34b-818a-4eff-9364-b34645d6d816.png","url":"","open_link":"_blank"}}},"block_order":["1646381604fc953804-0","1646381604fc953804-1","1646381604fc953804-2","1646381604fc953804-3"],"disabled":true,"settings":{"title":"","sub_title":"","sub_font":"2","style_title":"title_1","ic_tt":"gem","show_clpr":false,"brand_layout":"2","cat_space":"30","col":"3","col_md":"6","col_mb":"12","brand_hover":"0","loop":true,"autoplay":false,"au_time":0,"au_hover":true,"button":false,"btn_vi":"1","btn_owl":"2","btn_color":"0","dot":true,"dot_owl":"1","dot_color":"1","layout":"container","cl_bg":"#9e5fe5","mg":"","pd":"1px,,0px,","mg_mb":"","pd_mb":"1px,,10px,"}},"16463905630aa8bee9":{"type":"image_text","disabled":true,"settings":{"image":"shopify:\/\/shop_images\/Cause-section.jpg","img_align":"center","img_position":"1","image_ratio":"auto","text_size":"60,18","title":"What we stand for","text":"<p>We’re conscious about our baes - our people and our planet. We set aside 1% of our sales to work towards upskilling of women and up-levelling our environment.<\/p>","button_label":"Shop Now","button_link":"","open_link":"_blank","txt_align":"tl","use_shadow":false,"cl_txt":"dark","layout":"nt_full","mg":"80px,,50px,","pd":"50px,50px,50px,50px","mg_mb":"","pd_mb":""}},"ad552b54-5033-4966-b927-32dbadbc63ee":{"type":"custom-liquid","settings":{"custom_liquid":"{% render 'testimonials-tabs' %}","layout":"nt_full","cl_bg":"#ffffff","mg":"50px,,20px,","pd":"","mg_mb":"","pd_mb":""}},"1581508031759":{"type":"featured_blog","disabled":true,"settings":{"title":"Blog: #SmoothAFfairs","sub_title":"","sub_font":"2","btn_title":"See all posts","style_title":"title_2","ic_tt":"pencil-alt","show_clpr":false,"layout_des":"2","art_des":"2","blog":"news","limit":6,"use_pagination":"none","use_bar_lm":true,"btn_rd":true,"btn_icon":false,"btn_style":"default","date":"date","col_pr":"4","col_pr_tb":"4","col_pr_mb":"12","show_cnt":true,"show_au":false,"show_dt":false,"show_cm":false,"show_rm":false,"loop":false,"au_time":0,"au_hover":true,"button":true,"btn_vi":"1","btn_owl":"1","btn_color":"1","dot":false,"dot_owl":"1","dot_color":"1","use_eq_height":true,"image_ratio":"ratio4_3","image_size":"nt_cover","image_position":"8","layout":"container","cl_bg":"#ffffff","mg":"50px,,0px,","pd":"","mg_mb":"50px,,0px,","pd_mb":""}},"16549571543487dcfb":{"type":"custom_html","settings":{"code":"<h3 class=\"section-title tc pr flex fl_center al_center fs__24 title_8\"><span class=\"mr__10 ml__10\">let's get social!\n<\/span><\/h3>","layout":"container","mg":"20px,,0px,","pd":"","mg_mb":"20px,20px,,","pd_mb":""}},"1638862129d0afa766":{"type":"apps","blocks":{"192c2b73-8cc3-4ce5-af41-f030ff387e25":{"type":"shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5","settings":{"heading_size":20,"feed_width":100,"html_area":""}}},"block_order":["192c2b73-8cc3-4ce5-af41-f030ff387e25"],"settings":{}}},"order":["eef4dd35-1176-414a-8b24-c2bf1f333068","16394671072656d4f2","4ffb9fbe-0bd0-453d-a2e3-929f28f5c7bb","d8e7f8e7-a95e-4bd8-8ea1-b7e11e4f0d7b","1646300431d1e89112","241a0747-2cc2-4482-a0d5-7d9c91de7141","8542ff6c-91c9-4f65-8714-51899c5432a2","8c1200c5-c844-4c50-98b1-0d9d714d1802","39965f43-cf8a-4b57-a640-76093a5fd691","43efc0cb-789f-470c-8d43-c151eb89981d","1581507993250","16463816049c45fd52","16463905630aa8bee9","ad552b54-5033-4966-b927-32dbadbc63ee","1581508031759","16549571543487dcfb","1638862129d0afa766"]}
+{
+  "sections": {
+    "eef4dd35-1176-414a-8b24-c2bf1f333068": {
+      "type": "slideshow",
+      "blocks": {
+        "template--15596438323395__eef4dd35-1176-414a-8b24-c2bf1f333068-16684877588eeccc2c-5": {
+          "type": "img",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Trimmer-desktop.jpg",
+            "image_mb": "shopify:\/\/shop_images\/Trimmer-mobile.jpg",
+            "pos_img": "center center",
+            "cl_img": "",
+            "link_img1": "shopify:\/\/pages\/fuzzoff",
+            "open_link": "_self",
+            "caption_w": "2",
+            "cap_v_pos": 50,
+            "cap_h_pos": 39,
+            "txt_align": "tl_md",
+            "cap_v_pos_mb": 50,
+            "cap_h_pos_mb": 39,
+            "txt_align_mb": "tl",
+            "cl_overlay": "#000000",
+            "cl_opacity": 0,
+            "ani_img": "none",
+            "ani_txt": "none",
+            "bg_content_bl": false,
+            "bg_content_cl": "#ffffff",
+            "bg_content_op": 50,
+            "content_pd": "40px 80px",
+            "content_pd_mb": "10px 20px",
+            "border_bl": false,
+            "br_color": "#222222",
+            "br_style": "solid",
+            "br_pd": 20,
+            "br_pd_mb": 10
+          }
+        },
+        "template--15596438323395__eef4dd35-1176-414a-8b24-c2bf1f333068-16684877588eeccc2c-0": {
+          "type": "img",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/website-desktop-banner_8b70486c-92a9-4b85-8737-ca9f541337f9.jpg",
+            "image_mb": "shopify:\/\/shop_images\/website-banner.jpg",
+            "pos_img": "center center",
+            "cl_img": "",
+            "link_img1": "shopify:\/\/pages\/blue-heaven-x-bombae",
+            "open_link": "_self",
+            "caption_w": "2",
+            "cap_v_pos": 50,
+            "cap_h_pos": 39,
+            "txt_align": "tl_md",
+            "cap_v_pos_mb": 50,
+            "cap_h_pos_mb": 39,
+            "txt_align_mb": "tl",
+            "cl_overlay": "#000000",
+            "cl_opacity": 0,
+            "ani_img": "none",
+            "ani_txt": "none",
+            "bg_content_bl": false,
+            "bg_content_cl": "#ffffff",
+            "bg_content_op": 50,
+            "content_pd": "40px 80px",
+            "content_pd_mb": "10px 20px",
+            "border_bl": false,
+            "br_color": "#222222",
+            "br_style": "solid",
+            "br_pd": 20,
+            "br_pd_mb": 10
+          }
+        },
+        "eace597f-855d-4ebb-9cb2-ecd2cc10acf2": {
+          "type": "img",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mini-Launch-banner-desktop.jpg",
+            "image_mb": "shopify:\/\/shop_images\/Mini-Launch-banner-mobile.jpg",
+            "pos_img": "center center",
+            "cl_img": "",
+            "link_img1": "shopify:\/\/products\/body-razor-rollplay-mini",
+            "open_link": "_self",
+            "caption_w": "2",
+            "cap_v_pos": 50,
+            "cap_h_pos": 39,
+            "txt_align": "tl_md",
+            "cap_v_pos_mb": 50,
+            "cap_h_pos_mb": 39,
+            "txt_align_mb": "tl",
+            "cl_overlay": "#000000",
+            "cl_opacity": 0,
+            "ani_img": "none",
+            "ani_txt": "none",
+            "bg_content_bl": false,
+            "bg_content_cl": "#ffffff",
+            "bg_content_op": 50,
+            "content_pd": "40px 80px",
+            "content_pd_mb": "10px 20px",
+            "border_bl": false,
+            "br_color": "#222222",
+            "br_style": "solid",
+            "br_pd": 20,
+            "br_pd_mb": 10
+          }
+        },
+        "844b8ca7-d488-4039-8e49-2388aa511586": {
+          "type": "img",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rollplay-free-pouch-desktop-banner.jpg",
+            "image_mb": "shopify:\/\/shop_images\/Rollplay-free-pouch-mobile-banner.jpg",
+            "pos_img": "center center",
+            "cl_img": "",
+            "link_img1": "shopify:\/\/products\/bombae-body-razor-rollplay-pro",
+            "open_link": "_self",
+            "caption_w": "2",
+            "cap_v_pos": 50,
+            "cap_h_pos": 39,
+            "txt_align": "tl_md",
+            "cap_v_pos_mb": 50,
+            "cap_h_pos_mb": 39,
+            "txt_align_mb": "tl",
+            "cl_overlay": "#000000",
+            "cl_opacity": 0,
+            "ani_img": "none",
+            "ani_txt": "none",
+            "bg_content_bl": false,
+            "bg_content_cl": "#ffffff",
+            "bg_content_op": 50,
+            "content_pd": "40px 80px",
+            "content_pd_mb": "10px 20px",
+            "border_bl": false,
+            "br_color": "#222222",
+            "br_style": "solid",
+            "br_pd": 20,
+            "br_pd_mb": 10
+          }
+        },
+        "48cba501-8c60-42db-b51a-58e894d8b8a3": {
+          "type": "img",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/buy-2-get-1-banner-desktop.jpg",
+            "image_mb": "shopify:\/\/shop_images\/buy-2-get-1-banner-moble.jpg",
+            "pos_img": "center center",
+            "cl_img": "",
+            "link_img1": "shopify:\/\/collections\/shop-all",
+            "open_link": "_blank",
+            "caption_w": "2",
+            "cap_v_pos": 50,
+            "cap_h_pos": 39,
+            "txt_align": "tl_md",
+            "cap_v_pos_mb": 50,
+            "cap_h_pos_mb": 39,
+            "txt_align_mb": "tl",
+            "cl_overlay": "#000000",
+            "cl_opacity": 0,
+            "ani_img": "none",
+            "ani_txt": "none",
+            "bg_content_bl": false,
+            "bg_content_cl": "#ffffff",
+            "bg_content_op": 50,
+            "content_pd": "40px 80px",
+            "content_pd_mb": "10px 20px",
+            "border_bl": false,
+            "br_color": "#222222",
+            "br_style": "solid",
+            "br_pd": 20,
+            "br_pd_mb": 10
+          }
+        }
+      },
+      "block_order": [
+        "template--15596438323395__eef4dd35-1176-414a-8b24-c2bf1f333068-16684877588eeccc2c-5",
+        "template--15596438323395__eef4dd35-1176-414a-8b24-c2bf1f333068-16684877588eeccc2c-0",
+        "eace597f-855d-4ebb-9cb2-ecd2cc10acf2",
+        "844b8ca7-d488-4039-8e49-2388aa511586",
+        "48cba501-8c60-42db-b51a-58e894d8b8a3"
+      ],
+      "settings": {
+        "se_height": "adapt",
+        "use_custom_h": "1",
+        "h_des": "600px",
+        "h_tb": "500px",
+        "h_mb": "350px",
+        "effect": "0",
+        "loop": true,
+        "autoplay": true,
+        "au_time": 6,
+        "au_hover": true,
+        "button": false,
+        "btn_vi": "2",
+        "btn_owl": "1",
+        "btn_color": "0",
+        "dot": true,
+        "dot_owl": "3",
+        "dot_color": "3",
+        "layout": "nt_full",
+        "cl_bg": "",
+        "mg": "",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": ""
+      }
+    },
+    "16394671072656d4f2": {
+      "type": "marquee",
+      "settings": {
+        "text1": "CRUELTY FREE",
+        "text2": "FOR QUEENS, BY QUEENS",
+        "text3": "SUPERFOODS RICH",
+        "text4": ""
+      }
+    },
+    "4ffb9fbe-0bd0-453d-a2e3-929f28f5c7bb": {
+      "type": "featured_collection_owl",
+      "settings": {
+        "title": "Shop Our Bombshells",
+        "sub_title": "",
+        "sub_font": "2",
+        "btn_title": "See all",
+        "style_title": "title_8",
+        "ic_tt": "gem",
+        "show_clpr": false,
+        "collection": "meet-our-bombshells",
+        "limit": 8,
+        "space": 30,
+        "use_pagination": "none",
+        "btn_rd": true,
+        "btn_icon": false,
+        "btn_style": "default",
+        "col_pr": "3",
+        "col_pr_tb": "4",
+        "col_pr_mb": "12",
+        "pr_des": "1",
+        "show_vendor": false,
+        "use_cdt": false,
+        "round_cd": false,
+        "cdt_des": "1",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "button": false,
+        "btn_vi": "1",
+        "btn_owl": "1",
+        "btn_color": "0",
+        "dot": false,
+        "dot_owl": "1",
+        "dot_color": "1",
+        "use_eq_height": false,
+        "image_ratio": "ratio4_3",
+        "image_size": "nt_contain",
+        "image_position": "8",
+        "cp_code": false,
+        "layout": "nt_full",
+        "cl_bg": "rgba(0,0,0,0)",
+        "mg": "20px,,50px,",
+        "pd": "0px,,10px,,10px,,0px",
+        "mg_mb": "0px,",
+        "pd_mb": "10px,10px,10px,10px"
+      }
+    },
+    "d8e7f8e7-a95e-4bd8-8ea1-b7e11e4f0d7b": {
+      "type": "collection-list",
+      "blocks": {
+        "template--15761640816835__d8e7f8e7-a95e-4bd8-8ea1-b7e11e4f0d7b-16766265256ef2804f-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "body",
+            "image": "shopify:\/\/shop_images\/body-care-_1_1.jpg",
+            "img_align": "center",
+            "title": "",
+            "url": "shopify:\/\/collections\/body"
+          }
+        },
+        "template--15761640816835__d8e7f8e7-a95e-4bd8-8ea1-b7e11e4f0d7b-16766265256ef2804f-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/trimmers_2.jpg",
+            "img_align": "center",
+            "title": "",
+            "url": "shopify:\/\/pages\/fuzzoff"
+          }
+        },
+        "template--15761640816835__d8e7f8e7-a95e-4bd8-8ea1-b7e11e4f0d7b-16766265256ef2804f-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "face",
+            "image": "shopify:\/\/shop_images\/face-care_2.jpg",
+            "img_align": "center",
+            "title": "",
+            "url": "shopify:\/\/collections\/face"
+          }
+        },
+        "template--15761640816835__d8e7f8e7-a95e-4bd8-8ea1-b7e11e4f0d7b-16766265256ef2804f-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "period-care",
+            "image": "shopify:\/\/shop_images\/hygiene_2.jpg",
+            "img_align": "center",
+            "title": "",
+            "url": "shopify:\/\/collections\/period-care"
+          }
+        }
+      },
+      "block_order": [
+        "template--15761640816835__d8e7f8e7-a95e-4bd8-8ea1-b7e11e4f0d7b-16766265256ef2804f-0",
+        "template--15761640816835__d8e7f8e7-a95e-4bd8-8ea1-b7e11e4f0d7b-16766265256ef2804f-3",
+        "template--15761640816835__d8e7f8e7-a95e-4bd8-8ea1-b7e11e4f0d7b-16766265256ef2804f-1",
+        "template--15761640816835__d8e7f8e7-a95e-4bd8-8ea1-b7e11e4f0d7b-16766265256ef2804f-2"
+      ],
+      "settings": {
+        "title": "Our Collections",
+        "sub_title": "",
+        "sub_font": "2",
+        "style_title": "title_8",
+        "ic_tt": "gem",
+        "show_clpr": false,
+        "cat_layout": "1",
+        "hoverz": true,
+        "cat_design": "3",
+        "cat_space": "20",
+        "image_ratio": "ratio_nt",
+        "col": "3",
+        "col_md": "3",
+        "col_mb": "6",
+        "pr_txt": "products",
+        "loop": true,
+        "autoplay": false,
+        "au_time": 6,
+        "au_hover": true,
+        "button": false,
+        "btn_vi": "1",
+        "btn_owl": "1",
+        "btn_color": "0",
+        "dot": true,
+        "dot_owl": "3",
+        "dot_color": "3",
+        "cp_code": false,
+        "layout": "nt_full",
+        "cl_bg": "rgba(0,0,0,0)",
+        "hide_bgimg": false,
+        "mg": "-30px,,-30px,",
+        "pd": "10px,50px,0px,50px",
+        "mg_mb": "10px,10px",
+        "pd_mb": "10px,10px,10px,10px"
+      }
+    },
+    "1646300431d1e89112": {
+      "type": "video-women",
+      "settings": {
+      }
+    },
+    "241a0747-2cc2-4482-a0d5-7d9c91de7141": {
+      "type": "lookbook_img",
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "sub_title": "",
+        "sub_font": "2",
+        "style_title": "title_1",
+        "ic_tt": "gem",
+        "show_clpr": false,
+        "img_size": "1",
+        "image": "shopify:\/\/shop_images\/hair-removal-reimagined_1.png",
+        "cp_code": false,
+        "layout": "nt_full",
+        "cl_bg": "#ffffff",
+        "hide_bgimg": false,
+        "use_pr": false,
+        "mg": "",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": ""
+      }
+    },
+    "8542ff6c-91c9-4f65-8714-51899c5432a2": {
+      "type": "rich_text",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "title": "hair removal, reimagined for you",
+        "sub_title": "",
+        "sub_font": "1",
+        "style_title": "title_8",
+        "ic_tt": "gem",
+        "show_clpr": false,
+        "content": "<p>Hi, we're Bombae.<\/p><p>We exist to re-imagine hair removal experience for the bold, badass women of today<\/p>",
+        "align": "tc",
+        "layout": "nt_co_wide",
+        "mg": "20px,,20px,",
+        "pd": "",
+        "mg_mb": "20px,10px,,",
+        "pd_mb": ""
+      }
+    },
+    "8c1200c5-c844-4c50-98b1-0d9d714d1802": {
+      "type": "lookbook_img",
+      "settings": {
+        "title": "",
+        "sub_title": "",
+        "sub_font": "2",
+        "style_title": "title_1",
+        "ic_tt": "gem",
+        "show_clpr": false,
+        "img_size": "1",
+        "image": "shopify:\/\/shop_images\/icons_1.png",
+        "cp_code": false,
+        "layout": "nt_full",
+        "cl_bg": "#f4efff",
+        "hide_bgimg": false,
+        "use_pr": false,
+        "mg": "-8px, 0px, 33px,0px",
+        "pd": "",
+        "mg_mb": "-8px, 0px, 87px,0px",
+        "pd_mb": ""
+      }
+    },
+    "39965f43-cf8a-4b57-a640-76093a5fd691": {
+      "type": "brand_list",
+      "blocks": {
+        "template--15761640816835__39965f43-cf8a-4b57-a640-76093a5fd691-167662728629d4d7ad-0": {
+          "type": "brand",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ICON-1_2.png",
+            "url": "",
+            "open_link": "_blank"
+          }
+        },
+        "template--15761640816835__39965f43-cf8a-4b57-a640-76093a5fd691-167662728629d4d7ad-1": {
+          "type": "brand",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ICON-2_2.png",
+            "url": "",
+            "open_link": "_blank"
+          }
+        },
+        "template--15761640816835__39965f43-cf8a-4b57-a640-76093a5fd691-167662728629d4d7ad-2": {
+          "type": "brand",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ICON-3_2.png",
+            "url": "",
+            "open_link": "_blank"
+          }
+        },
+        "template--15761640816835__39965f43-cf8a-4b57-a640-76093a5fd691-167662728629d4d7ad-3": {
+          "type": "brand",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/icon-4_1.png",
+            "url": "",
+            "open_link": "_blank"
+          }
+        }
+      },
+      "block_order": [
+        "template--15761640816835__39965f43-cf8a-4b57-a640-76093a5fd691-167662728629d4d7ad-0",
+        "template--15761640816835__39965f43-cf8a-4b57-a640-76093a5fd691-167662728629d4d7ad-1",
+        "template--15761640816835__39965f43-cf8a-4b57-a640-76093a5fd691-167662728629d4d7ad-2",
+        "template--15761640816835__39965f43-cf8a-4b57-a640-76093a5fd691-167662728629d4d7ad-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "sub_title": "",
+        "sub_font": "2",
+        "style_title": "title_1",
+        "ic_tt": "gem",
+        "show_clpr": false,
+        "brand_layout": "2",
+        "cat_space": "20",
+        "col": "4",
+        "col_md": "6",
+        "col_mb": "12",
+        "brand_hover": "0",
+        "loop": true,
+        "autoplay": true,
+        "au_time": 3,
+        "au_hover": true,
+        "button": false,
+        "btn_vi": "1",
+        "btn_owl": "1",
+        "btn_color": "0",
+        "dot": false,
+        "dot_owl": "1",
+        "dot_color": "1",
+        "layout": "nt_full",
+        "cl_bg": "rgba(0,0,0,0)",
+        "mg": "30px,,30px,,30px,,-30px",
+        "pd": "10px,50px,50px,50px",
+        "mg_mb": "-40px,,0px,,0px,,-38px",
+        "pd_mb": "10px,10px,10px,10px"
+      }
+    },
+    "43efc0cb-789f-470c-8d43-c151eb89981d": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% render 'pr_slider' %}",
+        "layout": "nt_full",
+        "cl_bg": "#ffeeff",
+        "mg": "50px,,20px,",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": ""
+      }
+    },
+    "1581507993250": {
+      "type": "featured_collection",
+      "disabled": true,
+      "settings": {
+        "title": "New Launches ✨",
+        "sub_title": "",
+        "sub_font": "2",
+        "btn_title": "See all products",
+        "style_title": "title_2",
+        "ic_tt": "gem",
+        "show_clpr": false,
+        "collection": "trending",
+        "limit": 4,
+        "space": 30,
+        "use_pagination": "view-all",
+        "use_bar_lm": true,
+        "btn_rd": true,
+        "btn_icon": false,
+        "btn_style": "primary",
+        "col_pr": "3",
+        "col_pr_tb": "3",
+        "col_pr_mb": "6",
+        "pr_des": "1",
+        "show_vendor": false,
+        "use_cdt": false,
+        "round_cd": false,
+        "cdt_des": "1",
+        "use_eq_height": true,
+        "image_ratio": "ratio1_1",
+        "image_size": "nt_cover",
+        "image_position": "8",
+        "cp_code": false,
+        "layout": "container",
+        "cl_bg": "",
+        "mg": ",,60px,",
+        "pd": "",
+        "mg_mb": ",,60px,",
+        "pd_mb": ""
+      }
+    },
+    "16463816049c45fd52": {
+      "type": "brand_list",
+      "blocks": {
+        "1646381604fc953804-0": {
+          "type": "brand",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_19453f89-ad3d-416c-9330-1ad51df5428a.png",
+            "url": "",
+            "open_link": "_blank"
+          }
+        },
+        "1646381604fc953804-1": {
+          "type": "brand",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_0138f2e2-366d-4e80-ae2a-0ca8f57eb0af.png",
+            "url": "",
+            "open_link": "_blank"
+          }
+        },
+        "1646381604fc953804-2": {
+          "type": "brand",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_806cda3c-76f3-4043-882d-37f1df4d3ad7.png",
+            "url": "",
+            "open_link": "_blank"
+          }
+        },
+        "1646381604fc953804-3": {
+          "type": "brand",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_1416c34b-818a-4eff-9364-b34645d6d816.png",
+            "url": "",
+            "open_link": "_blank"
+          }
+        }
+      },
+      "block_order": [
+        "1646381604fc953804-0",
+        "1646381604fc953804-1",
+        "1646381604fc953804-2",
+        "1646381604fc953804-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "sub_title": "",
+        "sub_font": "2",
+        "style_title": "title_1",
+        "ic_tt": "gem",
+        "show_clpr": false,
+        "brand_layout": "2",
+        "cat_space": "30",
+        "col": "3",
+        "col_md": "6",
+        "col_mb": "12",
+        "brand_hover": "0",
+        "loop": true,
+        "autoplay": false,
+        "au_time": 0,
+        "au_hover": true,
+        "button": false,
+        "btn_vi": "1",
+        "btn_owl": "2",
+        "btn_color": "0",
+        "dot": true,
+        "dot_owl": "1",
+        "dot_color": "1",
+        "layout": "container",
+        "cl_bg": "#9e5fe5",
+        "mg": "",
+        "pd": "1px,,0px,",
+        "mg_mb": "",
+        "pd_mb": "1px,,10px,"
+      }
+    },
+    "16463905630aa8bee9": {
+      "type": "image_text",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Cause-section.jpg",
+        "img_align": "center",
+        "img_position": "1",
+        "image_ratio": "auto",
+        "text_size": "60,18",
+        "title": "What we stand for",
+        "text": "<p>We’re conscious about our baes - our people and our planet. We set aside 1% of our sales to work towards upskilling of women and up-levelling our environment.<\/p>",
+        "button_label": "Shop Now",
+        "button_link": "",
+        "open_link": "_blank",
+        "txt_align": "tl",
+        "use_shadow": false,
+        "cl_txt": "dark",
+        "layout": "nt_full",
+        "mg": "80px,,50px,",
+        "pd": "50px,50px,50px,50px",
+        "mg_mb": "",
+        "pd_mb": ""
+      }
+    },
+    "ad552b54-5033-4966-b927-32dbadbc63ee": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% render 'testimonials-tabs' %}",
+        "layout": "nt_full",
+        "cl_bg": "#ffffff",
+        "mg": "50px,,20px,",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": ""
+      }
+    },
+    "1581508031759": {
+      "type": "featured_blog",
+      "disabled": true,
+      "settings": {
+        "title": "Blog: #SmoothAFfairs",
+        "sub_title": "",
+        "sub_font": "2",
+        "btn_title": "See all posts",
+        "style_title": "title_2",
+        "ic_tt": "pencil-alt",
+        "show_clpr": false,
+        "layout_des": "2",
+        "art_des": "2",
+        "blog": "news",
+        "limit": 6,
+        "use_pagination": "none",
+        "use_bar_lm": true,
+        "btn_rd": true,
+        "btn_icon": false,
+        "btn_style": "default",
+        "date": "date",
+        "col_pr": "4",
+        "col_pr_tb": "4",
+        "col_pr_mb": "12",
+        "show_cnt": true,
+        "show_au": false,
+        "show_dt": false,
+        "show_cm": false,
+        "show_rm": false,
+        "loop": false,
+        "au_time": 0,
+        "au_hover": true,
+        "button": true,
+        "btn_vi": "1",
+        "btn_owl": "1",
+        "btn_color": "1",
+        "dot": false,
+        "dot_owl": "1",
+        "dot_color": "1",
+        "use_eq_height": true,
+        "image_ratio": "ratio4_3",
+        "image_size": "nt_cover",
+        "image_position": "8",
+        "layout": "container",
+        "cl_bg": "#ffffff",
+        "mg": "50px,,0px,",
+        "pd": "",
+        "mg_mb": "50px,,0px,",
+        "pd_mb": ""
+      }
+    },
+    "16549571543487dcfb": {
+      "type": "custom_html",
+      "settings": {
+        "code": "<h3 class=\"section-title tc pr flex fl_center al_center fs__24 title_8\"><span class=\"mr__10 ml__10\">let's get social!\n<\/span><\/h3>",
+        "layout": "container",
+        "mg": "20px,,0px,",
+        "pd": "",
+        "mg_mb": "20px,20px,,",
+        "pd_mb": ""
+      }
+    },
+    "1638862129d0afa766": {
+      "type": "apps",
+      "blocks": {
+        "192c2b73-8cc3-4ce5-af41-f030ff387e25": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_size": 20,
+            "feed_width": 100,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "192c2b73-8cc3-4ce5-af41-f030ff387e25"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "eef4dd35-1176-414a-8b24-c2bf1f333068",
+    "16394671072656d4f2",
+    "4ffb9fbe-0bd0-453d-a2e3-929f28f5c7bb",
+    "d8e7f8e7-a95e-4bd8-8ea1-b7e11e4f0d7b",
+    "1646300431d1e89112",
+    "241a0747-2cc2-4482-a0d5-7d9c91de7141",
+    "8542ff6c-91c9-4f65-8714-51899c5432a2",
+    "8c1200c5-c844-4c50-98b1-0d9d714d1802",
+    "39965f43-cf8a-4b57-a640-76093a5fd691",
+    "43efc0cb-789f-470c-8d43-c151eb89981d",
+    "1581507993250",
+    "16463816049c45fd52",
+    "16463905630aa8bee9",
+    "ad552b54-5033-4966-b927-32dbadbc63ee",
+    "1581508031759",
+    "16549571543487dcfb",
+    "1638862129d0afa766"
+  ]
+}
