@@ -2,7 +2,7 @@
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
-{% endunless %}   
+{% endunless %}
 
 <script async data-deffered data-src="https://www.googletagmanager.com/gtag/js?id=AW-330961037"></script>
 <script>
@@ -13,18 +13,21 @@
 </script>
 
 {% if template contains '404' %}<meta http-equiv="refresh" content="0;URL={{ shop.url }}" />{% endif %}
-    
+{% if page.url contains 'bombae-rewards' %}
+window.location.href= "https://mybombae.in/pages/rewards";
+{% %endif %}
+
 {% if collection.url == '/collections/all' %}
     {% assign redirectUrl = '/collections/shop-all' %}
     <meta name="robots" content="noindex">
     <meta http-equiv="refresh" content="0;url={{redirectUrl}}">
-{% endif %}   
+{% endif %}
 
 {% comment %}}
   {% assign meta = product.metafields.meta %}
   {% if meta.product_schema != blank %}
   {{ meta.product_schema }}
-  {% endif %} 
+  {% endif %}
 {% endcomment %}
 <script type="application/ld+json">
 
@@ -126,7 +129,7 @@
 
     "closes": "19:00"
 
-  } 
+  }
 
 }
 
