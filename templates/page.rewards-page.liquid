@@ -211,7 +211,7 @@ border-radius: 8px;}
         step1.style.display = "none";
         step2.style.display = "block";
     }
-    toggleStepButton.addEventListener("click", function () {
+    toggleStepButton.addEventListener("click", function (e) {
       alert('working');
         if(
           name.value &&
@@ -221,6 +221,7 @@ border-radius: 8px;}
         ) {
           setTimeout(toggleSteps, 3000);
         } else {
+          e.preventdefault();
           alert("Please fill in all required fields.");
         }
     });
