@@ -133,20 +133,16 @@ div#step-1 {
     </div>
   </div>
   </div>
-  <div class="step-2" id="step-2"></div>
+  <div class="step-2" id="step-2" style="display: none;"></div>
 </div>
-<script>
-  const hideStep1 = document.getElementById('step-1');
-  const showStep2 = document.getElementById('step-2');
-  dynamicButton.addEventListener("click",function(){
-    hideStep1.style.display === "none";
-  })
-</script>
 <script>
   // Get references to the dropdown and button
   const dropdown = document.getElementById('channel-dropdown');
   const dynamicButton = document.getElementById('authenticator_product');
   const shopifyInput = document.getElementById('order_input');
+  const toggleStepButton = document.getElementById("authenticator_product");
+  const step1 = document.getElementById("step-1");
+  const step2 = document.getElementById("step-2");
 
   // Define the links corresponding to each dropdown option
   const linkMap = {
@@ -166,6 +162,18 @@ div#step-1 {
         if (linkMap[selectedValue]) {
             dynamicButton.href = linkMap[selectedValue];
         }
+    });
+
+
+    // Function to hide step-1 and show step-2
+    function toggleSteps() {
+        step1.style.display = "none";
+        step2.style.display = "block";
+    }
+
+    // Add a click event listener to the button
+    toggleStepButton.addEventListener("click", function () {
+        setTimeout(toggleSteps, 3000);
     });
     //dropdown.addEventListener('input',function(){
       //if(dropdown.value === 'shopify'){
