@@ -13,7 +13,7 @@
 </script>
 
 {% if template contains '404' %}<meta http-equiv="refresh" content="0;URL={{ shop.url }}" />{% endif %}
-{% if page.url contains 'bombae-rewards' %}
+{% if page.url == 'bombae-rewards' %}
 window.location.href= "https://mybombae.in/pages/rewards";
 {% %endif %}
 
