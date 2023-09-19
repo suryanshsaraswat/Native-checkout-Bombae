@@ -215,14 +215,15 @@ border-radius: 8px;}
     // Add a click event listener to the button
     toggleStepButton.addEventListener("click", function () {
         if(
-          name.value &&
-          emailId.value &&
-          productDropdown.value &&
-          channel.value
+          !name.value &&
+          !emailId.value &&
+          !productDropdown.value &&
+          !channel.value
         ) {
-          setTimeout(toggleSteps, 3000);
-        } else {
+
           alert("Please fill in all required fields.");
+        } else {
+          setTimeout(toggleSteps, 3000);
         }
     });
 </script>
