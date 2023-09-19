@@ -173,60 +173,73 @@ border-radius: 8px;}
   </div>
 </div>
 <script>
-  // Get references to the dropdown and button
-  const dropdown = document.getElementById('channel-dropdown');
-  const dynamicButton = document.getElementById('authenticator_product');
-  const shopifyInput = document.getElementById('order_input');
-  const toggleStepButton = document.getElementById("authenticator_product");
-  const step1 = document.getElementById("step-1");
-  const step2 = document.getElementById("step-2");
-  const name = document.getElementById('name');
-  const emailId = document.getElementById('email-id');
-  const productDropdown = document.getElementById('product_dropdown');
-  const channel = document.getElementById('channel');
+        // Get references to the dropdown and button
+        const dropdown = document.getElementById('channel-dropdown');
+        const dynamicButton = document.getElementById('authenticator_product');
+        const name = document.getElementById('name');
+        const emailId = document.getElementById('email-id');
+        const productDropdown = document.getElementById('product_dropdown');
+        const channel = document.getElementById('channel');
 
-  // Define the links corresponding to each dropdown option
-  const linkMap = {
-      amazon: 'https://www.amazon.in/gp/css/order-history?ref_=nav_orders_first',
-      flipkart:'https://www.flipkart.com/account/orders?link=home_orders',
-      nykaa:'https://www.nykaa.com/sales/order/history/v2?ptype=myOrder',
-      blinkit:'https://blinkit.com/account/orders',
-      zepto:'https://www.zeptonow.com/account/orders',
-      instamart:'https://mybombae.in/collections/body',
-      myntra:'https://www.myntra.com/my/orders',
-      meesho:'https://www.meesho.com/orders'
-      // Add more links as needed
-  };
-  // Add an event listener to the dropdown
-  dropdown.addEventListener('input', function() {
-        const selectedValue = dropdown.value;
-        if (linkMap[selectedValue]) {
-            dynamicButton.href = linkMap[selectedValue];
+        // Function to enable/disable the authentication button based on form validation
+        function updateButtonStatus() {
+            const nameValue = name.value.trim();
+            const emailValue = emailId.value.trim();
+            const productValue = productDropdown.value;
+            const channelValue = channel.value;
+
+            // Check if all required fields are filled
+            const allFieldsFilled =
+                nameValue !== "" && emailValue !== "" && productValue !== "" && channelValue !== "";
+
+            // Enable or disable the button based on form validation
+            dynamicButton.disabled = !allFieldsFilled;
         }
-    });
 
+        // Add event listeners for form input changes
+        name.addEventListener("input", updateButtonStatus);
+        emailId.addEventListener("input", updateButtonStatus);
+        productDropdown.addEventListener("change", updateButtonStatus);
+        channel.addEventListener("change", updateButtonStatus);
 
-    // Function to hide step-1 and show step-2
-    function toggleSteps() {
-        step1.style.display = "none";
-        step2.style.display = "block";
-    }
-    toggleStepButton.addEventListener("click", function () {
-      if (
-        !name.value ||
-        !emailId.value ||
-        !productDropdown.value ||
-        !channel.value
-    ) {
-        // Prevent the default behavior of the anchor tag (page reload)
-        event.preventDefault();
+        // Define the links corresponding to each dropdown option
+        const linkMap = {
+            amazon: 'https://www.amazon.in/gp/css/order-history?ref_=nav_orders_first',
+            flipkart: 'https://www.flipkart.com/account/orders?link=home_orders',
+            nykaa: 'https://www.nykaa.com/sales/order/history/v2?ptype=myOrder',
+            blinkit: 'https://blinkit.com/account/orders',
+            zepto: 'https://www.zeptonow.com/account/orders',
+            instamart: 'https://mybombae.in/collections/body',
+            myntra: 'https://www.myntra.com/my/orders',
+            meesho: 'https://www.meesho.com/orders'
+            // Add more links as needed
+        };
 
-        // Display an error message or take appropriate action if any required field is empty
-        alert("Please fill in all required fields.");
-    } else {
-        // Proceed with the toggle after 3 seconds if all required fields are filled
-        setTimeout(toggleSteps, 3000);
-    }
-});
-    });
-</script>
+        // Add an event listener to the dropdown to update the button link
+        dropdown.addEventListener('input', function () {
+            const selectedValue = dropdown.value;
+            if (linkMap[selectedValue]) {
+                dynamicButton.href = linkMap[selectedValue];
+            }
+        });
+
+        // Function to hide Step 1 and show Step 2
+        function toggleSteps() {
+            document.getElementById("step-1").style.display = "none";
+            document.getElementById("step-2").style.display = "block";
+        }
+
+        // Add event listener to the authentication button
+        dynamicButton.addEventListener("click", function (event) {
+            event.preventDefault(); // Prevent the default behavior of the anchor tag (page reload)
+
+            if (!name.value || !emailId.value || !productDropdown.value || !channel.value) {
+                // Display an error message or take appropriate action if any required field is empty
+                alert("Please fill in all required fields.");
+            } else {
+                // Proceed with the toggle after 3 seconds if all required fields are filled
+                setTimeout(toggleSteps, 3000);
+            }
+        });
+    </script>
+
