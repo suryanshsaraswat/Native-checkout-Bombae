@@ -180,6 +180,10 @@ border-radius: 8px;}
   const toggleStepButton = document.getElementById("authenticator_product");
   const step1 = document.getElementById("step-1");
   const step2 = document.getElementById("step-2");
+  const name = document.getElementById('name');
+  const emailId = document.getElementById('email-id');
+  const productDropdown = document.getElementById('product_dropdown');
+  const channel = document.getElementById('channel');
 
   // Define the links corresponding to each dropdown option
   const linkMap = {
@@ -210,16 +214,15 @@ border-radius: 8px;}
 
     // Add a click event listener to the button
     toggleStepButton.addEventListener("click", function () {
-        setTimeout(toggleSteps, 3000);
+        if(
+          name.value &&
+          emailId.value &&
+          productDropdown.value &&
+          channel.value
+        ) {
+          setTimeout(toggleSteps, 3000);
+        } else {
+          alert("Please fill in all required fields.");
+        }
     });
-    //dropdown.addEventListener('input',function(){
-      //if(dropdown.value === 'shopify'){
-        //shopifyInput.style.display = 'block';
-      //}
-      //else {
-        //shopifyInput.style.display = "none";
-      //}
-
-
-    //})
 </script>
