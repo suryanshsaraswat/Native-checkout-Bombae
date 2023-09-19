@@ -211,18 +211,22 @@ border-radius: 8px;}
         step1.style.display = "none";
         step2.style.display = "block";
     }
-    toggleStepButton.addEventListener("click", function (e) {
-      alert('working');
-        if(
-          name.value &&
-          emailId.value &&
-          productDropdown.value &&
-          channel.value
-        ) {
-          setTimeout(toggleSteps, 3000);
-        } else {
-          e.preventdefault();
-          alert("Please fill in all required fields.");
-        }
+    toggleStepButton.addEventListener("click", function () {
+      if (
+        !name.value ||
+        !emailId.value ||
+        !productDropdown.value ||
+        !channel.value
+    ) {
+        // Prevent the default behavior of the anchor tag (page reload)
+        event.preventDefault();
+
+        // Display an error message or take appropriate action if any required field is empty
+        alert("Please fill in all required fields.");
+    } else {
+        // Proceed with the toggle after 3 seconds if all required fields are filled
+        setTimeout(toggleSteps, 3000);
+    }
+});
     });
 </script>
