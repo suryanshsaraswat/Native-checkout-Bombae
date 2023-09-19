@@ -66,7 +66,8 @@ label.child-labels {
 #order_input{transition: :0.4s;}
 </style>
 <div class="main-rewards-container">
-  <div class="rewards-cont">
+  <div class="step-1" id="step-1">
+    <div class="rewards-cont">
     <div class="cont-main-image">
       <h2><img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/Group_95.png?v=1692862362" alt="rewards banner"></h2>
     </div>
@@ -119,16 +120,25 @@ label.child-labels {
           <!-- Add more options as needed -->
           </select>
       </div>
-      <div class="child-form shop-order-id" id="order_input" style="display:none">
+      {% comment %} <div class="child-form shop-order-id" id="order_input" style="display:none">
         <label for="" class="child-labels shopify-order_id">ENTER LAST 4 DIGITS OF ORDER ID</label>
         <input type="number" maxlength="4" class="shopify-id"></input>
-      </div>
+      </div> {% endcomment %}
       <div class="child-form authenticate">
         <a id="authenticator_product" href="#" target="_blank">Authenticate your product</a>
       </div>
     </div>
   </div>
+  </div>
+  <div class="step-2" id="step-2"></div>
 </div>
+<script>
+  const hideStep1 = document.getElementById('step-1');
+  const showStep2 = document.getElementById('step-2');
+  dynamicButton.addEventListener("click",function(){
+    hideStep1.style.display === "none";
+  })
+</script>
 <script>
   // Get references to the dropdown and button
   const dropdown = document.getElementById('channel-dropdown');
@@ -154,14 +164,14 @@ label.child-labels {
             dynamicButton.href = linkMap[selectedValue];
         }
     });
-    dropdown.addEventListener('input',function(){
-      if(dropdown.value === 'shopify'){
-        shopifyInput.style.display = 'block';
-      }
-      else {
-        shopifyInput.style.display = "none";
-      }
+    //dropdown.addEventListener('input',function(){
+      //if(dropdown.value === 'shopify'){
+        //shopifyInput.style.display = 'block';
+      //}
+      //else {
+        //shopifyInput.style.display = "none";
+      //}
 
 
-    })
+    //})
 </script>
