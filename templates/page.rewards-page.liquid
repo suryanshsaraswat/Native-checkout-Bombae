@@ -198,12 +198,12 @@ border-radius: 8px;}
       // Add more links as needed
   };
   // Add an event listener to the dropdown
-  dropdown.addEventListener('input', function() {
-        const selectedValue = dropdown.value;
-        if (linkMap[selectedValue]) {
-            dynamicButton.href = linkMap[selectedValue];
-        }
-    });
+  //dropdown.addEventListener('input', function() {
+       // const selectedValue = dropdown.value;
+        //if (linkMap[selectedValue]) {
+            //dynamicButton.href = linkMap[selectedValue];
+        //}
+   // });
 
 
     // Function to hide step-1 and show step-2
@@ -223,6 +223,12 @@ border-radius: 8px;}
 
           alert("Please fill in all required fields.");
         } else {
+          dropdown.addEventListener('input', function() {
+            const selectedValue = dropdown.value;
+            if (linkMap[selectedValue]) {
+                dynamicButton.href = linkMap[selectedValue];
+            }
+        });
           setTimeout(toggleSteps, 3000);
         }
     });
