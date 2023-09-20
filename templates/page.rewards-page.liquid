@@ -235,19 +235,5 @@ dataPush.addEventListener("click", function() {
   var nameDataPush = nameData.value;
   var productDataPush = productData.value;
   var channelDataPush = channelData.value;
-
-  // Now that emailDataPush is defined, you can use it
   alert(emailDataPush);
-
-  window.contlo.sendEventWithProfileProperties(
-    'bombae_custom_form_submitted',
-    emailDataPush,
-    phoneDataPush,
-    {"name": nameDataPush, "product": productDataPush, "channel": channelDataPush},
-    {"name": nameDataPush, "product": productDataPush, "channel": channelDataPush},
-    null,
-    null
-  );
-});
-
 </script>
