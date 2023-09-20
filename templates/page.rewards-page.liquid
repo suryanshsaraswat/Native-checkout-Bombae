@@ -224,18 +224,30 @@ border-radius: 8px;}
 </script>
 <script>
   var dataPush = document.getElementById('authenticator_product');
-  dataPush.addEventListener("click",function(){
-    alert(emailDataPush);
-    var emailData = document.getElementById('email-id');
-    var phoneData = document.getElementById('phone');
-    var nameData = document.getElementById('name');
-    var productData = document.getElementById('product_dropdown');
-    var channelData = document.getElementById('channel');
-    var emailDataPush = emailData.value;
-    var phoneDataPush = "+91"+ phoneData.value;
-    var nameDataPush = nameData.value;
-    var productDataPush = productData.value;
-    var channelDataPush = channelData.value;
-    window.contlo.sendEventWithProfileProperties('bombae_custom_form_submitted', emailDataPush, phoneDataPush, {"name": "Anirudh", "product": "ABC", "channel": "ABC"},{"name": "Anirudh", "product": "ABC", "channel": "ABC"}, null, null)
-  });
+dataPush.addEventListener("click", function() {
+  var emailData = document.getElementById('email-id');
+  var phoneData = document.getElementById('phone');
+  var nameData = document.getElementById('name');
+  var productData = document.getElementById('product_dropdown');
+  var channelData = document.getElementById('channel');
+  var emailDataPush = emailData.value; // Define emailDataPush here
+  var phoneDataPush = "+91" + phoneData.value;
+  var nameDataPush = nameData.value;
+  var productDataPush = productData.value;
+  var channelDataPush = channelData.value;
+
+  // Now that emailDataPush is defined, you can use it
+  alert(emailDataPush);
+
+  window.contlo.sendEventWithProfileProperties(
+    'bombae_custom_form_submitted',
+    emailDataPush,
+    phoneDataPush,
+    {"name": nameDataPush, "product": productDataPush, "channel": channelDataPush},
+    {"name": nameDataPush, "product": productDataPush, "channel": channelDataPush},
+    null,
+    null
+  );
+});
+
 </script>
