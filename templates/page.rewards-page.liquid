@@ -134,7 +134,7 @@ border-radius: 8px;}
       </div>
       <div class="child-form channel-selection" required>
         <label for="" class="child-labels channel-select">SELECT CHANNEL</label>
-        <select id="channel-dropdown" placeholder = "select ypur channel" id="channel">
+        <select id="channel-dropdown" placeholder = "select ypur channel">
           <option value="" selected>Select a Channel</option>
           <option value="shopify">D2C</option>
           <option value="amazon">Amazon</option>
@@ -178,7 +178,7 @@ border-radius: 8px;}
   const name = document.getElementById('name');
   const emailId = document.getElementById('email-id');
   const productDropdown = document.getElementById('product_dropdown');
-  const channel = document.getElementById('channel');
+  const channel = document.getElementById('channel-dropdown');
 
   // Define the links corresponding to each dropdown option
   const linkMap = {
@@ -229,7 +229,7 @@ var emailData = document.getElementById('email-id');
 var phoneData = document.getElementById('phone');
 var nameData = document.getElementById('name');
 var prodData = document.getElementById('product_dropdown');
-var channelData = document.getElementById('channel');
+var channelData = document.getElementById('channel-dropdown');
   var emailDataPush = emailData.value;
   var phoneDataPush = "+91"+ phoneData.value;
   var nameDataPush = nameData.value;
