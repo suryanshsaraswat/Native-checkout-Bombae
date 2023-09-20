@@ -248,8 +248,13 @@ border-radius: 8px;}
     const nameData = document.getElementById('name');
     const productData = document.getElementById('product_dropdown');
     const channelData = document.getElementById('channel');
+    const emailDataPush = emailData.value;
+    const phoneDataPush = phoneData.value;
+    const nameDataPush = nameData.value;
+    const productDataPush = productData.value;
+    const channelDataPush = channelData.value;
     
-    window.contlo.sendEventWithProfileProperties('bombae_custom_form_submitted', emailData.value, phoneData.value, {"name": nameData.value, "product": productData.value, "channel": channelData.value},{"name": nameData.value, "product": productData.value, "channel": channelData.value}, null, null)
+    window.contlo.sendEventWithProfileProperties('bombae_custom_form_submitted', emailDataPush, phoneDataPush, {"name": nameDataPush, "product": productDataPush, "channel": channelDataPush},{"name": nameDataPush, "product": productDataPush, "channel": channelDataPush}, null, null)
   })
   
 </script>
