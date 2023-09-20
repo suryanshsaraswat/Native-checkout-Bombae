@@ -227,17 +227,16 @@ border-radius: 8px;}
     });
   const dataPush = document.getElementById('authenticator_product');
   dataPush.addEventListener("click",function(){
-    const emailData = document.getElementById('email-id');
-    const phoneData = document.getElementById('phone');
-    const nameData = document.getElementById('name');
-    const productData = document.getElementById('product_dropdown');
-    const channelData = document.getElementById('channel');
-    const emailDataPush = emailData.value;
-    const phoneDataPush = phoneData.value;
-    const nameDataPush = nameData.value;
-    const productDataPush = productData.value;
-    const channelDataPush = channelData.value;
-    
-    window.contlo.sendEventWithProfileProperties('bombae_custom_form_submitted', emailDataPush, phoneDataPush, {"name": nameDataPush, "product": productDataPush, "channel": channelDataPush},{"name": nameDataPush, "product": productDataPush, "channel": channelDataPush}, null, null)
+    var emailData = document.getElementById('email-id');
+    var phoneData = document.getElementById('phone');
+    var nameData = document.getElementById('name');
+    var productData = document.getElementById('product_dropdown');
+    var channelData = document.getElementById('channel');
+    var emailDataPush = emailData.value;
+    var phoneDataPush = "+91"+ phoneData.value;
+    var nameDataPush = nameData.value;
+    var productDataPush = productData.value;
+    var channelDataPush = channelData.value;
+    window.contlo.sendEventWithProfileProperties('bombae_custom_form_submitted', emailDataPush, phoneDataPush, {"name": "Anirudh", "product": "ABC", "channel": "ABC"},{"name": "Anirudh", "product": "ABC", "channel": "ABC"}, null, null)
   });
 </script>
