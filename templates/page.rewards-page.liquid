@@ -224,17 +224,18 @@ border-radius: 8px;}
 </script>
 <script>
 const dataPush = document.getElementById('authenticator_product');
-dataPush.addEventListener("click", function() {
-var emailData = document.getElementById('email-id');
+  var emailData = document.getElementById('email-id');
 var phoneData = document.getElementById('phone');
 var nameData = document.getElementById('name');
 var prodData = document.getElementById('product_dropdown');
 var channelData = document.getElementById('channel-dropdown');
-  var emailDataPush = emailData.value;
-  var phoneDataPush = "+91"+ phoneData.value;
-  var nameDataPush = nameData.value;
-  var prodDataPush = prodData.value;
-  var channelDataPush = channelData.value;
+var emailDataPush = emailData.value;
+var phoneDataPush = "+91"+ phoneData.value;
+var nameDataPush, = nameData.value;
+var prodDataPush = prodData.value;
+var channelDataPush = channelData.value;
+dataPush.addEventListener("click", function(emailDataPush,phoneDataPush,nameDataPush,prodDataPush,channelDataPush) {
+  alert(channelDataPush);
   window.contlo.sendEventWithProfileProperties('bombae_custom_form_submitted', emailDataPush, phoneDataPush, {"name": nameDataPush, "product": prodDataPush, "channel": channelDataPush},{"name": nameDataPush, "product": prodDataPush, "channel": channelDataPush}, null, null)
 })
 </script>
