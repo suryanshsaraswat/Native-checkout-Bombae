@@ -226,7 +226,9 @@ border-radius: 8px;}
 const dataPush = document.getElementById('authenticator_product');
 dataPush.addEventListener("click", function() {
 var emailData = document.getElementById('email-id');
+var phoneData = document.getElementById('phone');
   var emailDataPush = emailData.value;
-  alert(emailDataPush);
+  var phoneDataPush = "+91"+ phoneData.value;
+  alert(emailDataPush,phoneDataPush);
 })
 </script>
