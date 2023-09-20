@@ -225,4 +225,19 @@ border-radius: 8px;}
           setTimeout(toggleSteps, 3000);
         }
     });
+  const dataPush = document.getElementById('authenticator_product');
+  dataPush.addEventListener('click',function(){
+    const emailData = document.getElementById('email-id');
+    const phoneData = document.getElementById('phone');
+    const nameData = document.getElementById('name');
+    const productData = document.getElementById('product_dropdown');
+    const channelData = document.getElementById('channel');
+    const emailDataPush = emailData.value;
+    const phoneDataPush = phoneData.value;
+    const nameDataPush = nameData.value;
+    const productDataPush = productData.value;
+    const channelDataPush = channelData.value;
+    
+    window.contlo.sendEventWithProfileProperties('bombae_custom_form_submitted', emailDataPush, phoneDataPush, {"name": nameDataPush, "product": productDataPush, "channel": channelDataPush},{"name": nameDataPush, "product": productDataPush, "channel": channelDataPush}, null, null)
+  });
 </script>
