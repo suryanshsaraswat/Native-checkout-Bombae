@@ -224,6 +224,7 @@ border-radius: 8px;}
 </script>
 <script>
 const dataPush = document.getElementById('authenticator_product');
+dataPush.addEventListener("click", function (channelDataPush) {
   var emailData = document.getElementById('email-id');
 var phoneData = document.getElementById('phone');
 var nameData = document.getElementById('name');
@@ -234,7 +235,6 @@ var phoneDataPush = "+91"+ phoneData.value;
 var nameDataPush, = nameData.value;
 var prodDataPush = prodData.value;
 var channelDataPush = channelData.value;
-dataPush.addEventListener("click", function (channelDataPush) {
   alert(channelDataPush);
 })
 </script>
