@@ -125,7 +125,7 @@ border-radius: 8px;}
             Select your purchased product(s)
               </option>
           {% for product in collections.all.products %}
-            <option value="{{ product.id }}" multiple>
+            <option value="{{ product.title }}" multiple>
               <img src="{{ product.featured_image | img_url:'400x' }}" alt="{{ product.title }}" width="50">
               {{ product.title }}
               </option>
