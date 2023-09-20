@@ -1,28 +1,35 @@
 <style>
-  /*.main-rewards-container {
-    background-image: url('https://cdn.shopify.com/s/files/1/0577/1368/8771/files/Group_2.png?v=1693472229');
-    background-size: 100%;
-    background-repeat: no-repeat;
-  }*/
   .cont-main-image img {
     width: 100%;
     padding: 15px
   }
-  .rewards-heading h2 {
-    line-height: 25px;
-    font-size: 22px;
-    font-weight: 300;
-  }
+  .main-rewards-container {
+    margin-top: -19px;
+    padding-bottom: 11px;
+}
+  div#nt_content {
+    background: #fff;
+    background-image: url(https://cdn.shopify.com/s/files/1/0459/6563/9834/files/background-rewardspage.png?v=1695103748);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.rewards-heading h2 {
+  line-height: 31px;
+  font-size: 25px;
+  font-weight: 300;
+  color: #fff;
+}
   .rewards-heading {
     max-width: 100%;
     width: 300px;
     margin: -8px auto 0;
   }
   span.purp-strp {
-    font-weight: 500;
+    font-weight: 700;
     background: #6b24b2;
+    background: linear-gradient(90deg, rgba(252,154,194,1) 0%, rgba(252,154,194,1) 17%, rgba(219,51,240,1) 100%);
     color: #fff;
-    padding: 4px 10px;
+    padding: 2px 10px;
     line-height: 39px;
     border-radius: 7px;
   }
@@ -43,6 +50,10 @@ a#authenticator_product {
   border-radius: 4px;
   text-transform: uppercase;
 }
+.child-form input {
+    background: #0000002e;
+    text-transform: lowercase;
+}
 .child-form {
     margin: 13px 0px;
 }
@@ -50,11 +61,42 @@ label.child-labels {
     font-size: 10px;
     color: #fff;
     text-transform: uppercase;
+    letter-spacing: 1px;
+}
+div#step-1 {
+    display: block;
 }
 #order_input{transition: :0.4s;}
+.wind-check {
+    max-width: 100%;
+    width: 48%;
+    margin: 0 auto;
+    padding-top: 45px;
+}
+.coup {
+    max-width: 100%;
+    padding-top: 30px;
+    text-align: center;
+    color: #fff;
+}
+.produ h2 {
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+    line-height: 23px;
+}
+span.auth {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+span.cod{background: rgb(252,154,194);
+background: linear-gradient(90deg, rgba(252,154,194,1) 0%, rgba(252,154,194,1) 17%, rgba(219,51,240,1) 100%);padding: 4px 12px;
+border-radius: 8px;}
 </style>
 <div class="main-rewards-container">
-  <div class="rewards-cont">
+  <div class="step-1" id="step-1">
+    <div class="rewards-cont">
     <div class="cont-main-image">
       <h2><img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/Group_95.png?v=1692862362" alt="rewards banner"></h2>
     </div>
@@ -67,19 +109,19 @@ label.child-labels {
     <div class="form-items">
       <div class="child-form name">
         <label for="" class="child-labels name">NAME</label>
-        <input type="text" class="name" placeholder="Enter your name" id="name"></input>
+        <input type="text" class="name" placeholder="Enter your name" id="name" required></input>
       </div>
       <div class="child-form email">
         <label for="" class="child-labels email">EMAIL</label>
-        <input type="email" class="email" placeholder="ENTER EMAIL" id="email-id"></input>
+        <input type="email" class="email" placeholder="ENTER EMAIL" id="email-id" required></input>
       </div>
       <div class="child-form phone">
         <label for="" class="child-labels phone">PHONE</label>
-        <input type="tel" class="telephone" placeholder="ENTER PHONE" id="phone"></input>
+        <input type="tel" class="telephone" placeholder="ENTER PHONE" id="phone" required></input>
       </div>
       <div class="child-form product-selection">
         <label for="" class="child-labels prod-selection">Select your product</label>
-         <select name="product_dropdown" id="product_dropdown">
+         <select name="product_dropdown" id="product_dropdown" required>
           <option value="">
             Select your purchased product(s)
               </option>
@@ -91,7 +133,7 @@ label.child-labels {
             {% endfor %}
             </select>
       </div>
-      <div class="child-form channel-selection">
+      <div class="child-form channel-selection" required>
         <label for="" class="child-labels channel-select">SELECT CHANNEL</label>
         <select id="channel-dropdown" placeholder = "select ypur channel" id="channel">
           <option value="" selected>Select a Channel</option>
@@ -107,13 +149,26 @@ label.child-labels {
           <!-- Add more options as needed -->
           </select>
       </div>
-      <div class="child-form shop-order-id" id="order_input" style="display:none">
+      {% comment %} <div class="child-form shop-order-id" id="order_input" style="display:none">
         <label for="" class="child-labels shopify-order_id">ENTER LAST 4 DIGITS OF ORDER ID</label>
         <input type="number" maxlength="4" class="shopify-id"></input>
-      </div>
+      </div> {% endcomment %}
       <div class="child-form authenticate">
         <a id="authenticator_product" href="#" target="_blank">Authenticate your product</a>
       </div>
+    </div>
+  </div>
+  </div>
+  <div class="step-2" id="step-2" style="display: none;">
+    <div class="wind-check">
+      <h2><img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/Group_93.png?v=1695105721" alt="product authenticated"></h2>
+    </div>
+    <div class="produ">
+      <h2>Your Product is <br><span class="auth">authenticated</span></h2>
+    </div>
+    <div class="coup">
+      <p>Here is a coupon code to get <br> <span class="fla">FLAT 20% OFF</span>sitewide</p>
+      <span class="cod">BAE20</span>
     </div>
   </div>
 </div>
@@ -122,6 +177,13 @@ label.child-labels {
   const dropdown = document.getElementById('channel-dropdown');
   const dynamicButton = document.getElementById('authenticator_product');
   const shopifyInput = document.getElementById('order_input');
+  const toggleStepButton = document.getElementById("authenticator_product");
+  const step1 = document.getElementById("step-1");
+  const step2 = document.getElementById("step-2");
+  const name = document.getElementById('name');
+  const emailId = document.getElementById('email-id');
+  const productDropdown = document.getElementById('product_dropdown');
+  const channel = document.getElementById('channel');
 
   // Define the links corresponding to each dropdown option
   const linkMap = {
@@ -136,20 +198,38 @@ label.child-labels {
       // Add more links as needed
   };
   // Add an event listener to the dropdown
-  // dropdown.addEventListener('input', function() {
-  //       const selectedValue = dropdown.value;
-  //       if (linkMap[selectedValue]) {
-  //           dynamicButton.href = linkMap[selectedValue];
-  //       }
-  //   });
-    dropdown.addEventListener('input',function(){
-      if(dropdown.value === 'shopify'){
-        shopifyInput.style.display = 'block';
-      }
-      else {
-        shopifyInput.style.display = "none";
-      }
+  //dropdown.addEventListener('input', function() {
+       // const selectedValue = dropdown.value;
+        //if (linkMap[selectedValue]) {
+            //dynamicButton.href = linkMap[selectedValue];
+        //}
+   // });
 
 
-    })
+    // Function to hide step-1 and show step-2
+    function toggleSteps() {
+        step1.style.display = "none";
+        step2.style.display = "block";
+    }
+
+    // Add a click event listener to the button
+    toggleStepButton.addEventListener("click", function () {
+        if(
+          !name.value &&
+          !emailId.value &&
+          !productDropdown.value &&
+          !channel.value
+        ) {
+
+          alert("Please fill in all required fields.");
+        } else {
+          dropdown.addEventListener('input', function() {
+            const selectedValue = dropdown.value;
+            if (linkMap[selectedValue]) {
+                dynamicButton.href = linkMap[selectedValue];
+            }
+        });
+          setTimeout(toggleSteps, 3000);
+        }
+    });
 </script>
