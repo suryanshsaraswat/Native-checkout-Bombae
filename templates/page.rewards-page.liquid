@@ -235,6 +235,6 @@ var channelData = document.getElementById('channel-dropdown');
   var nameDataPush = nameData.value;
   var prodDataPush = prodData.value;
   var channelDataPush = channelData.value;
-  alert(channelDataPush);
+  window.contlo.sendEventWithProfileProperties('bombae_custom_form_submitted', emailDataPush, phoneDataPush, {"name": nameDataPush, "product": prodDataPush, "channel": channelDataPush},{"name": nameDataPush, "product": prodDataPush, "channel": channelDataPush}, null, null)
 })
 </script>
