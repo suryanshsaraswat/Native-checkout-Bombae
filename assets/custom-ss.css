@@ -47,7 +47,7 @@ body .WhatsAppButton__root{display:none!important}
 .prod-pointers{display:block;margin-bottom:-3px;font-size:12px;color:#6b24b2;font-weight:500}
 p.wtu{margin:0;font-size:14px;margin-left:0;color:#6a6060; font-style:italic;text-transform:uppercase}
 @media(max-width:500px){
-  p.wtu{font-size:12px;}
+  p.wtu{font-size:11px;}
   .pdp_byline{margin:-10px 0}
   p.so{font-size:10px}
 }
