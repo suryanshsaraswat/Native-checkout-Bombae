@@ -168,7 +168,7 @@ ul.sub-menu {
 #price_ppr del {
     color: #9c9c9c;
 }
-a.truncate.out_stock.button.pe_none {display: block;text-align: center;border-radius: 7px;text-transform:uppercase}
+a.truncate.out_stock.button.pe_none {display: block;text-align: center;border-radius: 7px;text-transform:uppercase; width:100%}
 a.truncate.out_stock.button.pe_none:hover{color:#fff}
 .single_add_to_cart_button {background: #E0C5FF;}
 .pr_short_des.rtet4 p {
