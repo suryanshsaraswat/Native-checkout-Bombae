@@ -1,6 +1,16 @@
-<style></style>
+<style>
+    .desk_banner{display:block; max-width:100%}
+    .mob_banner{display:none}
+    @media(max-width:450px){
+        .mob_banner{display:block}
+        .desk_banner{display:none}
+    }
+</style>
 
-<div class="main-banner"></div>
+<div class="main-banner">
+    <img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/suryansh.jpg?v=1696497638" loading="lazy" alt="desktop-banner" class="desk_banner">
+    <img src="https://cdn.shopify.com/s/files/1/0577/1368/8771/files/suryansh-2.jpg?v=1696497638" loading="lazy" alt="mobile banner" class="mob_banner">
+</div>
 <div class="fixed-section">
 <div class="prod-caraousel">
     {% section 'glam-up-block' %}
