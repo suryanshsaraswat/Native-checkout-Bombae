@@ -2659,6 +2659,48 @@
           "mg_mb": "",
           "pd_mb": ""
         }
+      },
+      "glam-up-block": {
+        "type": "glam-up-block",
+        "blocks": {
+          "150dd81d-b077-4ef1-b0f5-a5d013415ff6": {
+            "type": "Product",
+            "settings": {
+              "featured_product": "",
+              "featured_image": "shopify:\/\/shop_images\/glitter-for-landing-page-1.png",
+              "featured_image2": "shopify:\/\/shop_images\/glitter-for-landing-page-2.png",
+              "offersss": "",
+              "maqree": ""
+            }
+          },
+          "745a198c-7c73-47f7-a511-82a2b85bdfa8": {
+            "type": "Product",
+            "settings": {
+              "featured_product": "precision-face-razor-pack-of-1",
+              "featured_image": "shopify:\/\/shop_images\/PFR-for-landing-page-1.png",
+              "featured_image2": "shopify:\/\/shop_images\/PFR-for-landing-page-2.png",
+              "offersss": "",
+              "maqree": "New Arrival"
+            }
+          },
+          "cdea3a3c-59ee-4caf-9883-c18bd09eafda": {
+            "type": "Product",
+            "settings": {
+              "featured_product": "biodegradable-face-razor-for-women-pack-of-3",
+              "featured_image": "shopify:\/\/shop_images\/BFR-for-landing-page-1.png",
+              "featured_image2": "shopify:\/\/shop_images\/BFR-for-landing-page-2.png",
+              "offersss": "",
+              "maqree": ""
+            }
+          }
+        },
+        "block_order": [
+          "150dd81d-b077-4ef1-b0f5-a5d013415ff6",
+          "745a198c-7c73-47f7-a511-82a2b85bdfa8",
+          "cdea3a3c-59ee-4caf-9883-c18bd09eafda"
+        ],
+        "settings": {
+        }
       }
     },
     "content_for_index": [
