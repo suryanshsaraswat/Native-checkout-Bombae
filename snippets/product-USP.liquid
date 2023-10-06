@@ -15,11 +15,6 @@
     text-align: center;
     padding-top: 19px;
     font-weight: 700}
-  .main-section {
-    border: 1px solid #6b24b2;
-    border-radius: 4px;
-    box-shadow: 2px 2px 8px 2px #6b24b22b;
-}
 
   .main-file {
     background-color: #f4efff;
@@ -28,7 +23,7 @@
   .bits-all h2{width:70%; font-size:15px}
 </style>
 {% if product.metafields.global.product_usp != 'blank' %}
-<div class="main-file">
+<div class="main-file eom">
    <div class="main-section"> {{ product.metafields.global.product_usp }}</div>
 </div>
   {% endif %}
