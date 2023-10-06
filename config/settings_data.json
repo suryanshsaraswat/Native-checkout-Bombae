@@ -2758,17 +2758,17 @@
         "settings": {
         }
       },
-      "11905432258600982856": {
-        "type": "shopify:\/\/apps\/quinn-shoppable-videos\/blocks\/app-embed\/150d2781-732b-4020-a9fb-1368e974e6bb",
-        "disabled": false,
-        "settings": {
-          "custom_swatch_code": "<script><\/script>"
-        }
-      },
       "18228966181090706294": {
         "type": "shopify:\/\/apps\/upsell-cross-sell-selleasy\/blocks\/app-embed\/790c1a03-a71f-4bc1-9869-00dad526d3c2",
         "disabled": false,
         "settings": {
+        }
+      },
+      "11905432258600982856": {
+        "type": "shopify:\/\/apps\/quinn-shoppable-videos\/blocks\/app-embed\/150d2781-732b-4020-a9fb-1368e974e6bb",
+        "disabled": true,
+        "settings": {
+          "custom_swatch_code": "<script><\/script>"
         }
       }
     }
