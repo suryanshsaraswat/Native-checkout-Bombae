@@ -226,6 +226,21 @@
         "mg_mb": "0,,0,"
       }
     },
+    "165596399873ce533d": {
+      "type": "apps",
+      "blocks": {
+        "17e543e9-b91b-4099-865c-ceae1406a481": {
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "17e543e9-b91b-4099-865c-ceae1406a481"
+      ],
+      "settings": {
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -263,21 +278,6 @@
         "image_position": "8"
       }
     },
-    "165596399873ce533d": {
-      "type": "apps",
-      "blocks": {
-        "17e543e9-b91b-4099-865c-ceae1406a481": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "17e543e9-b91b-4099-865c-ceae1406a481"
-      ],
-      "settings": {
-      }
-    },
     "loox-product-reviews-app-section": {
       "type": "apps",
       "blocks": {
@@ -303,8 +303,8 @@
     "6ee8b6c3-f444-41f0-a2fe-bc5d38fbed24",
     "a338c857-3675-42e5-b5cc-3ff65dfe9c8c",
     "product-description",
-    "product-recommendations",
     "165596399873ce533d",
+    "product-recommendations",
     "loox-product-reviews-app-section"
   ]
 }
