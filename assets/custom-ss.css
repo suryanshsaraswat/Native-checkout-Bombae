@@ -240,3 +240,10 @@ div#shopify-section-template--15836393570499__a9d822f9-bd9e-4749-b758-174398e5c7
     margin-top: -10px!important;
     padding-top: 3px!important;
 }
+@media(max-width:450px){
+  .nt_se_template--15848211415235__8542ff6c-91c9-4f65-8714-51899c5432a2.nt_co_wide {
+    background-color: #f4efff;
+    padding-top: 25px;
+}
+  #shopify-section-template--15848211415235__8c1200c5-c844-4c50-98b1-0d9d714d1802{padding-bottom:1px}
+}
