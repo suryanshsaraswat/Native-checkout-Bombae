@@ -1,0 +1,109 @@
+<style>
+  .accordion-container{position:relative;max-width:1200px;height:auto;margin:50px auto;padding: 0 30px;}
+  .accordion-container h2 {font-size: 20px;text-transform: lowercase;text-align: center;margin-top: 33px;}
+  .settt {position: relative; width: 100%; height: auto; margin-bottom: 20px; border-radius: 15px; padding: 20px 30px; box-shadow: 0px 0px 0px 2px #e5e3e3}
+  .settt::before{transition:0.2s;position:absolute;content:""; width:50px;height:40px;background:url(https://cdn.shopify.com/s/files/1/0577/1368/8771/files/wing.png?v=1654709422);left:-35px; top:-20px;background-size:100%;background-repeat:no-repeat;background-position: center center; opacity:0}
+  .settt.activee::before{opacity:1}
+  .settt > a{width:80%;display:block;text-decoration:none;color:#6b24b2 ;font-weight:600;-webkit-transition:all .2s linear;-moz-transition:all .2s linear;transition:all .2s linear;}
+  .settt > a i{float: right;background: #f2e7f7 ; padding: 8px; border-radius: 50%;position: absolute; right: 20px; top: 18px;}
+  .settt.activee{background: #fdf0ff ; box-shadow: 0px 0px 10px 0px #cdcdcd;}
+  .contenttt{display:none}
+  .contenttt p{padding:20px 0 0;margin:0;color:#333;}
+</style>
+{%  if product.id == 7605486747843 or product.id == 7542310305987 or product.id == 7604298186947 %}
+  <div class="accordion-container lazyloadt4sed">
+  <h2>Learn more about the product</h2>
+  <div class="settt activee" data-aos="fade-up">
+    <a href="#">
+      I'm a newbie, how do I get started on shaving?
+      <i class="fa fa-plus"></i>
+    </a>
+    <div class="contenttt" style="display:block">
+      <p>Hey newbie! It's super simple to get started with shaving rolling:
+      <ol>
+        <li> Prep skin with water. This will activate the moisture band in the roller.</li>
+        <li>Glide Bombae Rollplay razor against the direction of hair growth. In case of super-sensitive skin, glide in the direction of hair growth</li>
+        <li>Soothe skin with a post-shave balm or lotion</li>
+      </ol>
+      Go forth and roll into smoothness!</p>
+    </div>
+  </div>
+  <div class="settt" data-aos="fade-up"  data-aos-delay="50">
+    <a href="#">
+     What is so special about the roller on Bombae Rollplay razor?
+      <i class="fa fa-plus"></i>
+    </a>
+    <div class="contenttt">
+      <p>Unlike traditional razors, Bombae Rollplay's unique roller design is powered by patented Rola-tek technology. This enables 
+<b>faster</b> glides, <b>easier</b> navigation over curves and tricky areas for the <b>smoothest</b> shaves eva! So don't just shave with it, roll with it!</p>
+    </div>
+  </div>
+  <div class="settt" data-aos="fade-up"  data-aos-delay="100">
+    <a href="#">
+      Is the razor suitable for all skin types?
+      <i class="fa fa-plus"></i>
+    </a>
+    <div class="contenttt">
+      <p>Absolutely! The Bombae Rollplay razor is designed to be gentle on the skin, making it a fantastic option for all skin types, especially those with sensitive skin.</p>
+    </div>
+  </div>
+    <div class="settt" data-aos="fade-up"  data-aos-delay="150">
+    <a href="#">
+      How often should I replace the cartridge?
+      <i class="fa fa-plus"></i> 
+    </a>
+    <div class="contenttt">
+      <p>Our cartridges last longer than traditional blades. We recommend to replace the cartridge after 7-8 uses or when you see dull blades, whichever is sooner. To increase life of your cartridge, we recommend keeping it high and dry on the magic holder post every use.</p>
+    </div>
+  </div>
+    <div class="settt" data-aos="fade-up"  data-aos-delay="150">
+    <a href="#">
+      Can I travel with Bombae Rollplay?
+      <i class="fa fa-plus"></i> 
+    </a>
+    <div class="contenttt">
+      <p>Yes! Bombae Rollplay is compact and easy to travel with, making it a great option for on-the-go smoothness. Just make sure to keep it dry and pack in a pouch/ travel case while traveling.</p>
+    </div>
+  </div>
+    <div class="settt" data-aos="fade-up"  data-aos-delay="150">
+    <a href="#">
+      How do I clean Bombae Rollplay post use?
+      <i class="fa fa-plus"></i> 
+    </a>
+    <div class="contenttt">
+      <p>After each use, rinse Bombae Rollplay razor under running water to remove any hair or shaving foam. For a deeper clean, you can use a soft bristled brush to remove any build up. Make sure to place it on the magic holder post use to keep it high and dry!</p>
+    </div>
+  </div>
+</div>
+{% endif %}
+  <script>
+    $(document).ready(function() {
+
+  $(".settt").on("click", function(e) {
+    e.preventDefault();
+    if ($(this).hasClass("activee")) {
+      $(this).removeClass("activee");
+      $(this)
+        .children(".contenttt")
+        .slideUp(200);
+      $(".settt > a i")
+        .removeClass("fa-minus")
+        .addClass("fa-plus");
+    } else {
+      $(".settt > a i")
+        .removeClass("fa-minus")
+        .addClass("fa-plus");
+      $(this)
+        .find("i")
+        .removeClass("fa-plus")
+        .addClass("fa-minus");
+      $(".settt").removeClass("activee");
+      $(this).addClass("activee");
+      $(".contenttt").slideUp(200);
+      $(this)
+        .children(".contenttt")
+        .slideDown(200);
+    }
+  });
+});
+  </script>
