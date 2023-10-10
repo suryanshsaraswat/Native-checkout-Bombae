@@ -170,8 +170,8 @@ if (Shopify.Checkout.step === 'contact_information') {
     var x = document.getElementsByTagName("script")[0];
     x.parentNode.insertBefore(s, x);
     </script>    
-    <script src="{{ 'pin-code-list.js' | asset_url }}"></script>
-    <script src="{{ 'pin-code-validator.js' | asset_url }}"></script>
+    {% comment %}<script src="{{ 'pin-code-list.js' | asset_url }}"></script>
+    <script src="{{ 'pin-code-validator.js' | asset_url }}"></script>{% endcomment %}
     {{ 'flits_checkout.js' | asset_url | script_tag }}
   </body>
 </html>
