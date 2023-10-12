@@ -135,7 +135,7 @@
     "7686d309-88b4-4d08-af4e-a7c24c38699d": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{% render 'glam-up-gifs' %}",
+        "custom_liquid": "{% render 'glam-up-gifts' %}",
         "layout": "nt_full",
         "cl_bg": "#fff",
         "mg": "",
