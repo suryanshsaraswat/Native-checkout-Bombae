@@ -144,6 +144,18 @@
         "pd_mb": ""
       }
     },
+    "29980037-6955-4a01-b355-4aa1ac28a378": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% render 'brand-promise' %}",
+        "layout": "nt_full",
+        "cl_bg": "#fff",
+        "mg": "",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": ""
+      }
+    },
     "4153510b-c884-4af2-b0c9-3e6b13c8b95f": {
       "type": "featured-reviews",
       "blocks": {
@@ -325,6 +337,7 @@
     "main",
     "70b4f1e1-f1e7-462e-abf3-3282152d6689",
     "7686d309-88b4-4d08-af4e-a7c24c38699d",
+    "29980037-6955-4a01-b355-4aa1ac28a378",
     "4153510b-c884-4af2-b0c9-3e6b13c8b95f",
     "6ee8b6c3-f444-41f0-a2fe-bc5d38fbed24",
     "a338c857-3675-42e5-b5cc-3ff65dfe9c8c",
