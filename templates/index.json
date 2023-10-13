@@ -3,6 +3,38 @@
     "eef4dd35-1176-414a-8b24-c2bf1f333068": {
       "type": "slideshow",
       "blocks": {
+        "template--15596438323395__eef4dd35-1176-414a-8b24-c2bf1f333068-16684877588eeccc2c-0": {
+          "type": "img",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Glamup-banner-desktop.gif",
+            "image_mb": "shopify:\/\/shop_images\/Glamup-banner-mobile.gif",
+            "pos_img": "center center",
+            "cl_img": "",
+            "link_img1": "shopify:\/\/pages\/glam-up",
+            "open_link": "_self",
+            "caption_w": "2",
+            "cap_v_pos": 50,
+            "cap_h_pos": 39,
+            "txt_align": "tl_md",
+            "cap_v_pos_mb": 50,
+            "cap_h_pos_mb": 39,
+            "txt_align_mb": "tl",
+            "cl_overlay": "#000000",
+            "cl_opacity": 0,
+            "ani_img": "none",
+            "ani_txt": "none",
+            "bg_content_bl": false,
+            "bg_content_cl": "#ffffff",
+            "bg_content_op": 50,
+            "content_pd": "40px 80px",
+            "content_pd_mb": "10px 20px",
+            "border_bl": false,
+            "br_color": "#222222",
+            "br_style": "solid",
+            "br_pd": 20,
+            "br_pd_mb": 10
+          }
+        },
         "template--15596438323395__eef4dd35-1176-414a-8b24-c2bf1f333068-16684877588eeccc2c-5": {
           "type": "img",
           "settings": {
@@ -130,46 +162,14 @@
             "br_pd": 20,
             "br_pd_mb": 10
           }
-        },
-        "template--15596438323395__eef4dd35-1176-414a-8b24-c2bf1f333068-16684877588eeccc2c-0": {
-          "type": "img",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Glamup-banner-desktop.gif",
-            "image_mb": "shopify:\/\/shop_images\/Glamup-banner-mobile.gif",
-            "pos_img": "center center",
-            "cl_img": "",
-            "link_img1": "shopify:\/\/pages\/glam-up",
-            "open_link": "_self",
-            "caption_w": "2",
-            "cap_v_pos": 50,
-            "cap_h_pos": 39,
-            "txt_align": "tl_md",
-            "cap_v_pos_mb": 50,
-            "cap_h_pos_mb": 39,
-            "txt_align_mb": "tl",
-            "cl_overlay": "#000000",
-            "cl_opacity": 0,
-            "ani_img": "none",
-            "ani_txt": "none",
-            "bg_content_bl": false,
-            "bg_content_cl": "#ffffff",
-            "bg_content_op": 50,
-            "content_pd": "40px 80px",
-            "content_pd_mb": "10px 20px",
-            "border_bl": false,
-            "br_color": "#222222",
-            "br_style": "solid",
-            "br_pd": 20,
-            "br_pd_mb": 10
-          }
         }
       },
       "block_order": [
+        "template--15596438323395__eef4dd35-1176-414a-8b24-c2bf1f333068-16684877588eeccc2c-0",
         "template--15596438323395__eef4dd35-1176-414a-8b24-c2bf1f333068-16684877588eeccc2c-5",
         "844b8ca7-d488-4039-8e49-2388aa511586",
         "eace597f-855d-4ebb-9cb2-ecd2cc10acf2",
-        "48cba501-8c60-42db-b51a-58e894d8b8a3",
-        "template--15596438323395__eef4dd35-1176-414a-8b24-c2bf1f333068-16684877588eeccc2c-0"
+        "48cba501-8c60-42db-b51a-58e894d8b8a3"
       ],
       "settings": {
         "se_height": "adapt",
