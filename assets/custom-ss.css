@@ -247,3 +247,13 @@ div#shopify-section-template--15836393570499__a9d822f9-bd9e-4749-b758-174398e5c7
 }
   #shopify-section-template--15848211415235__8c1200c5-c844-4c50-98b1-0d9d714d1802{padding-bottom:1px}
 }
+.osf_inline_form {
+  border-radius: 10px;
+  box-shadow: inset 0px -2px 1px 0px #d4d4d4;
+}
+input.osf_input {
+  border-radius: 30px!important;
+}
+button.osf_submit_button {
+  border-radius: 30px !important;
+}
