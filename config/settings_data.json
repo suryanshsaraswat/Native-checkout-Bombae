@@ -2687,7 +2687,7 @@
           "745a198c-7c73-47f7-a511-82a2b85bdfa8": {
             "type": "Product",
             "settings": {
-              "featured_product": "precision-face-razor-pack-of-1",
+              "featured_product": "precision-face-razor",
               "featured_image": "shopify:\/\/shop_images\/PFR-for-landing-page-1.png",
               "featured_image2": "shopify:\/\/shop_images\/PFR-for-landing-page-2.png",
               "offersss": "",
@@ -2710,6 +2710,11 @@
           "745a198c-7c73-47f7-a511-82a2b85bdfa8",
           "cdea3a3c-59ee-4caf-9883-c18bd09eafda"
         ],
+        "settings": {
+        }
+      },
+      "three-banners": {
+        "type": "three-banners",
         "settings": {
         }
       }
