@@ -2766,7 +2766,7 @@
       },
       "11905432258600982856": {
         "type": "shopify:\/\/apps\/quinn-shoppable-videos\/blocks\/app-embed\/150d2781-732b-4020-a9fb-1368e974e6bb",
-        "disabled": true,
+        "disabled": false,
         "settings": {
           "custom_swatch_code": "<script><\/script>"
         }
