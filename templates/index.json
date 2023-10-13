@@ -134,11 +134,11 @@
         "template--15596438323395__eef4dd35-1176-414a-8b24-c2bf1f333068-16684877588eeccc2c-0": {
           "type": "img",
           "settings": {
-            "image": "shopify:\/\/shop_images\/website-desktop-banner_8b70486c-92a9-4b85-8737-ca9f541337f9.jpg",
-            "image_mb": "shopify:\/\/shop_images\/website-banner.jpg",
+            "image": "shopify:\/\/shop_images\/Glamup-banner-desktop.gif",
+            "image_mb": "shopify:\/\/shop_images\/Glamup-banner-mobile.gif",
             "pos_img": "center center",
             "cl_img": "",
-            "link_img1": "shopify:\/\/pages\/blue-heaven-x-bombae",
+            "link_img1": "shopify:\/\/pages\/glam-up",
             "open_link": "_self",
             "caption_w": "2",
             "cap_v_pos": 50,

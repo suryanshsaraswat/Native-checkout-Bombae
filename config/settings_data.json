@@ -511,6 +511,19 @@
               "lb_cl": ""
             }
           },
+          "968e8597-3f93-4aa3-9b6c-403722756853": {
+            "type": "simple",
+            "settings": {
+              "title": "Glam Up",
+              "url": "shopify:\/\/pages\/glam-up",
+              "open_link": "_self",
+              "icon": "",
+              "cus_cl": false,
+              "cl": "#ec0101",
+              "lb": "new ✨",
+              "lb_cl": "#6b24b2"
+            }
+          },
           "ae6c3d38-ee3f-4f62-a41f-41006e5d1827": {
             "type": "simple",
             "settings": {
@@ -520,7 +533,7 @@
               "icon": "",
               "cus_cl": false,
               "cl": "#ec0101",
-              "lb": "new ✨",
+              "lb": "",
               "lb_cl": "#6b24b2"
             }
           },
@@ -695,6 +708,7 @@
           "8236a615-43cf-4006-a495-85efb801c402",
           "e4782dee-cf0c-4239-b0d0-b5ab2359d083",
           "d7b65514-b7c6-4be9-b185-3e74866da51f",
+          "968e8597-3f93-4aa3-9b6c-403722756853",
           "ae6c3d38-ee3f-4f62-a41f-41006e5d1827",
           "781c4cf5-c08b-4228-acaa-73010d231341",
           "7b9bccc3-25d9-4573-b074-836c67431b62",
@@ -981,15 +995,14 @@
           },
           "5aaca0a0-653c-4287-9866-97eff2aa90af": {
             "type": "menu",
-            "disabled": true,
             "settings": {
-              "title": "Period Care",
-              "url": "",
+              "title": "Glam Up",
+              "url": "shopify:\/\/pages\/glam-up",
               "open_link": "_self",
-              "menu": "period-care",
+              "menu": "",
               "icon": "",
-              "lb": "",
-              "lb_cl": ""
+              "lb": "new ✨",
+              "lb_cl": "#6b24b2"
             }
           },
           "3a87eb0b-80bc-44eb-a749-73db4d6fae3b": {
@@ -1012,7 +1025,7 @@
               "open_link": "_self",
               "menu": "",
               "icon": "",
-              "lb": "new ✨",
+              "lb": "",
               "lb_cl": "#6b24b2"
             }
           },
@@ -2010,6 +2023,14 @@
               "open_link": "_self"
             }
           },
+          "dbdfd0e1-53d8-4001-b150-661d77bdfc16": {
+            "type": "testimonial",
+            "settings": {
+              "text": "Glam up",
+              "linkurl": "shopify:\/\/pages\/glam-up",
+              "open_link": "_self"
+            }
+          },
           "ef9c75a5-b0be-41a3-8b34-b1b29dbcd1d9": {
             "type": "testimonial",
             "settings": {
@@ -2074,20 +2095,12 @@
               "linkurl": "shopify:\/\/pages\/laser",
               "open_link": "_blank"
             }
-          },
-          "dbdfd0e1-53d8-4001-b150-661d77bdfc16": {
-            "type": "testimonial",
-            "disabled": true,
-            "settings": {
-              "text": "Gifting",
-              "linkurl": "shopify:\/\/collections\/gifting",
-              "open_link": "_self"
-            }
           }
         },
         "block_order": [
           "e49f3fa9-cef5-4572-83af-c8b0caf135bc",
           "1ce1ed30-e647-41f7-a5ca-81ede485a8c7",
+          "dbdfd0e1-53d8-4001-b150-661d77bdfc16",
           "ef9c75a5-b0be-41a3-8b34-b1b29dbcd1d9",
           "3d9e1ab2-c325-45f9-940d-43b8886dd06b",
           "b3262c65-2bdd-4a5c-bf98-91c471093bbb",
@@ -2095,8 +2108,7 @@
           "94e1a1ce-2a75-444c-ba7b-f2c759d836b6",
           "c1ce2f00-e2a9-46d4-b88d-09d30e900418",
           "25bcde55-3d83-4303-95b5-3ec926fe6715",
-          "0b5d1c78-c002-4691-903f-0d2fa5014a43",
-          "dbdfd0e1-53d8-4001-b150-661d77bdfc16"
+          "0b5d1c78-c002-4691-903f-0d2fa5014a43"
         ],
         "settings": {
         }
@@ -2333,6 +2345,15 @@
       "new-annbar": {
         "type": "new-annbar",
         "blocks": {
+          "f5fe7f08-a473-4a01-a8e7-a9b1869a4ccf": {
+            "type": "testimonial",
+            "settings": {
+              "Offer": "Add Instant glam with the Bombae beauty face razors",
+              "image": "shopify:\/\/shop_images\/glamup-icon.png",
+              "coupon": "",
+              "linkurl": "shopify:\/\/pages\/glam-up"
+            }
+          },
           "5c189d27-0408-4f68-bf6f-d55c974a94f5": {
             "type": "testimonial",
             "settings": {
@@ -2340,16 +2361,6 @@
               "image": "shopify:\/\/shop_images\/offer-icon.png",
               "coupon": "",
               "linkurl": "shopify:\/\/pages\/blue-heaven-x-bombae"
-            }
-          },
-          "f5fe7f08-a473-4a01-a8e7-a9b1869a4ccf": {
-            "type": "testimonial",
-            "disabled": true,
-            "settings": {
-              "Offer": "Add Instant glam with the Bombae beauty face razors",
-              "image": "shopify:\/\/shop_images\/glamup-icon.png",
-              "coupon": "",
-              "linkurl": "shopify:\/\/pages\/glam-up"
             }
           },
           "fad57716-5b37-4564-9929-efab5db6a2f1": {
@@ -2430,8 +2441,8 @@
           }
         },
         "block_order": [
-          "5c189d27-0408-4f68-bf6f-d55c974a94f5",
           "f5fe7f08-a473-4a01-a8e7-a9b1869a4ccf",
+          "5c189d27-0408-4f68-bf6f-d55c974a94f5",
           "fad57716-5b37-4564-9929-efab5db6a2f1",
           "0ad8efb3-88ac-4f9c-ac0b-710106468360",
           "c9ce9867-242a-4c24-a9c6-e66871a58bf9",
@@ -2442,7 +2453,7 @@
           "03ca440b-be2f-4901-83aa-7866a8bc55d4"
         ],
         "settings": {
-          "text": "Prices Slashed For A Limited Time !"
+          "text": "Get the beauty razors going viral!"
         }
       },
       "careers": {
