@@ -28,6 +28,7 @@
     @media(max-width:480px) {
     .product-detailss h2{font-size:18px}
     .product-imageaa img{margin-bottom:10px}
+    span.pridc.mrp {margin-left: -15px;margin-right: 28px;}
     .slidecc{margin:8px 10px}
     .whytrim{margin-top:10px}
     .product-detailss h1{font-size:15px;margin:8px 0 5px;text-align:center}
@@ -85,7 +86,7 @@
                   </p>
                 {%- else -%}
                   <p class="pricedivv">
-                    <span class="pridc mrp">MRP {{ product.price | money }}</span>
+                    <span class="pridce mrp">MRP {{ product.price | money }}</span>
                   </p>
                 {% endif %}
                 <div class="btncartt">
