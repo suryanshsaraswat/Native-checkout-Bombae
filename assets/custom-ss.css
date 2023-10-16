@@ -59,7 +59,7 @@ p.so{margin:0;font-size:14px;margin-left:8px}
 .cart_dis_price.dib{display:none!important}
 .ntheader .nt_menu>li>a{font-size:13.3px;text-transform:uppercase;padding:0 16px}
 @media(min-width:1025px) and (max-width:1300px) {
-.ntheader .nt_menu>li>a{font-size:13px;text-transform:uppercase;font-weight:500;padding:0 10px}
+.ntheader .nt_menu>li>a{font-size:12px;text-transform:uppercase;font-weight:500;padding:0 9px}
 }
 @media(min-width:1300px) and (max-width:1369px) {
 .ntheader .nt_menu>li>a{padding:0 8px}
