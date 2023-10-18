@@ -2614,7 +2614,7 @@
           "b34d6ded-8b3c-418c-9487-36ec23e31228": {
             "type": "Product",
             "settings": {
-              "featured_product": "rollplay-body-razor",
+              "featured_product": "rollplay-body-razor-1",
               "featured_image": "shopify:\/\/shop_images\/razor-1.jpg",
               "featured_image2": "shopify:\/\/shop_images\/1_4c3eff60-3bd0-4a6b-b690-3e83a405caf3.jpg",
               "offersss": "",
@@ -2666,7 +2666,7 @@
         "settings": {
           "custom_liquid": "{% render 'SEO-CONTENT' %}",
           "layout": "nt_full",
-          "cl_bg": "#fff",
+          "cl_bg": "#ffffff",
           "mg": "",
           "pd": "",
           "mg_mb": "",
