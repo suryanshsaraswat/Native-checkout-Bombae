@@ -1,3 +1,4 @@
+{% unless product.handle == 'fuzzoff-sensitive-areas-trimmer' %}
 <div class="new-annbar">{{section.settings.text }}</div>
 
 <div class="new-annbar-wrapper">
@@ -22,6 +23,7 @@
     
   </ul>
 </div>
+{% endunless %}
 
 {% schema %}
   {
