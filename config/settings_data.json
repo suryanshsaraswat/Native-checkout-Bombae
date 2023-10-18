@@ -2356,6 +2356,7 @@
           },
           "5c189d27-0408-4f68-bf6f-d55c974a94f5": {
             "type": "testimonial",
+            "disabled": true,
             "settings": {
               "Offer": "Upgrade your face care ritual - Get GLAM Now!",
               "image": "shopify:\/\/shop_images\/offer-icon.png",
@@ -2383,6 +2384,7 @@
           },
           "c9ce9867-242a-4c24-a9c6-e66871a58bf9": {
             "type": "testimonial",
+            "disabled": true,
             "settings": {
               "Offer": "Face Sheet Mask(Pack of 2) free with FuzzOff sensitive areas trimmer",
               "image": "shopify:\/\/shop_images\/free-gifts.png",
