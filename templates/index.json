@@ -35,6 +35,38 @@
             "br_pd_mb": 10
           }
         },
+        "9a70d44c-22a9-49d6-9a84-3cbea2119a76": {
+          "type": "img",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hrs-launch-banner_409ad459-01af-45dd-80ce-25de78f45ee9.jpg",
+            "image_mb": "shopify:\/\/shop_images\/hrs-launch-banner-mobile_db545fcb-8179-483f-a593-271995931f30.jpg",
+            "pos_img": "center center",
+            "cl_img": "",
+            "link_img1": "",
+            "open_link": "_blank",
+            "caption_w": "2",
+            "cap_v_pos": 50,
+            "cap_h_pos": 39,
+            "txt_align": "tl_md",
+            "cap_v_pos_mb": 50,
+            "cap_h_pos_mb": 39,
+            "txt_align_mb": "tl",
+            "cl_overlay": "#000",
+            "cl_opacity": 0,
+            "ani_img": "none",
+            "ani_txt": "none",
+            "bg_content_bl": false,
+            "bg_content_cl": "#fff",
+            "bg_content_op": 50,
+            "content_pd": "40px 80px",
+            "content_pd_mb": "10px 20px",
+            "border_bl": false,
+            "br_color": "#222",
+            "br_style": "solid",
+            "br_pd": 20,
+            "br_pd_mb": 10
+          }
+        },
         "template--15596438323395__eef4dd35-1176-414a-8b24-c2bf1f333068-16684877588eeccc2c-5": {
           "type": "img",
           "settings": {
@@ -166,6 +198,7 @@
       },
       "block_order": [
         "template--15596438323395__eef4dd35-1176-414a-8b24-c2bf1f333068-16684877588eeccc2c-0",
+        "9a70d44c-22a9-49d6-9a84-3cbea2119a76",
         "template--15596438323395__eef4dd35-1176-414a-8b24-c2bf1f333068-16684877588eeccc2c-5",
         "844b8ca7-d488-4039-8e49-2388aa511586",
         "eace597f-855d-4ebb-9cb2-ecd2cc10acf2",
