@@ -18,6 +18,9 @@
   {%- elsif itemz.product.id == 6813937270979 -%}
   {%- assign rc = collections['tupsells'] -%}
     {% break %}
+    {%- elsif itemz.product.id == 7630818181315 -%}
+  {%- assign rc = collections['gupsells'] -%}
+    {% break %}
     {% else %}
   {%- assign rc = collections['upsells'] -%}
     {% endif %}
