@@ -1,1 +1,194 @@
-{"sections":{"78d12267-ebea-42ce-b32f-fdb249b56faa":{"type":"custom_html","settings":{"code":"<div class=\"main-head\" style=\"background:#6b24b2\">\n<h2 style=\"font-size:15px; text-align:center; color:#fff\">\n<span style=\"font-size:20px;margin-bottom:20px\">hey Nykaa, we’re Bombae<\/span><br> Every great relationship begins with a talking stage. Welcome to ours 💜<\/h2>\n<\/div>","layout":"container","mg":"","pd":"","mg_mb":"","pd_mb":""}},"heading":{"type":"pages_heading","blocks":{"89b1a94e-2cf5-4075-a6af-0969fbaeae2c":{"type":"1","settings":{}}},"block_order":["89b1a94e-2cf5-4075-a6af-0969fbaeae2c"],"disabled":true,"settings":{"image":"shopify:\/\/shop_images\/JD_0699_1.jpg","parallax":false,"color":"#000000","overlay":54,"padding":100,"paddingmb":100,"bg_pos":"center center","bg_repeat":"no-repeat","bg_size":"cover","bg_att":"scroll"}},"main":{"type":"main-page","disabled":true,"settings":{}},"1894907c-1ce0-43e4-b7f5-eff1cdf35a5f":{"type":"marquee","disabled":true,"settings":{"text1":"Hi Nykaa, We’re Bombae","text2":"Hi Nykaa, We’re Bombae","text3":"Hi Nykaa, We’re Bombae","text4":"Hi Nykaa, We’re Bombae"}},"004aa58e-35bd-48e0-b63b-a1f7e99bbfec":{"type":"slideshow","blocks":{"template--15836393570499__004aa58e-35bd-48e0-b63b-a1f7e99bbfec-img-2":{"type":"img","settings":{"image":"shopify:\/\/shop_images\/gif_compress_1.11_MB.gif","image_mb":"shopify:\/\/shop_images\/gif_compress_1.11_MB.gif","pos_img":"center center","cl_img":"","link_img1":"#","open_link":"_blank","caption_w":"2","cap_v_pos":50,"cap_h_pos":39,"txt_align":"tl_md","cap_v_pos_mb":50,"cap_h_pos_mb":39,"txt_align_mb":"tl","cl_overlay":"#000000","cl_opacity":0,"ani_img":"none","ani_txt":"none","bg_content_bl":false,"bg_content_cl":"#ffffff","bg_content_op":50,"content_pd":"40px 80px","content_pd_mb":"10px 20px","border_bl":false,"br_color":"#222222","br_style":"solid","br_pd":20,"br_pd_mb":10}}},"block_order":["template--15836393570499__004aa58e-35bd-48e0-b63b-a1f7e99bbfec-img-2"],"settings":{"se_height":"adapt","use_custom_h":"1","h_des":"600px","h_tb":"500px","h_mb":"350px","effect":"1","loop":true,"autoplay":false,"au_time":6,"au_hover":true,"button":false,"btn_vi":"1","btn_owl":"1","btn_color":"0","dot":true,"dot_owl":"1","dot_color":"1","layout":"nt_full","cl_bg":"","mg":"","pd":"","mg_mb":"","pd_mb":""}},"00b8268f-0bd6-4ca2-a88c-b9ea2a995417":{"type":"marquee","settings":{"text1":"FOR QUEENS, BY QUEENS     ","text2":"CRUELTY FREE ","text3":"PLASTIC NEUTRAL","text4":"VEGAN"}},"a9d822f9-bd9e-4749-b758-174398e5c7cb":{"type":"rollplay-razor-lp","settings":{}},"b060e4ce-f0d4-47c6-9d80-450894011b08":{"type":"rollplay-razor-lp","blocks":{"a32a2763-54a1-4ce3-a3f6-f2bba16496bb":{"type":"Product","settings":{"featured_product":"rollplay-body-razor","featured_image":"shopify:\/\/shop_images\/razor-1_8cf32fd1-476b-4cd1-bef5-2c3116d1c1c3.jpg","featured_image2":"shopify:\/\/shop_images\/razor_f87254f8-3164-4b99-9299-f23757eb0e57.jpg","offersss":"","maqree":""}},"01bf031c-6ab2-466e-a700-835dfa9fb8dd":{"type":"Product","settings":{"featured_product":"body-razor-rollplay-mini","featured_image":"shopify:\/\/shop_images\/Rollplay-mini-1st.png","featured_image2":"shopify:\/\/shop_images\/Rollplay-mini-2nd.png","offersss":"","maqree":""}},"a9fd5583-f951-491e-8400-be037799cc0e":{"type":"Product","settings":{"featured_product":"body-razor-cartridges-rollplay","featured_image":"shopify:\/\/shop_images\/refills-2_52df54e1-7956-45b2-aab4-60fb3d460360.jpg","featured_image2":"shopify:\/\/shop_images\/refills_519ee566-e26a-4bc0-8d56-74d941ff56d1.jpg","offersss":"","maqree":""}}},"block_order":["a32a2763-54a1-4ce3-a3f6-f2bba16496bb","01bf031c-6ab2-466e-a700-835dfa9fb8dd","a9fd5583-f951-491e-8400-be037799cc0e"],"settings":{}},"0f845740-a2b0-4ea4-a3ce-529b0b89d949":{"type":"nyka-page-section","settings":{}}},"order":["78d12267-ebea-42ce-b32f-fdb249b56faa","heading","main","1894907c-1ce0-43e4-b7f5-eff1cdf35a5f","004aa58e-35bd-48e0-b63b-a1f7e99bbfec","00b8268f-0bd6-4ca2-a88c-b9ea2a995417","a9d822f9-bd9e-4749-b758-174398e5c7cb","b060e4ce-f0d4-47c6-9d80-450894011b08","0f845740-a2b0-4ea4-a3ce-529b0b89d949"]}
+{
+  "sections": {
+    "78d12267-ebea-42ce-b32f-fdb249b56faa": {
+      "type": "custom_html",
+      "settings": {
+        "code": "<div class=\"main-head\" style=\"background:#6b24b2\">\n<h2 style=\"font-size:15px; text-align:center; color:#fff\">\n<span style=\"font-size:20px;margin-bottom:20px\">hey Nykaa, we’re Bombae<\/span><br> Every great relationship begins with a talking stage. Welcome to ours 💜<\/h2>\n<\/div>",
+        "layout": "container",
+        "mg": "",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": ""
+      }
+    },
+    "heading": {
+      "type": "pages_heading",
+      "blocks": {
+        "89b1a94e-2cf5-4075-a6af-0969fbaeae2c": {
+          "type": "1",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "89b1a94e-2cf5-4075-a6af-0969fbaeae2c"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/JD_0699_1.jpg",
+        "parallax": false,
+        "color": "#000000",
+        "overlay": 54,
+        "padding": 100,
+        "paddingmb": 100,
+        "bg_pos": "center center",
+        "bg_repeat": "no-repeat",
+        "bg_size": "cover",
+        "bg_att": "scroll"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "1894907c-1ce0-43e4-b7f5-eff1cdf35a5f": {
+      "type": "marquee",
+      "disabled": true,
+      "settings": {
+        "text1": "Hi Nykaa, We’re Bombae",
+        "text2": "Hi Nykaa, We’re Bombae",
+        "text3": "Hi Nykaa, We’re Bombae",
+        "text4": "Hi Nykaa, We’re Bombae"
+      }
+    },
+    "004aa58e-35bd-48e0-b63b-a1f7e99bbfec": {
+      "type": "slideshow",
+      "blocks": {
+        "template--15836393570499__004aa58e-35bd-48e0-b63b-a1f7e99bbfec-img-2": {
+          "type": "img",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gif_compress_1.11_MB.gif",
+            "image_mb": "shopify:\/\/shop_images\/gif_compress_1.11_MB.gif",
+            "pos_img": "center center",
+            "cl_img": "",
+            "link_img1": "#",
+            "open_link": "_blank",
+            "caption_w": "2",
+            "cap_v_pos": 50,
+            "cap_h_pos": 39,
+            "txt_align": "tl_md",
+            "cap_v_pos_mb": 50,
+            "cap_h_pos_mb": 39,
+            "txt_align_mb": "tl",
+            "cl_overlay": "#000000",
+            "cl_opacity": 0,
+            "ani_img": "none",
+            "ani_txt": "none",
+            "bg_content_bl": false,
+            "bg_content_cl": "#ffffff",
+            "bg_content_op": 50,
+            "content_pd": "40px 80px",
+            "content_pd_mb": "10px 20px",
+            "border_bl": false,
+            "br_color": "#222222",
+            "br_style": "solid",
+            "br_pd": 20,
+            "br_pd_mb": 10
+          }
+        }
+      },
+      "block_order": [
+        "template--15836393570499__004aa58e-35bd-48e0-b63b-a1f7e99bbfec-img-2"
+      ],
+      "settings": {
+        "se_height": "adapt",
+        "use_custom_h": "1",
+        "h_des": "600px",
+        "h_tb": "500px",
+        "h_mb": "350px",
+        "effect": "1",
+        "loop": true,
+        "autoplay": false,
+        "au_time": 6,
+        "au_hover": true,
+        "button": false,
+        "btn_vi": "1",
+        "btn_owl": "1",
+        "btn_color": "0",
+        "dot": true,
+        "dot_owl": "1",
+        "dot_color": "1",
+        "layout": "nt_full",
+        "cl_bg": "",
+        "mg": "",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": ""
+      }
+    },
+    "00b8268f-0bd6-4ca2-a88c-b9ea2a995417": {
+      "type": "marquee",
+      "settings": {
+        "text1": "FOR QUEENS, BY QUEENS     ",
+        "text2": "CRUELTY FREE ",
+        "text3": "PLASTIC NEUTRAL",
+        "text4": "VEGAN"
+      }
+    },
+    "a9d822f9-bd9e-4749-b758-174398e5c7cb": {
+      "type": "rollplay-razor-lp",
+      "settings": {
+      }
+    },
+    "b060e4ce-f0d4-47c6-9d80-450894011b08": {
+      "type": "rollplay-razor-lp",
+      "blocks": {
+        "a32a2763-54a1-4ce3-a3f6-f2bba16496bb": {
+          "type": "Product",
+          "settings": {
+            "featured_product": "rollplay-body-razor-2",
+            "featured_image": "shopify:\/\/shop_images\/razor-1_8cf32fd1-476b-4cd1-bef5-2c3116d1c1c3.jpg",
+            "featured_image2": "shopify:\/\/shop_images\/razor_f87254f8-3164-4b99-9299-f23757eb0e57.jpg",
+            "offersss": "",
+            "maqree": ""
+          }
+        },
+        "01bf031c-6ab2-466e-a700-835dfa9fb8dd": {
+          "type": "Product",
+          "settings": {
+            "featured_product": "body-razor-rollplay-mini",
+            "featured_image": "shopify:\/\/shop_images\/Rollplay-mini-1st.png",
+            "featured_image2": "shopify:\/\/shop_images\/Rollplay-mini-2nd.png",
+            "offersss": "",
+            "maqree": ""
+          }
+        },
+        "a9fd5583-f951-491e-8400-be037799cc0e": {
+          "type": "Product",
+          "settings": {
+            "featured_product": "body-razor-cartridges-rollplay",
+            "featured_image": "shopify:\/\/shop_images\/refills-2_52df54e1-7956-45b2-aab4-60fb3d460360.jpg",
+            "featured_image2": "shopify:\/\/shop_images\/refills_519ee566-e26a-4bc0-8d56-74d941ff56d1.jpg",
+            "offersss": "",
+            "maqree": ""
+          }
+        }
+      },
+      "block_order": [
+        "a32a2763-54a1-4ce3-a3f6-f2bba16496bb",
+        "01bf031c-6ab2-466e-a700-835dfa9fb8dd",
+        "a9fd5583-f951-491e-8400-be037799cc0e"
+      ],
+      "settings": {
+      }
+    },
+    "0f845740-a2b0-4ea4-a3ce-529b0b89d949": {
+      "type": "nyka-page-section",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "78d12267-ebea-42ce-b32f-fdb249b56faa",
+    "heading",
+    "main",
+    "1894907c-1ce0-43e4-b7f5-eff1cdf35a5f",
+    "004aa58e-35bd-48e0-b63b-a1f7e99bbfec",
+    "00b8268f-0bd6-4ca2-a88c-b9ea2a995417",
+    "a9d822f9-bd9e-4749-b758-174398e5c7cb",
+    "b060e4ce-f0d4-47c6-9d80-450894011b08",
+    "0f845740-a2b0-4ea4-a3ce-529b0b89d949"
+  ]
+}
