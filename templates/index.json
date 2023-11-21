@@ -106,7 +106,7 @@
             "image_mb": "shopify:\/\/shop_images\/Rollplay-free-pouch-mobile-banner.jpg",
             "pos_img": "center center",
             "cl_img": "",
-            "link_img1": "shopify:\/\/products\/rollplay-body-razor-1",
+            "link_img1": "shopify:\/\/products\/rollplay-body-razor",
             "open_link": "_self",
             "caption_w": "2",
             "cap_v_pos": 50,
@@ -752,8 +752,6 @@
         "192c2b73-8cc3-4ce5-af41-f030ff387e25": {
           "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
-            "heading_size": 20,
-            "feed_width": 100,
             "html_area": ""
           }
         }
