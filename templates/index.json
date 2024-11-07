@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "eef4dd35-1176-414a-8b24-c2bf1f333068": {
@@ -6,11 +15,11 @@
         "template--15596438323395__eef4dd35-1176-414a-8b24-c2bf1f333068-16684877588eeccc2c-0": {
           "type": "img",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Glamup-banner-desktop.gif",
-            "image_mb": "shopify:\/\/shop_images\/Glamup-banner-mobile.gif",
+            "image": "shopify://shop_images/Glamup-banner-desktop.gif",
+            "image_mb": "shopify://shop_images/Glamup-banner-mobile.gif",
             "pos_img": "center center",
             "cl_img": "",
-            "link_img1": "shopify:\/\/pages\/glam-up",
+            "link_img1": "shopify://pages/glam-up",
             "open_link": "_self",
             "caption_w": "2",
             "cap_v_pos": 50,
@@ -38,11 +47,11 @@
         "9a70d44c-22a9-49d6-9a84-3cbea2119a76": {
           "type": "img",
           "settings": {
-            "image": "shopify:\/\/shop_images\/hrs-launch-banner_409ad459-01af-45dd-80ce-25de78f45ee9.jpg",
-            "image_mb": "shopify:\/\/shop_images\/hrs-launch-banner-mobile_db545fcb-8179-483f-a593-271995931f30.jpg",
+            "image": "shopify://shop_images/hrs-launch-banner_409ad459-01af-45dd-80ce-25de78f45ee9.jpg",
+            "image_mb": "shopify://shop_images/hrs-launch-banner-mobile_db545fcb-8179-483f-a593-271995931f30.jpg",
             "pos_img": "center center",
             "cl_img": "",
-            "link_img1": "shopify:\/\/products\/lavender-hair-removal-spray-200g",
+            "link_img1": "shopify://products/lavender-hair-removal-spray-200g",
             "open_link": "_blank",
             "caption_w": "2",
             "cap_v_pos": 50,
@@ -70,11 +79,11 @@
         "template--15596438323395__eef4dd35-1176-414a-8b24-c2bf1f333068-16684877588eeccc2c-5": {
           "type": "img",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Trimmer-desktop.jpg",
-            "image_mb": "shopify:\/\/shop_images\/Trimmer-mobile.jpg",
+            "image": "shopify://shop_images/Trimmer-desktop.jpg",
+            "image_mb": "shopify://shop_images/Trimmer-mobile.jpg",
             "pos_img": "center center",
             "cl_img": "",
-            "link_img1": "shopify:\/\/pages\/fuzzoff",
+            "link_img1": "shopify://pages/trimmers-for-women",
             "open_link": "_self",
             "caption_w": "2",
             "cap_v_pos": 50,
@@ -102,11 +111,11 @@
         "844b8ca7-d488-4039-8e49-2388aa511586": {
           "type": "img",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Rollplay-free-pouch-desktop-banner.jpg",
-            "image_mb": "shopify:\/\/shop_images\/Rollplay-free-pouch-mobile-banner.jpg",
+            "image": "shopify://shop_images/Rollplay-free-pouch-desktop-banner.jpg",
+            "image_mb": "shopify://shop_images/Rollplay-free-pouch-mobile-banner.jpg",
             "pos_img": "center center",
             "cl_img": "",
-            "link_img1": "shopify:\/\/products\/rollplay-body-razor",
+            "link_img1": "shopify://products/rollplay-body-razor",
             "open_link": "_self",
             "caption_w": "2",
             "cap_v_pos": 50,
@@ -134,11 +143,11 @@
         "eace597f-855d-4ebb-9cb2-ecd2cc10acf2": {
           "type": "img",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Mini-Launch-banner-desktop.jpg",
-            "image_mb": "shopify:\/\/shop_images\/Mini-Launch-banner-mobile.jpg",
+            "image": "shopify://shop_images/Mini-Launch-banner-desktop.jpg",
+            "image_mb": "shopify://shop_images/Mini-Launch-banner-mobile.jpg",
             "pos_img": "center center",
             "cl_img": "",
-            "link_img1": "shopify:\/\/products\/body-razor-rollplay-mini",
+            "link_img1": "shopify://products/body-razor-rollplay-mini",
             "open_link": "_self",
             "caption_w": "2",
             "cap_v_pos": 50,
@@ -166,11 +175,11 @@
         "48cba501-8c60-42db-b51a-58e894d8b8a3": {
           "type": "img",
           "settings": {
-            "image": "shopify:\/\/shop_images\/buy-2-get-1-banner-desktop.jpg",
-            "image_mb": "shopify:\/\/shop_images\/buy-2-get-1-banner-moble.jpg",
+            "image": "shopify://shop_images/buy-2-get-1-banner-desktop.jpg",
+            "image_mb": "shopify://shop_images/buy-2-get-1-banner-moble.jpg",
             "pos_img": "center center",
             "cl_img": "",
-            "link_img1": "shopify:\/\/collections\/shop-all",
+            "link_img1": "shopify://collections/shop-all",
             "open_link": "_blank",
             "caption_w": "2",
             "cap_v_pos": 50,
@@ -294,40 +303,40 @@
           "type": "collection",
           "settings": {
             "collection": "body",
-            "image": "shopify:\/\/shop_images\/body-care-_1_1.jpg",
+            "image": "shopify://shop_images/body-care-_1_1.jpg",
             "img_align": "center",
             "title": "",
-            "url": "shopify:\/\/collections\/body"
+            "url": "shopify://collections/body"
           }
         },
         "template--15761640816835__d8e7f8e7-a95e-4bd8-8ea1-b7e11e4f0d7b-16766265256ef2804f-3": {
           "type": "collection",
           "settings": {
             "collection": "",
-            "image": "shopify:\/\/shop_images\/trimmers_2.jpg",
+            "image": "shopify://shop_images/trimmers_2.jpg",
             "img_align": "center",
             "title": "",
-            "url": "shopify:\/\/pages\/fuzzoff"
+            "url": "shopify://pages/trimmers-for-women"
           }
         },
         "template--15761640816835__d8e7f8e7-a95e-4bd8-8ea1-b7e11e4f0d7b-16766265256ef2804f-1": {
           "type": "collection",
           "settings": {
             "collection": "face",
-            "image": "shopify:\/\/shop_images\/face-care_2.jpg",
+            "image": "shopify://shop_images/face-care_2.jpg",
             "img_align": "center",
             "title": "",
-            "url": "shopify:\/\/collections\/face"
+            "url": "shopify://collections/face"
           }
         },
         "template--15761640816835__d8e7f8e7-a95e-4bd8-8ea1-b7e11e4f0d7b-16766265256ef2804f-2": {
           "type": "collection",
           "settings": {
             "collection": "period-care",
-            "image": "shopify:\/\/shop_images\/hygiene_2.jpg",
+            "image": "shopify://shop_images/hygiene_2.jpg",
             "img_align": "center",
             "title": "",
-            "url": "shopify:\/\/collections\/period-care"
+            "url": "shopify://collections/period-care"
           }
         }
       },
@@ -390,7 +399,7 @@
         "ic_tt": "gem",
         "show_clpr": false,
         "img_size": "1",
-        "image": "shopify:\/\/shop_images\/hair-removal-reimagined_1.png",
+        "image": "shopify://shop_images/hair-removal-reimagined_1.png",
         "cp_code": false,
         "layout": "nt_full",
         "cl_bg": "#ffffff",
@@ -414,7 +423,7 @@
         "style_title": "title_8",
         "ic_tt": "gem",
         "show_clpr": false,
-        "content": "<p>Hi, we're Bombae.<\/p><p>We exist to re-imagine hair removal experience for the bold, badass women of today<\/p>",
+        "content": "<p>Hi, we're Bombae.</p><p>We exist to re-imagine hair removal experience for the bold, badass women of today</p>",
         "align": "tc",
         "layout": "nt_co_wide",
         "mg": "20px,,20px,",
@@ -433,7 +442,7 @@
         "ic_tt": "gem",
         "show_clpr": false,
         "img_size": "1",
-        "image": "shopify:\/\/shop_images\/icons_1.png",
+        "image": "shopify://shop_images/icons_1.png",
         "cp_code": false,
         "layout": "nt_full",
         "cl_bg": "#f4efff",
@@ -451,7 +460,7 @@
         "template--15761640816835__39965f43-cf8a-4b57-a640-76093a5fd691-167662728629d4d7ad-0": {
           "type": "brand",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ICON-1_2.png",
+            "image": "shopify://shop_images/ICON-1_2.png",
             "url": "",
             "open_link": "_blank"
           }
@@ -459,7 +468,7 @@
         "template--15761640816835__39965f43-cf8a-4b57-a640-76093a5fd691-167662728629d4d7ad-1": {
           "type": "brand",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ICON-2_2.png",
+            "image": "shopify://shop_images/ICON-2_2.png",
             "url": "",
             "open_link": "_blank"
           }
@@ -467,7 +476,7 @@
         "template--15761640816835__39965f43-cf8a-4b57-a640-76093a5fd691-167662728629d4d7ad-2": {
           "type": "brand",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ICON-3_2.png",
+            "image": "shopify://shop_images/ICON-3_2.png",
             "url": "",
             "open_link": "_blank"
           }
@@ -476,7 +485,7 @@
           "type": "brand",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/icon-4_1.png",
+            "image": "shopify://shop_images/icon-4_1.png",
             "url": "",
             "open_link": "_blank"
           }
@@ -579,7 +588,7 @@
         "1646381604fc953804-0": {
           "type": "brand",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3_19453f89-ad3d-416c-9330-1ad51df5428a.png",
+            "image": "shopify://shop_images/3_19453f89-ad3d-416c-9330-1ad51df5428a.png",
             "url": "",
             "open_link": "_blank"
           }
@@ -587,7 +596,7 @@
         "1646381604fc953804-1": {
           "type": "brand",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2_0138f2e2-366d-4e80-ae2a-0ca8f57eb0af.png",
+            "image": "shopify://shop_images/2_0138f2e2-366d-4e80-ae2a-0ca8f57eb0af.png",
             "url": "",
             "open_link": "_blank"
           }
@@ -595,7 +604,7 @@
         "1646381604fc953804-2": {
           "type": "brand",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_806cda3c-76f3-4043-882d-37f1df4d3ad7.png",
+            "image": "shopify://shop_images/1_806cda3c-76f3-4043-882d-37f1df4d3ad7.png",
             "url": "",
             "open_link": "_blank"
           }
@@ -603,7 +612,7 @@
         "1646381604fc953804-3": {
           "type": "brand",
           "settings": {
-            "image": "shopify:\/\/shop_images\/4_1416c34b-818a-4eff-9364-b34645d6d816.png",
+            "image": "shopify://shop_images/4_1416c34b-818a-4eff-9364-b34645d6d816.png",
             "url": "",
             "open_link": "_blank"
           }
@@ -652,13 +661,13 @@
       "type": "image_text",
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Cause-section.jpg",
+        "image": "shopify://shop_images/Cause-section.jpg",
         "img_align": "center",
         "img_position": "1",
         "image_ratio": "auto",
         "text_size": "60,18",
         "title": "What we stand for",
-        "text": "<p>We’re conscious about our baes - our people and our planet. We set aside 1% of our sales to work towards upskilling of women and up-levelling our environment.<\/p>",
+        "text": "<p>We’re conscious about our baes - our people and our planet. We set aside 1% of our sales to work towards upskilling of women and up-levelling our environment.</p>",
         "button_label": "Shop Now",
         "button_link": "",
         "open_link": "_blank",
@@ -738,7 +747,7 @@
     "16549571543487dcfb": {
       "type": "custom_html",
       "settings": {
-        "code": "<h3 class=\"section-title tc pr flex fl_center al_center fs__24 title_8\"><span class=\"mr__10 ml__10\">let's get social!\n<\/span><\/h3>",
+        "code": "<h3 class=\"section-title tc pr flex fl_center al_center fs__24 title_8\"><span class=\"mr__10 ml__10\">let's get social!\n</span></h3>",
         "layout": "container",
         "mg": "20px,,0px,",
         "pd": "",
@@ -750,7 +759,7 @@
       "type": "apps",
       "blocks": {
         "192c2b73-8cc3-4ce5-af41-f030ff387e25": {
-          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
             "html_area": ""
           }

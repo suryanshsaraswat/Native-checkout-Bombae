@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "general_layout": "full_width",
@@ -46,13 +55,13 @@
     "c_3": "",
     "c_4": "",
     "logo_svg": "",
-    "logo": "shopify:\/\/shop_images\/LOGO-NE.png",
+    "logo": "shopify://shop_images/LOGO-NE.png",
     "logo_retina": "",
     "logo_width": 200,
     "logos": "",
     "logos_retina": "",
     "logos_width": 130,
-    "logo_mb": "shopify:\/\/shop_images\/LOGO-NE.png",
+    "logo_mb": "shopify://shop_images/LOGO-NE.png",
     "logo_mb_retina": "",
     "logo_mb_width": 140,
     "logo_tr_svg": "",
@@ -123,7 +132,7 @@
     "cl_lazyload": "#6b24b2",
     "bg_lazyload": "#f5f5f5",
     "use_cus_lz": false,
-    "cus_lz": "shopify:\/\/shop_images\/kalles.png",
+    "cus_lz": "shopify://shop_images/kalles.png",
     "ship_bar2": "#eed4ff",
     "ship_bar3": "#6b24b2",
     "font_source": "1",
@@ -261,30 +270,30 @@
     "share_email": false,
     "share_telegram": false,
     "share_whatsapp": true,
-    "social_facebook_link": "https:\/\/www.facebook.com\/people\/Bombae-by-Bombay-Shaving-Company\/100084998687661\/?mibextid=LQQJ4d",
+    "social_facebook_link": "https://www.facebook.com/people/Bombae-by-Bombay-Shaving-Company/100084998687661/?mibextid=LQQJ4d",
     "social_twitter_link": "",
-    "social_instagram_link": "https:\/\/www.instagram.com\/mybombae__\/",
+    "social_instagram_link": "https://www.instagram.com/mybombae__/",
     "social_dribbble_link": "",
     "social_linkedin_link": "",
     "social_pinterest_link": "",
     "social_tumblr_link": "",
-    "social_youtube_link": "https:\/\/www.youtube.com\/c\/MyBombae_\/videos",
+    "social_youtube_link": "https://www.youtube.com/c/MyBombae_/videos",
     "social_behance_link": "",
     "social_soundcloud_link": "",
-    "favicon": "shopify:\/\/shop_images\/Bombae-monogram.png",
-    "favicon_apple": "shopify:\/\/shop_images\/Bombae-monogram.png",
+    "favicon": "shopify://shop_images/Bombae-monogram.png",
+    "favicon_apple": "shopify://shop_images/Bombae-monogram.png",
     "mid": "3mt5u7t4ejl2a88iwu",
     "envType": "production",
     "hideFlow": false,
     "btnTxt": true,
-    "gk-merchant-btnText": "PAY VIA CREDIT\/DEBIT CARD\/OTHERS",
+    "gk-merchant-btnText": "PAY VIA CREDIT/DEBIT CARD/OTHERS",
     "fbpixel": "372456354988642",
     "priClr": "#6b24b2",
     "secClr": "#ffffff",
     "goEnable": true,
     "main-titile": "Place Order",
     "btnBClr": "#6b24b2",
-    "checkout_logo_image": "shopify:\/\/shop_images\/logo-500x500_1.png",
+    "checkout_logo_image": "shopify://shop_images/logo-500x500_1.png",
     "checkout_logo_position": "left",
     "checkout_logo_size": "large",
     "checkout_body_background_image": "",
@@ -408,7 +417,7 @@
           "header_top-0": {
             "type": "text",
             "settings": {
-              "text": "<i class=\"pegk pe-7s-call\"><\/i><a class=\"cg\" href=\"tel:%20+0123456789\"> +01 23456789<\/a> <i class=\"pegk pe-7s-mail ml__15\"><\/i> <a class=\"cg\" href=\"mailto:kalles@domain.com\">Kalles@domain.com<\/a>",
+              "text": "<i class=\"pegk pe-7s-call\"></i><a class=\"cg\" href=\"tel:%20+0123456789\"> +01 23456789</a> <i class=\"pegk pe-7s-mail ml__15\"></i> <a class=\"cg\" href=\"mailto:kalles@domain.com\">Kalles@domain.com</a>",
               "hide": false,
               "col": "4"
             }
@@ -416,7 +425,7 @@
           "header_top-1": {
             "type": "text",
             "settings": {
-              "text": "Summer sale discount off <span class=\"cr\">50%<\/span>! <a href=\"\/collections\/trending\">Shop Now<\/a>",
+              "text": "Summer sale discount off <span class=\"cr\">50%</span>! <a href=\"/collections/trending\">Shop Now</a>",
               "hide": false,
               "col": "4"
             }
@@ -463,7 +472,7 @@
             "type": "simple",
             "settings": {
               "title": "Shop all",
-              "url": "shopify:\/\/collections\/shop-all",
+              "url": "shopify://collections/shop-all",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -476,7 +485,7 @@
             "type": "simple",
             "settings": {
               "title": "Exclusive Gifting",
-              "url": "shopify:\/\/pages\/blue-heaven-x-bombae",
+              "url": "shopify://pages/blue-heaven-x-bombae",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -489,7 +498,7 @@
             "type": "simple",
             "settings": {
               "title": "Face Care",
-              "url": "shopify:\/\/collections\/face",
+              "url": "shopify://collections/face",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -502,7 +511,7 @@
             "type": "simple",
             "settings": {
               "title": "Body Care",
-              "url": "shopify:\/\/collections\/body",
+              "url": "shopify://collections/body",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -515,7 +524,7 @@
             "type": "simple",
             "settings": {
               "title": "Glam Up",
-              "url": "shopify:\/\/pages\/glam-up",
+              "url": "shopify://pages/glam-up",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -528,7 +537,7 @@
             "type": "simple",
             "settings": {
               "title": "rollplay",
-              "url": "shopify:\/\/pages\/rollplay-razor",
+              "url": "shopify://pages/rollplay-razor",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -542,7 +551,7 @@
             "disabled": true,
             "settings": {
               "title": "Period Care",
-              "url": "shopify:\/\/collections\/period-care",
+              "url": "shopify://collections/period-care",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -555,7 +564,7 @@
             "type": "simple",
             "settings": {
               "title": "Trimmers",
-              "url": "shopify:\/\/pages\/fuzzoff",
+              "url": "shopify://pages/trimmers-for-women",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -568,7 +577,7 @@
             "type": "simple",
             "settings": {
               "title": "Laser",
-              "url": "shopify:\/\/pages\/laser-clinic",
+              "url": "shopify://pages/laser-clinic",
               "open_link": "_blank",
               "icon": "",
               "cus_cl": false,
@@ -582,7 +591,7 @@
             "disabled": true,
             "settings": {
               "title": "Our Story",
-              "url": "shopify:\/\/pages\/about-us",
+              "url": "shopify://pages/about-us",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -624,7 +633,7 @@
             "disabled": true,
             "settings": {
               "title": "Bae Hive",
-              "url": "shopify:\/\/pages\/bae-squad",
+              "url": "shopify://pages/bae-squad",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -739,7 +748,7 @@
             "settings": {
               "align": "tl_md",
               "align_mb": "tl",
-              "image": "shopify:\/\/shop_images\/logo_8a0315b7-ff26-4e9c-a68d-51da15e97711.png",
+              "image": "shopify://shop_images/logo_8a0315b7-ff26-4e9c-a68d-51da15e97711.png",
               "logo_width": 225,
               "title": "GET IN TOUCH",
               "content": "",
@@ -823,7 +832,7 @@
           "1581507860120": {
             "type": "copy",
             "settings": {
-              "text": "© [year] <a href=\"\/\">bombae<\/a>, (By Bombay Shaving Company)"
+              "text": "© [year] <a href=\"/\">bombae</a>, (By Bombay Shaving Company)"
             }
           },
           "1581507855652": {
@@ -880,14 +889,14 @@
           "cart_widget-6": {
             "type": "img",
             "settings": {
-              "image": "shopify:\/\/shop_images\/V_3_2.png"
+              "image": "shopify://shop_images/V_3_2.png"
             }
           },
           "cart_widget-7": {
             "type": "btn",
             "settings": {
               "title": "Return To Shop",
-              "url": "\/",
+              "url": "/",
               "style": "primary tu"
             }
           }
@@ -920,25 +929,25 @@
             "disabled": true,
             "settings": {
               "title": "Shop all",
-              "url": "shopify:\/\/collections\/shop-all",
+              "url": "shopify://collections/shop-all",
               "icon": "",
               "lb": "",
               "lb_cl": "",
               "cat1": "face",
               "url1": "",
-              "image1": "shopify:\/\/shop_images\/1_2.png",
+              "image1": "shopify://shop_images/1_2.png",
               "cat2": "body",
               "url2": "",
-              "image2": "shopify:\/\/shop_images\/2_d17266e4-4f73-4f4c-9781-372176209888.png",
+              "image2": "shopify://shop_images/2_d17266e4-4f73-4f4c-9781-372176209888.png",
               "cat3": "shop-combos",
               "url3": "",
-              "image3": "shopify:\/\/shop_images\/3_7b426f3d-7c72-46d4-9f22-2493fea707dd.png",
+              "image3": "shopify://shop_images/3_7b426f3d-7c72-46d4-9f22-2493fea707dd.png",
               "cat4": "gifting",
               "url4": "",
-              "image4": "shopify:\/\/shop_images\/5_4bf6e4f8-e02b-4f50-92d1-e3f66cb2f328.png",
+              "image4": "shopify://shop_images/5_4bf6e4f8-e02b-4f50-92d1-e3f66cb2f328.png",
               "cat5": "period-care",
               "url5": "",
-              "image5": "shopify:\/\/shop_images\/4_ab62f192-9872-4337-b879-fb67155e8acb.png",
+              "image5": "shopify://shop_images/4_ab62f192-9872-4337-b879-fb67155e8acb.png",
               "cat6": "",
               "url6": "",
               "cat7": "",
@@ -997,7 +1006,7 @@
             "type": "menu",
             "settings": {
               "title": "Glam Up",
-              "url": "shopify:\/\/pages\/glam-up",
+              "url": "shopify://pages/glam-up",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -1021,7 +1030,7 @@
             "type": "menu",
             "settings": {
               "title": "Rollplay",
-              "url": "shopify:\/\/pages\/rollplay-razor",
+              "url": "shopify://pages/rollplay-razor",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -1046,7 +1055,7 @@
             "disabled": true,
             "settings": {
               "title": "#SmoothAFfairs",
-              "url": "shopify:\/\/blogs\/news",
+              "url": "shopify://blogs/news",
               "open_link": "_self",
               "menu": "smoothaffairs",
               "icon": "",
@@ -1064,7 +1073,7 @@
             "type": "menu",
             "settings": {
               "title": "Laser Clinic",
-              "url": "shopify:\/\/pages\/laser-clinic",
+              "url": "shopify://pages/laser-clinic",
               "open_link": "_blank",
               "menu": "",
               "icon": "",
@@ -1081,7 +1090,7 @@
             "type": "help",
             "settings": {
               "title": "Need help?",
-              "text": "<i class=\"pegk pe-7s-call fwb mr__10\"><\/i>+91-7303 488 233<br><i class=\"pegk pe-7s-mail fwb mr__10\"><\/i><a class=\"cg\" href=\"mailto:hello@mybombae.in\">hello@mybombae.in<\/a>"
+              "text": "<i class=\"pegk pe-7s-call fwb mr__10\"></i>+91-7303 488 233<br><i class=\"pegk pe-7s-mail fwb mr__10\"></i><a class=\"cg\" href=\"mailto:hello@mybombae.in\">hello@mybombae.in</a>"
             }
           }
         },
@@ -1263,7 +1272,7 @@
             "type": "link",
             "settings": {
               "title": "Offers",
-              "image": "shopify:\/\/shop_images\/badge.png",
+              "image": "shopify://shop_images/badge.png",
               "link": "#"
             }
           },
@@ -1297,8 +1306,8 @@
             "type": "link",
             "settings": {
               "title": "Chat",
-              "image": "shopify:\/\/shop_images\/whatsapp.png",
-              "link": "https:\/\/wa.me\/917419023569?text=Hi Bombae, I need some help"
+              "image": "shopify://shop_images/whatsapp.png",
+              "link": "https://wa.me/917419023569?text=Hi Bombae, I need some help"
             }
           }
         },
@@ -1318,9 +1327,9 @@
       "header_banner": {
         "type": "header_banner",
         "settings": {
-          "link": "shopify:\/\/collections\/shop-all",
+          "link": "shopify://collections/shop-all",
           "text": "Free shipping on orders above ₹199;;;Bearberry Yogurt free with order above ₹1499;;;Get 200 reward points on every Rs. 100 spent",
-          "countdown": "2021\/04\/19",
+          "countdown": "2021/04/19",
           "dayx": 4,
           "effect": "0",
           "au_time": 3.5,
@@ -1562,7 +1571,7 @@
               "mess": "",
               "size": 16,
               "source": "1",
-              "image": "shopify:\/\/shop_images\/V_3_2.png",
+              "image": "shopify://shop_images/V_3_2.png",
               "al": "tl",
               "wimg": 58,
               "svg": "amazon_payments,american_express,apple_pay,bitcoin,dankort,diners_club,discover,dogecoin,dwolla,forbrugsforeningen,interac,google_pay,jcb,klarna,klarna-pay-later,litecoin,maestro,master,paypal,shopify_pay,sofort,visa",
@@ -1904,7 +1913,7 @@
           "hover": "hover_side_up",
           "bg": "#56cfe1",
           "cl_txt": "#fff",
-          "text": "<i class=\"las la-phone fs__14\"><\/i> +01 23456789 <i class=\"las la-envelope fs__14 ml__15\"><\/i> <a class=\"cg\" href=\"mailto:kalles@domain.com\">kalles@domain.com<\/a>",
+          "text": "<i class=\"las la-phone fs__14\"></i> +01 23456789 <i class=\"las la-envelope fs__14 ml__15\"></i> <a class=\"cg\" href=\"mailto:kalles@domain.com\">kalles@domain.com</a>",
           "shop_cat": true,
           "txt_cat": "SHOP BY CATEGORY",
           "bgcat": "#007e91",
@@ -1966,7 +1975,7 @@
             "settings": {
               "title": "Shipping & Delivery",
               "shipping_1": "truck,FREE SHIPPING,Free shipping for all US order",
-              "shipping_2": "headset,SUPPORT 24\/7,We support 24 hours a day",
+              "shipping_2": "headset,SUPPORT 24/7,We support 24 hours a day",
               "shipping_3": "exchange-alt,30 DAYS RETURN,You have 30 days to return",
               "shipping_4": "",
               "shipping_5": "",
@@ -1991,7 +2000,7 @@
             "type": "text",
             "settings": {
               "title": "Talk about your brand",
-              "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+              "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
             }
           }
         },
@@ -2011,7 +2020,7 @@
             "disabled": true,
             "settings": {
               "text": "Home",
-              "linkurl": "\/",
+              "linkurl": "/",
               "open_link": "_self"
             }
           },
@@ -2019,7 +2028,7 @@
             "type": "testimonial",
             "settings": {
               "text": "Shop All",
-              "linkurl": "shopify:\/\/collections\/shop-all",
+              "linkurl": "shopify://collections/shop-all",
               "open_link": "_self"
             }
           },
@@ -2027,7 +2036,7 @@
             "type": "testimonial",
             "settings": {
               "text": "Glam up",
-              "linkurl": "shopify:\/\/pages\/glam-up",
+              "linkurl": "shopify://pages/glam-up",
               "open_link": "_self"
             }
           },
@@ -2035,7 +2044,7 @@
             "type": "testimonial",
             "settings": {
               "text": "Trimmers",
-              "linkurl": "shopify:\/\/pages\/fuzzoff",
+              "linkurl": "shopify://pages/trimmers-for-women",
               "open_link": "_self"
             }
           },
@@ -2043,7 +2052,7 @@
             "type": "testimonial",
             "settings": {
               "text": "Rollplay",
-              "linkurl": "shopify:\/\/pages\/rollplay-razor",
+              "linkurl": "shopify://pages/rollplay-razor",
               "open_link": "_self"
             }
           },
@@ -2051,7 +2060,7 @@
             "type": "testimonial",
             "settings": {
               "text": "Face Care",
-              "linkurl": "shopify:\/\/collections\/face",
+              "linkurl": "shopify://collections/face",
               "open_link": "_self"
             }
           },
@@ -2059,7 +2068,7 @@
             "type": "testimonial",
             "settings": {
               "text": "Body care",
-              "linkurl": "shopify:\/\/collections\/body",
+              "linkurl": "shopify://collections/body",
               "open_link": "_self"
             }
           },
@@ -2067,7 +2076,7 @@
             "type": "testimonial",
             "settings": {
               "text": "exclusive gifting",
-              "linkurl": "shopify:\/\/pages\/blue-heaven-x-bombae",
+              "linkurl": "shopify://pages/blue-heaven-x-bombae",
               "open_link": "_self"
             }
           },
@@ -2076,7 +2085,7 @@
             "disabled": true,
             "settings": {
               "text": "",
-              "linkurl": "shopify:\/\/pages\/laser-clinic",
+              "linkurl": "shopify://pages/laser-clinic",
               "open_link": "_blank"
             }
           },
@@ -2084,7 +2093,7 @@
             "type": "testimonial",
             "settings": {
               "text": "BaeHive",
-              "linkurl": "shopify:\/\/pages\/bae-squad",
+              "linkurl": "shopify://pages/bae-squad",
               "open_link": "_self"
             }
           },
@@ -2092,7 +2101,7 @@
             "type": "testimonial",
             "settings": {
               "text": "Laser",
-              "linkurl": "shopify:\/\/pages\/laser-clinic",
+              "linkurl": "shopify://pages/laser-clinic",
               "open_link": "_blank"
             }
           }
@@ -2182,7 +2191,7 @@
           "bb20a360-4719-4238-8b1a-f01b7d95e698": {
             "type": "Slide",
             "settings": {
-              "details": "<ul> <li>Works within 3-6 minutes<\/li>  <li>Refreshing citrus aroma<\/li>  <li>Rich in Shea & Aloe<\/li> <li>No skin irritation<\/li> <\/ul>",
+              "details": "<ul> <li>Works within 3-6 minutes</li>  <li>Refreshing citrus aroma</li>  <li>Rich in Shea & Aloe</li> <li>No skin irritation</li> </ul>",
               "product": "hair-removal-cream",
               "buttonLink": ""
             }
@@ -2190,7 +2199,7 @@
           "8414877d-9f3e-4c01-bdac-d3cc0fa7d3e4": {
             "type": "Slide",
             "settings": {
-              "details": "<ul> <li>Made from 80% wheat straw<\/li> <li>Stainless steel blades<\/li>\n<li>Exfoliates dry & dead skin<\/li> <li>Ergonomic grip & safety cover<\/li>\n<\/ul>",
+              "details": "<ul> <li>Made from 80% wheat straw</li> <li>Stainless steel blades</li>\n<li>Exfoliates dry & dead skin</li> <li>Ergonomic grip & safety cover</li>\n</ul>",
               "product": "eyebrow-face-razor-for-women",
               "buttonLink": ""
             }
@@ -2198,7 +2207,7 @@
           "5a22b09f-415f-4df3-865c-0241e9a7a2f5": {
             "type": "Slide",
             "settings": {
-              "details": "<ul> <li>Waterproof<\/li>  <li>Travel friendly<\/li>  <li>Multi-use<\/li> <li>1-year hassle-free warranty<\/li> <\/ul>",
+              "details": "<ul> <li>Waterproof</li>  <li>Travel friendly</li>  <li>Multi-use</li> <li>1-year hassle-free warranty</li> </ul>",
               "product": "fuzzoff-sensitive-areas-trimmer",
               "buttonLink": ""
             }
@@ -2210,8 +2219,8 @@
           "5a22b09f-415f-4df3-865c-0241e9a7a2f5"
         ],
         "settings": {
-          "disktopImage": "shopify:\/\/shop_images\/deal-of-the-week-BANNER_7.gif",
-          "mobileImage": "shopify:\/\/shop_images\/dotw-mobile-week-7-banner.gif",
+          "disktopImage": "shopify://shop_images/deal-of-the-week-BANNER_7.gif",
+          "mobileImage": "shopify://shop_images/dotw-mobile-week-7-banner.gif",
           "saledate": "Jan 10"
         }
       },
@@ -2221,8 +2230,8 @@
           "a3d1f146-5c5f-48a8-8547-0ba5093aa54b": {
             "type": "quote",
             "settings": {
-              "image": "shopify:\/\/shop_images\/box-3_45de37e0-3923-41dd-85e5-ce597c2fc26d.png",
-              "content": "<p>“It's been a short yet fulfilling journey at BSC! It's the perfect mixture of being in a classroom yet working your heart and soulto scale a business. LikeBetty Davis said \"Withoutwonder and insight, acting is just a business. With it, it becomes creation\" and so is my life at BSC. With wonder and insights we at BSC are consistently innovating, always.”<\/p>",
+              "image": "shopify://shop_images/box-3_45de37e0-3923-41dd-85e5-ce597c2fc26d.png",
+              "content": "<p>“It's been a short yet fulfilling journey at BSC! It's the perfect mixture of being in a classroom yet working your heart and soulto scale a business. LikeBetty Davis said \"Withoutwonder and insight, acting is just a business. With it, it becomes creation\" and so is my life at BSC. With wonder and insights we at BSC are consistently innovating, always.”</p>",
               "title": "Sanskriti Mandhyan",
               "pos": "",
               "rating": 5
@@ -2231,8 +2240,8 @@
           "34accecd-9b0a-4abe-8348-3c88b614e302": {
             "type": "quote",
             "settings": {
-              "image": "shopify:\/\/shop_images\/box-2_0f9693ce-ef31-464c-9beb-e945cf73989f.png",
-              "content": "<p>“Coming from a guy who has never been near a corporate environment, being at BSC has completely dismantled all the stereotypes I've carried with me throughout my life about corporate culture. You are relentlessly challenged to reach far beyond your comfort zone which miraculously never felt enforced. Talk about an oxymoron.”<\/p>",
+              "image": "shopify://shop_images/box-2_0f9693ce-ef31-464c-9beb-e945cf73989f.png",
+              "content": "<p>“Coming from a guy who has never been near a corporate environment, being at BSC has completely dismantled all the stereotypes I've carried with me throughout my life about corporate culture. You are relentlessly challenged to reach far beyond your comfort zone which miraculously never felt enforced. Talk about an oxymoron.”</p>",
               "title": "Omaiyer Fehmi",
               "pos": "",
               "rating": 5
@@ -2241,8 +2250,8 @@
           "9c6c413a-23f9-4958-a149-328d034e9088": {
             "type": "quote",
             "settings": {
-              "image": "shopify:\/\/shop_images\/box-1_076379d8-011e-4c41-83a2-5ba560b92849.png",
-              "content": "<p>“I am so glad to be a part of an employee-friendly organisation that offers me an opportunity to just be myself. Joining BSC help me gain more experience than Iever thought. From getting theright mentorship to making-absolutely vibrant friends, working at BSC is like being on a fun trip. Here's looking forward to learning, grow and partying with my super cool tribe.”<\/p>",
+              "image": "shopify://shop_images/box-1_076379d8-011e-4c41-83a2-5ba560b92849.png",
+              "content": "<p>“I am so glad to be a part of an employee-friendly organisation that offers me an opportunity to just be myself. Joining BSC help me gain more experience than Iever thought. From getting theright mentorship to making-absolutely vibrant friends, working at BSC is like being on a fun trip. Here's looking forward to learning, grow and partying with my super cool tribe.”</p>",
               "title": "Kanika Bhati",
               "pos": "",
               "rating": 5
@@ -2252,8 +2261,8 @@
             "type": "quote",
             "disabled": true,
             "settings": {
-              "image": "shopify:\/\/shop_images\/2_1_400x_7aa07352-1947-4ed9-a076-b7a62f9233c0.jpg",
-              "content": "<p>Quality of the razor is amazing. Works wonders on sensitive skin. And post shave soothing gel smells soo good. 😍<br\/>Honestly all girls should try this.<\/p>",
+              "image": "shopify://shop_images/2_1_400x_7aa07352-1947-4ed9-a076-b7a62f9233c0.jpg",
+              "content": "<p>Quality of the razor is amazing. Works wonders on sensitive skin. And post shave soothing gel smells soo good. 😍<br/>Honestly all girls should try this.</p>",
               "title": "Ankita",
               "pos": "",
               "rating": 5
@@ -2263,8 +2272,8 @@
             "type": "quote",
             "disabled": true,
             "settings": {
-              "image": "shopify:\/\/shop_images\/WhatsApp_Image_2021-10-14_at_3.09.31_PM.jpg",
-              "content": "<p>I actually thought the product is really cool. It’s so compact and actually does the job really well. The soap thing is such a great addition, makes the shave very smooth.<\/p>",
+              "image": "shopify://shop_images/WhatsApp_Image_2021-10-14_at_3.09.31_PM.jpg",
+              "content": "<p>I actually thought the product is really cool. It’s so compact and actually does the job really well. The soap thing is such a great addition, makes the shave very smooth.</p>",
               "title": "Chaitali",
               "pos": "",
               "rating": 5
@@ -2349,9 +2358,9 @@
             "type": "testimonial",
             "settings": {
               "Offer": "Add Instant glam with the Bombae beauty face razors",
-              "image": "shopify:\/\/shop_images\/glamup-icon.png",
+              "image": "shopify://shop_images/glamup-icon.png",
               "coupon": "",
-              "linkurl": "shopify:\/\/pages\/glam-up"
+              "linkurl": "shopify://pages/glam-up"
             }
           },
           "5c189d27-0408-4f68-bf6f-d55c974a94f5": {
@@ -2359,27 +2368,27 @@
             "disabled": true,
             "settings": {
               "Offer": "Upgrade your face care ritual - Get GLAM Now!",
-              "image": "shopify:\/\/shop_images\/offer-icon.png",
+              "image": "shopify://shop_images/offer-icon.png",
               "coupon": "",
-              "linkurl": "shopify:\/\/pages\/blue-heaven-x-bombae"
+              "linkurl": "shopify://pages/blue-heaven-x-bombae"
             }
           },
           "fad57716-5b37-4564-9929-efab5db6a2f1": {
             "type": "testimonial",
             "settings": {
               "Offer": "Free Travel Pouch with Rollplay Body Razor 🛼",
-              "image": "shopify:\/\/shop_images\/Rollplay-icon.png",
+              "image": "shopify://shop_images/Rollplay-icon.png",
               "coupon": "MYGIFT",
-              "linkurl": "shopify:\/\/products\/rollplay-body-razor"
+              "linkurl": "shopify://products/rollplay-body-razor"
             }
           },
           "0ad8efb3-88ac-4f9c-ac0b-710106468360": {
             "type": "testimonial",
             "settings": {
               "Offer": "Add 2 products to get 20% OFF  | Use code: SLAY20",
-              "image": "shopify:\/\/shop_images\/20_-off.png",
+              "image": "shopify://shop_images/20_-off.png",
               "coupon": "SLAY20",
-              "linkurl": "shopify:\/\/collections\/shop-all"
+              "linkurl": "shopify://collections/shop-all"
             }
           },
           "c9ce9867-242a-4c24-a9c6-e66871a58bf9": {
@@ -2387,16 +2396,16 @@
             "disabled": true,
             "settings": {
               "Offer": "Face Sheet Mask(Pack of 2) free with FuzzOff sensitive areas trimmer",
-              "image": "shopify:\/\/shop_images\/free-gifts.png",
+              "image": "shopify://shop_images/free-gifts.png",
               "coupon": "SURPRISE",
-              "linkurl": "shopify:\/\/products\/fuzzoff-sensitive-areas-trimmer"
+              "linkurl": "shopify://products/fuzzoff-sensitive-areas-trimmer"
             }
           },
           "67790948-2d46-4a76-9a18-1e2b1894e876": {
             "type": "testimonial",
             "settings": {
               "Offer": "Free shipping on all orders",
-              "image": "shopify:\/\/shop_images\/free-shipping.png",
+              "image": "shopify://shop_images/free-shipping.png",
               "coupon": "",
               "linkurl": ""
             }
@@ -2406,9 +2415,9 @@
             "disabled": true,
             "settings": {
               "Offer": "Mother's Day Special - get 20% OFF on minimum purchase of rs.599",
-              "image": "shopify:\/\/shop_images\/20_-off_f8ff2159-4593-42c9-b146-0d71234e1b69.png",
+              "image": "shopify://shop_images/20_-off_f8ff2159-4593-42c9-b146-0d71234e1b69.png",
               "coupon": "BB20",
-              "linkurl": "shopify:\/\/collections\/mothers-day"
+              "linkurl": "shopify://collections/mothers-day"
             }
           },
           "9a81be98-864b-4220-9c2a-4d8f13440172": {
@@ -2416,9 +2425,9 @@
             "disabled": true,
             "settings": {
               "Offer": "New Year Offers - Get 30% OFF on all Products",
-              "image": "shopify:\/\/shop_images\/30_-icons.png",
+              "image": "shopify://shop_images/30_-icons.png",
               "coupon": "NYBAE",
-              "linkurl": "shopify:\/\/collections\/new-year-sale"
+              "linkurl": "shopify://collections/new-year-sale"
             }
           },
           "74946d8f-3547-40ce-85d4-e8d896725e00": {
@@ -2426,9 +2435,9 @@
             "disabled": true,
             "settings": {
               "Offer": "Free Face Sheet Mask(Pack of 1) with eyebrow and face trimmer",
-              "image": "shopify:\/\/shop_images\/free-gifts_8f89729e-f25a-44b9-bd04-03ed82a2cfac.png",
+              "image": "shopify://shop_images/free-gifts_8f89729e-f25a-44b9-bd04-03ed82a2cfac.png",
               "coupon": "",
-              "linkurl": "shopify:\/\/products\/eyebrow-and-face-trimmer-magica"
+              "linkurl": "shopify://products/eyebrow-and-face-trimmer-magica"
             }
           },
           "03ca440b-be2f-4901-83aa-7866a8bc55d4": {
@@ -2436,9 +2445,9 @@
             "disabled": true,
             "settings": {
               "Offer": "Are you ready to rollplay?",
-              "image": "shopify:\/\/shop_images\/2_cd903508-1da4-41e2-956c-273068ab8aa6.png",
+              "image": "shopify://shop_images/2_cd903508-1da4-41e2-956c-273068ab8aa6.png",
               "coupon": "",
-              "linkurl": "shopify:\/\/pages\/rollplay-razor"
+              "linkurl": "shopify://pages/rollplay-razor"
             }
           }
         },
@@ -2468,7 +2477,7 @@
               "company": "Bombay Shaving Company",
               "location": "Gurugram, India",
               "date": "6 days ago",
-              "url": "shopify:\/\/pages\/copywriter"
+              "url": "shopify://pages/copywriter"
             }
           },
           "9d0ba78a-007d-4060-8aca-be33ef400109": {
@@ -2478,7 +2487,7 @@
               "company": "Bombay Shaving Company",
               "location": "Gurugram, India",
               "date": "2 weeks ago",
-              "url": "shopify:\/\/pages\/visual-designer"
+              "url": "shopify://pages/visual-designer"
             }
           },
           "707d3ebe-a161-42f9-bfed-32c5d6d77285": {
@@ -2488,7 +2497,7 @@
               "company": "Bombay Shaving Company",
               "location": "Gurugram, India",
               "date": "4 days ago",
-              "url": "shopify:\/\/pages\/graphic-designer"
+              "url": "shopify://pages/graphic-designer"
             }
           },
           "b7beee12-ebc4-4170-82b7-df74cfe85549": {
@@ -2498,7 +2507,7 @@
               "company": "Bombay Shaving Company",
               "location": "Gurugram, India",
               "date": "5 days ago",
-              "url": "shopify:\/\/pages\/manager-alliance-affiliate"
+              "url": "shopify://pages/manager-alliance-affiliate"
             }
           }
         },
@@ -2539,7 +2548,7 @@
           "cp_heading-0": {
             "type": "2",
             "settings": {
-              "text": "<p>View your compare list<\/p>"
+              "text": "<p>View your compare list</p>"
             }
           }
         },
@@ -2615,8 +2624,8 @@
             "type": "Product",
             "settings": {
               "featured_product": "rollplay-body-razor",
-              "featured_image": "shopify:\/\/shop_images\/razor-1.jpg",
-              "featured_image2": "shopify:\/\/shop_images\/1_4c3eff60-3bd0-4a6b-b690-3e83a405caf3.jpg",
+              "featured_image": "shopify://shop_images/razor-1.jpg",
+              "featured_image2": "shopify://shop_images/1_4c3eff60-3bd0-4a6b-b690-3e83a405caf3.jpg",
               "offersss": "",
               "maqree": ""
             }
@@ -2625,8 +2634,8 @@
             "type": "Product",
             "settings": {
               "featured_product": "body-razor-rollplay-mini",
-              "featured_image": "shopify:\/\/shop_images\/Rollplay-mini-1st.png",
-              "featured_image2": "shopify:\/\/shop_images\/Rollplay-mini-2nd.png",
+              "featured_image": "shopify://shop_images/Rollplay-mini-1st.png",
+              "featured_image2": "shopify://shop_images/Rollplay-mini-2nd.png",
               "offersss": "",
               "maqree": ""
             }
@@ -2635,8 +2644,8 @@
             "type": "Product",
             "settings": {
               "featured_product": "body-razor-cartridges-rollplay",
-              "featured_image": "shopify:\/\/shop_images\/refills-2.jpg",
-              "featured_image2": "shopify:\/\/shop_images\/refills.jpg",
+              "featured_image": "shopify://shop_images/refills-2.jpg",
+              "featured_image2": "shopify://shop_images/refills.jpg",
               "offersss": "",
               "maqree": ""
             }
@@ -2645,8 +2654,8 @@
             "type": "Product",
             "settings": {
               "featured_product": "body-razor-and-refills-rollplay-pro",
-              "featured_image": "shopify:\/\/shop_images\/Rollplay-_-cartridge-1st.png",
-              "featured_image2": "shopify:\/\/shop_images\/Rollplay-_-cartridge-2nd.png",
+              "featured_image": "shopify://shop_images/Rollplay-_-cartridge-1st.png",
+              "featured_image2": "shopify://shop_images/Rollplay-_-cartridge-2nd.png",
               "offersss": "",
               "maqree": ""
             }
@@ -2680,8 +2689,8 @@
             "type": "Product",
             "settings": {
               "featured_product": "glam-up-face-razor-pack-of-3",
-              "featured_image": "shopify:\/\/shop_images\/glitter-for-landing-page-1.png",
-              "featured_image2": "shopify:\/\/shop_images\/glitter-for-landing-page-2.png",
+              "featured_image": "shopify://shop_images/glitter-for-landing-page-1.png",
+              "featured_image2": "shopify://shop_images/glitter-for-landing-page-2.png",
               "offersss": "",
               "maqree": ""
             }
@@ -2690,8 +2699,8 @@
             "type": "Product",
             "settings": {
               "featured_product": "precision-face-razor",
-              "featured_image": "shopify:\/\/shop_images\/PFR-for-landing-page-1.png",
-              "featured_image2": "shopify:\/\/shop_images\/PFR-for-landing-page-2.png",
+              "featured_image": "shopify://shop_images/PFR-for-landing-page-1.png",
+              "featured_image2": "shopify://shop_images/PFR-for-landing-page-2.png",
               "offersss": "",
               "maqree": "New Arrival"
             }
@@ -2700,8 +2709,8 @@
             "type": "Product",
             "settings": {
               "featured_product": "biodegradable-face-razor-for-women-pack-of-3",
-              "featured_image": "shopify:\/\/shop_images\/BFR-for-landing-page-1.png",
-              "featured_image2": "shopify:\/\/shop_images\/BFR-for-landing-page-2.png",
+              "featured_image": "shopify://shop_images/BFR-for-landing-page-1.png",
+              "featured_image2": "shopify://shop_images/BFR-for-landing-page-2.png",
               "offersss": "",
               "maqree": ""
             }
@@ -2726,48 +2735,23 @@
     ],
     "blocks": {
       "14060646107696862457": {
-        "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "type": "shopify://apps/judge-me-product-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": true,
         "settings": {
         }
       },
       "12120936241911852800": {
-        "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/reviews_tab\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "type": "shopify://apps/judge-me-product-reviews/blocks/reviews_tab/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": true,
         "settings": {
           "position": "right"
         }
       },
-      "14418474333536001498": {
-        "type": "shopify:\/\/apps\/cooee\/blocks\/app-embed-main\/2f17a8e7-57ed-4fda-b07d-26521d722e6f",
-        "disabled": false,
-        "settings": {
-        }
-      },
       "10605408327587305396": {
-        "type": "shopify:\/\/apps\/eg-auto-add-to-cart\/blocks\/app-embed\/0f7d4f74-1e89-4820-aec4-6564d7e535d2",
+        "type": "shopify://apps/eg-auto-add-to-cart/blocks/app-embed/0f7d4f74-1e89-4820-aec4-6564d7e535d2",
         "disabled": false,
         "settings": {
           "version": "v3"
-        }
-      },
-      "12278696032673699304": {
-        "type": "shopify:\/\/apps\/email-sms-whatsapp-marketing\/blocks\/app-embed\/70d9c67e-448e-4001-9f78-84753c8bf461",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "18228966181090706294": {
-        "type": "shopify:\/\/apps\/upsell-cross-sell-selleasy\/blocks\/app-embed\/790c1a03-a71f-4bc1-9869-00dad526d3c2",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "11905432258600982856": {
-        "type": "shopify:\/\/apps\/quinn-shoppable-videos\/blocks\/app-embed\/150d2781-732b-4020-a9fb-1368e974e6bb",
-        "disabled": false,
-        "settings": {
-          "custom_swatch_code": "<script><\/script>"
         }
       }
     }
