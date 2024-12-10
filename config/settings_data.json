@@ -524,7 +524,7 @@
             "type": "simple",
             "settings": {
               "title": "Glam Up",
-              "url": "shopify://pages/glam-up",
+              "url": "shopify://pages/face-razors-for-women",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -999,7 +999,7 @@
             "type": "menu",
             "settings": {
               "title": "Glam Up",
-              "url": "shopify://pages/glam-up",
+              "url": "shopify://pages/face-razors-for-women",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -2020,7 +2020,7 @@
             "type": "testimonial",
             "settings": {
               "text": "Glam up",
-              "linkurl": "shopify://pages/glam-up",
+              "linkurl": "shopify://pages/face-razors-for-women",
               "open_link": "_self"
             }
           },
@@ -2341,7 +2341,7 @@
               "Offer": "Add Instant glam with the Bombae beauty face razors",
               "image": "shopify://shop_images/glamup-icon.png",
               "coupon": "",
-              "linkurl": "shopify://pages/glam-up"
+              "linkurl": "shopify://pages/face-razors-for-women"
             }
           },
           "5c189d27-0408-4f68-bf6f-d55c974a94f5": {
