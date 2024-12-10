@@ -511,7 +511,7 @@
             "type": "simple",
             "settings": {
               "title": "Body Care",
-              "url": "shopify://collections/body",
+              "url": "shopify://collections/body-razors-for-women",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -730,9 +730,7 @@
           "bd03e0b8-53e6-41a8-a4a7-7e49a96f923d",
           "5887f92c-9721-4a52-a58e-ab960041a8fb"
         ],
-        "custom_css": [
-
-        ],
+        "custom_css": [],
         "settings": {
           "height": 80,
           "arrow": true,
@@ -860,31 +858,26 @@
         "blocks": {
           "cart_widget-0": {
             "type": "price",
-            "settings": {
-            }
+            "settings": {}
           },
           "cart_widget-2": {
             "type": "agree",
             "disabled": true,
-            "settings": {
-            }
+            "settings": {}
           },
           "cart_widget-3": {
             "type": "btnc",
             "disabled": true,
-            "settings": {
-            }
+            "settings": {}
           },
           "cart_widget-4": {
             "type": "btnck",
-            "settings": {
-            }
+            "settings": {}
           },
           "cart_widget-5": {
             "type": "btnmr",
             "disabled": true,
-            "settings": {
-            }
+            "settings": {}
           },
           "cart_widget-6": {
             "type": "img",
@@ -936,7 +929,7 @@
               "cat1": "face",
               "url1": "",
               "image1": "shopify://shop_images/1_2.png",
-              "cat2": "body",
+              "cat2": "body-razors-for-women",
               "url2": "",
               "image2": "shopify://shop_images/2_d17266e4-4f73-4f4c-9781-372176209888.png",
               "cat3": "shop-combos",
@@ -1066,8 +1059,7 @@
           "mb_nav-4": {
             "type": "wis",
             "disabled": true,
-            "settings": {
-            }
+            "settings": {}
           },
           "6dfe1e13-e273-43cb-bf53-b332689f106e": {
             "type": "menu",
@@ -1083,8 +1075,7 @@
           },
           "mb_nav-6": {
             "type": "acc",
-            "settings": {
-            }
+            "settings": {}
           },
           "mb_nav-7": {
             "type": "help",
@@ -1107,8 +1098,7 @@
           "mb_nav-6",
           "mb_nav-7"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "mb_cat": {
         "type": "mb_cat",
@@ -1256,8 +1246,7 @@
           "1585642780875",
           "1585642798957"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "toolbar_mobile": {
         "type": "toolbar_mobile",
@@ -1399,8 +1388,7 @@
           "1581913909406",
           "1581913174211"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "sticky_atc": {
         "type": "sticky_atc",
@@ -1631,8 +1619,7 @@
       },
       "nt_filter2": {
         "type": "nt_filter2",
-        "settings": {
-        }
+        "settings": {}
       },
       "header_1": {
         "type": "header_1",
@@ -1658,8 +1645,7 @@
           },
           "header_2-1": {
             "type": "logo",
-            "settings": {
-            }
+            "settings": {}
           },
           "header_2-2": {
             "type": "simple",
@@ -1866,8 +1852,7 @@
           "hcat_nav-0",
           "hcat_nav-1"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "header_8": {
         "type": "header_8",
@@ -2009,8 +1994,7 @@
           "pr-sidebar-1",
           "pr-sidebar-2"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "navbar": {
         "type": "navbar",
@@ -2068,7 +2052,7 @@
             "type": "testimonial",
             "settings": {
               "text": "Body care",
-              "linkurl": "shopify://collections/body",
+              "linkurl": "shopify://collections/body-razors-for-women",
               "open_link": "_self"
             }
           },
@@ -2119,8 +2103,7 @@
           "25bcde55-3d83-4303-95b5-3ec926fe6715",
           "0b5d1c78-c002-4691-903f-0d2fa5014a43"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "article-sidebar": {
         "type": "article-sidebar",
@@ -2182,8 +2165,7 @@
           "article-sidebar-3",
           "article-sidebar-4"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "dealoftheweek": {
         "type": "dealoftheweek",
@@ -2319,8 +2301,7 @@
       },
       "landingpage": {
         "type": "landingpage",
-        "settings": {
-        }
+        "settings": {}
       },
       "newsletter": {
         "type": "newsletter",
@@ -2517,8 +2498,7 @@
           "707d3ebe-a161-42f9-bfed-32c5d6d77285",
           "b7beee12-ebc4-4170-82b7-df74cfe85549"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "otp-login": {
         "type": "otp-login",
@@ -2572,8 +2552,7 @@
         "blocks": {
           "compare_page-0": {
             "type": "basic",
-            "settings": {
-            }
+            "settings": {}
           },
           "compare_page-1": {
             "type": "availability",
@@ -2667,8 +2646,7 @@
           "3552fce0-e97e-4aeb-b994-12d76b2939a1",
           "1b7ea969-1e62-4481-a157-5320e5ba740c"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "custom-liquid": {
         "type": "custom-liquid",
@@ -2721,24 +2699,19 @@
           "745a198c-7c73-47f7-a511-82a2b85bdfa8",
           "cdea3a3c-59ee-4caf-9883-c18bd09eafda"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "three-banners": {
         "type": "three-banners",
-        "settings": {
-        }
+        "settings": {}
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "14060646107696862457": {
         "type": "shopify://apps/judge-me-product-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": true,
-        "settings": {
-        }
+        "settings": {}
       },
       "12120936241911852800": {
         "type": "shopify://apps/judge-me-product-reviews/blocks/reviews_tab/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
