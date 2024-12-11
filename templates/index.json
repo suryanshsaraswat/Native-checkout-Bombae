@@ -322,11 +322,11 @@
         "template--15761640816835__d8e7f8e7-a95e-4bd8-8ea1-b7e11e4f0d7b-16766265256ef2804f-1": {
           "type": "collection",
           "settings": {
-            "collection": "face",
+            "collection": "face-products-for-women",
             "image": "shopify://shop_images/face-care_2.jpg",
             "img_align": "center",
             "title": "",
-            "url": "shopify://collections/face"
+            "url": "shopify://collections/face-products-for-women"
           }
         },
         "template--15761640816835__d8e7f8e7-a95e-4bd8-8ea1-b7e11e4f0d7b-16766265256ef2804f-2": {
