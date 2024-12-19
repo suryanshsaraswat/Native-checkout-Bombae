@@ -537,7 +537,7 @@
             "type": "simple",
             "settings": {
               "title": "rollplay",
-              "url": "shopify://pages/body-razors-for-women",
+              "url": "shopify://pages/razors-for-women",
               "open_link": "_self",
               "icon": "",
               "cus_cl": false,
@@ -1023,7 +1023,7 @@
             "type": "menu",
             "settings": {
               "title": "Rollplay",
-              "url": "shopify://pages/body-razors-for-women",
+              "url": "shopify://pages/razors-for-women",
               "open_link": "_self",
               "menu": "",
               "icon": "",
@@ -2036,7 +2036,7 @@
             "type": "testimonial",
             "settings": {
               "text": "Rollplay",
-              "linkurl": "shopify://pages/body-razors-for-women",
+              "linkurl": "shopify://pages/razors-for-women",
               "open_link": "_self"
             }
           },
@@ -2428,7 +2428,7 @@
               "Offer": "Are you ready to rollplay?",
               "image": "shopify://shop_images/2_cd903508-1da4-41e2-956c-273068ab8aa6.png",
               "coupon": "",
-              "linkurl": "shopify://pages/body-razors-for-women"
+              "linkurl": "shopify://pages/razors-for-women"
             }
           }
         },
