@@ -1,1 +1,213 @@
-{"sections":{"1661494715d1b3bf77":{"type":"slideshow","blocks":{"7bc7441c-19a0-448f-a4fa-f922db22b8f9":{"type":"img","settings":{"image":"shopify:\/\/shop_images\/website-banner-trimmer-desktop.jpg","image_mb":"shopify:\/\/shop_images\/website-banner-trimmer-mobile.jpg","pos_img":"center center","cl_img":"","link_img1":"","open_link":"_blank","caption_w":"2","cap_v_pos":50,"cap_h_pos":39,"txt_align":"tl_md","cap_v_pos_mb":50,"cap_h_pos_mb":39,"txt_align_mb":"tl","cl_overlay":"#000000","cl_opacity":0,"ani_img":"none","ani_txt":"none","bg_content_bl":false,"bg_content_cl":"#ffffff","bg_content_op":50,"content_pd":"40px 80px","content_pd_mb":"10px 20px","border_bl":false,"br_color":"#222222","br_style":"solid","br_pd":20,"br_pd_mb":10}},"16614947150de1301d-0":{"type":"img","settings":{"image":"shopify:\/\/shop_images\/Copy_of_fuzz-off-desktop-banner.jpg","image_mb":"shopify:\/\/shop_images\/Copy_of_fuzz-off-mobile-banner.jpg","pos_img":"center center","cl_img":"","link_img1":"#","open_link":"_self","caption_w":"2","cap_v_pos":50,"cap_h_pos":39,"txt_align":"tl_md","cap_v_pos_mb":50,"cap_h_pos_mb":39,"txt_align_mb":"tl","cl_overlay":"#000000","cl_opacity":0,"ani_img":"none","ani_txt":"none","bg_content_bl":false,"bg_content_cl":"#ffffff","bg_content_op":50,"content_pd":"40px 80px","content_pd_mb":"10px 20px","border_bl":false,"br_color":"#222222","br_style":"solid","br_pd":20,"br_pd_mb":10}}},"block_order":["7bc7441c-19a0-448f-a4fa-f922db22b8f9","16614947150de1301d-0"],"settings":{"se_height":"adapt","use_custom_h":"1","h_des":"600px","h_tb":"500px","h_mb":"350px","effect":"1","loop":true,"autoplay":true,"au_time":6,"au_hover":false,"button":false,"btn_vi":"1","btn_owl":"1","btn_color":"0","dot":true,"dot_owl":"3","dot_color":"3","layout":"nt_full","cl_bg":"","mg":",,50px,","pd":"","mg_mb":"","pd_mb":""}},"heading":{"type":"pages_heading","blocks":{"89b1a94e-2cf5-4075-a6af-0969fbaeae2c":{"type":"1","settings":{}}},"block_order":["89b1a94e-2cf5-4075-a6af-0969fbaeae2c"],"disabled":true,"settings":{"image":"shopify:\/\/shop_images\/JD_0699_1.jpg","parallax":false,"color":"#000000","overlay":54,"padding":100,"paddingmb":100,"bg_pos":"center center","bg_repeat":"no-repeat","bg_size":"cover","bg_att":"scroll"}},"main":{"type":"main-page","disabled":true,"settings":{}},"16614198409a412140":{"type":"trimmer-LP","blocks":{"89a2f408-a51f-4e17-b2df-0a71795e418b":{"type":"Product","settings":{"featured_product":"fuzzoff-sensitive-areas-trimmer","featured_image":"shopify:\/\/shop_images\/Copy_of_trimmer-for-landing-page-4-in-1.jpg","featured_image2":"shopify:\/\/shop_images\/Hover-copy2_2.jpg","offersss":"Free Face Sheet Mask (Pack of 2)"}},"5ff87e3d-c081-4288-bc85-ad4d2c673006":{"type":"Product","settings":{"featured_product":"eyebrow-and-face-trimmer-magica","featured_image":"shopify:\/\/shop_images\/Copy_of_trimmer-for-landing-page-6-in-1_1.jpg","featured_image2":"shopify:\/\/shop_images\/Hover-copy_1.png","offersss":"Free Face Sheet Mask (Pack of 1)"}}},"block_order":["89a2f408-a51f-4e17-b2df-0a71795e418b","5ff87e3d-c081-4288-bc85-ad4d2c673006"],"settings":{}},"736168b8-31be-4f75-85db-dbaa18dfd0d4":{"type":"fuzzoff-banner","settings":{}},"16636800968b01a009":{"type":"USPsliderr","settings":{}},"16636659917e6b287d":{"type":"sliderr-trim","settings":{}},"1662446661902d1b82":{"type":"tabs_trimmer","settings":{}},"6a180bbc-022d-42de-8e20-b59447040f5a":{"type":"influencerr-testimonials","settings":{}},"6bfb6a2f-8124-4425-ac90-5fbdbaf3c6c2":{"type":"custom-liquid","settings":{"custom_liquid":"{% render 'SEO-CONTENT' %}","layout":"nt_full","cl_bg":"#fff","mg":"=","pd":"","mg_mb":"","pd_mb":""}}},"order":["1661494715d1b3bf77","heading","main","16614198409a412140","736168b8-31be-4f75-85db-dbaa18dfd0d4","16636800968b01a009","16636659917e6b287d","1662446661902d1b82","6a180bbc-022d-42de-8e20-b59447040f5a","6bfb6a2f-8124-4425-ac90-5fbdbaf3c6c2"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1661494715d1b3bf77": {
+      "type": "slideshow",
+      "blocks": {
+        "7bc7441c-19a0-448f-a4fa-f922db22b8f9": {
+          "type": "img",
+          "settings": {
+            "image": "shopify://shop_images/website-banner-trimmer-desktop.jpg",
+            "image_mb": "shopify://shop_images/website-banner-trimmer-mobile.jpg",
+            "pos_img": "center center",
+            "cl_img": "",
+            "link_img1": "",
+            "open_link": "_blank",
+            "caption_w": "2",
+            "cap_v_pos": 50,
+            "cap_h_pos": 39,
+            "txt_align": "tl_md",
+            "cap_v_pos_mb": 50,
+            "cap_h_pos_mb": 39,
+            "txt_align_mb": "tl",
+            "cl_overlay": "#000000",
+            "cl_opacity": 0,
+            "ani_img": "none",
+            "ani_txt": "none",
+            "bg_content_bl": false,
+            "bg_content_cl": "#ffffff",
+            "bg_content_op": 50,
+            "content_pd": "40px 80px",
+            "content_pd_mb": "10px 20px",
+            "border_bl": false,
+            "br_color": "#222222",
+            "br_style": "solid",
+            "br_pd": 20,
+            "br_pd_mb": 10
+          }
+        },
+        "16614947150de1301d-0": {
+          "type": "img",
+          "settings": {
+            "image": "shopify://shop_images/Copy_of_fuzz-off-desktop-banner.jpg",
+            "image_mb": "shopify://shop_images/Copy_of_fuzz-off-mobile-banner.jpg",
+            "pos_img": "center center",
+            "cl_img": "",
+            "link_img1": "#",
+            "open_link": "_self",
+            "caption_w": "2",
+            "cap_v_pos": 50,
+            "cap_h_pos": 39,
+            "txt_align": "tl_md",
+            "cap_v_pos_mb": 50,
+            "cap_h_pos_mb": 39,
+            "txt_align_mb": "tl",
+            "cl_overlay": "#000000",
+            "cl_opacity": 0,
+            "ani_img": "none",
+            "ani_txt": "none",
+            "bg_content_bl": false,
+            "bg_content_cl": "#ffffff",
+            "bg_content_op": 50,
+            "content_pd": "40px 80px",
+            "content_pd_mb": "10px 20px",
+            "border_bl": false,
+            "br_color": "#222222",
+            "br_style": "solid",
+            "br_pd": 20,
+            "br_pd_mb": 10
+          }
+        }
+      },
+      "block_order": [
+        "7bc7441c-19a0-448f-a4fa-f922db22b8f9",
+        "16614947150de1301d-0"
+      ],
+      "settings": {
+        "se_height": "adapt",
+        "use_custom_h": "1",
+        "h_des": "600px",
+        "h_tb": "500px",
+        "h_mb": "350px",
+        "effect": "1",
+        "loop": true,
+        "autoplay": true,
+        "au_time": 6,
+        "au_hover": false,
+        "button": false,
+        "btn_vi": "1",
+        "btn_owl": "1",
+        "btn_color": "0",
+        "dot": true,
+        "dot_owl": "3",
+        "dot_color": "3",
+        "layout": "nt_full",
+        "cl_bg": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": ""
+      }
+    },
+    "heading": {
+      "type": "pages_heading",
+      "blocks": {
+        "89b1a94e-2cf5-4075-a6af-0969fbaeae2c": {
+          "type": "1",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "89b1a94e-2cf5-4075-a6af-0969fbaeae2c"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/JD_0699_1.jpg",
+        "parallax": false,
+        "color": "#000000",
+        "overlay": 54,
+        "padding": 100,
+        "paddingmb": 100,
+        "bg_pos": "center center",
+        "bg_repeat": "no-repeat",
+        "bg_size": "cover",
+        "bg_att": "scroll"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "16614198409a412140": {
+      "type": "trimmer-LP",
+      "blocks": {
+        "89a2f408-a51f-4e17-b2df-0a71795e418b": {
+          "type": "Product",
+          "settings": {
+            "featured_product": "sensitive-areas-trimmer-fuzzoff",
+            "featured_image": "shopify://shop_images/Copy_of_trimmer-for-landing-page-4-in-1.jpg",
+            "featured_image2": "shopify://shop_images/Hover-copy2_2.jpg",
+            "offersss": "Free Face Sheet Mask (Pack of 2)"
+          }
+        },
+        "5ff87e3d-c081-4288-bc85-ad4d2c673006": {
+          "type": "Product",
+          "settings": {
+            "featured_product": "eyebrow-and-face-trimmer-magica",
+            "featured_image": "shopify://shop_images/Copy_of_trimmer-for-landing-page-6-in-1_1.jpg",
+            "featured_image2": "shopify://shop_images/Hover-copy_1.png",
+            "offersss": "Free Face Sheet Mask (Pack of 1)"
+          }
+        }
+      },
+      "block_order": [
+        "89a2f408-a51f-4e17-b2df-0a71795e418b",
+        "5ff87e3d-c081-4288-bc85-ad4d2c673006"
+      ],
+      "settings": {}
+    },
+    "736168b8-31be-4f75-85db-dbaa18dfd0d4": {
+      "type": "fuzzoff-banner",
+      "settings": {}
+    },
+    "16636800968b01a009": {
+      "type": "USPsliderr",
+      "settings": {}
+    },
+    "16636659917e6b287d": {
+      "type": "sliderr-trim",
+      "settings": {}
+    },
+    "1662446661902d1b82": {
+      "type": "tabs_trimmer",
+      "settings": {}
+    },
+    "6a180bbc-022d-42de-8e20-b59447040f5a": {
+      "type": "influencerr-testimonials",
+      "settings": {}
+    },
+    "6bfb6a2f-8124-4425-ac90-5fbdbaf3c6c2": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% render 'SEO-CONTENT' %}",
+        "layout": "nt_full",
+        "cl_bg": "#fff",
+        "mg": "=",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": ""
+      }
+    }
+  },
+  "order": [
+    "1661494715d1b3bf77",
+    "heading",
+    "main",
+    "16614198409a412140",
+    "736168b8-31be-4f75-85db-dbaa18dfd0d4",
+    "16636800968b01a009",
+    "16636659917e6b287d",
+    "1662446661902d1b82",
+    "6a180bbc-022d-42de-8e20-b59447040f5a",
+    "6bfb6a2f-8124-4425-ac90-5fbdbaf3c6c2"
+  ]
+}
